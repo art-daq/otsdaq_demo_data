@@ -1,0 +1,27 @@
+
+suppress :
+{
+  hosts : [ ]
+  applications : [ ]
+  categories : [ ]
+
+}
+
+throttle :
+{
+  hosts : [ ]
+  applications : [ ]
+  categories : [ ]
+
+}
+
+receivers:
+{
+  syslog:
+  {
+    receiverType: "UDP"
+    port: 30000
+  }   
+}
+
+threshold : DEBUG
