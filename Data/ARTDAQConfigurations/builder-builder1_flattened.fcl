@@ -1,0 +1,50 @@
+art: {
+   outputs: {
+      rootNetOutput: {
+         destinations: {}
+         module_type: "RootNetOutput"
+         routing_table_config: {
+            use_routing_master: false
+         }
+      }
+   }
+   physics: {
+      my_output_modules: [
+         "rootNetOutput"
+      ]
+   }
+   process_name: "DAQ"
+   services: {
+      ArtdaqFragmentNamingServiceInterface: {
+         helper_plugin: "OtsArtdaqFragmentNamingService"
+         service_provider: "ArtdaqFragmentNamingService"
+      }
+      ArtdaqSharedMemoryServiceInterface: {
+         resume_after_timeout: false
+         service_provider: "ArtdaqSharedMemoryService"
+         waiting_time: "DEFAULT"
+      }
+   }
+   source: {
+      module_type: "OtsInput"
+   }
+}
+daq: {
+   event_builder: {
+      buffer_count: 20
+      expected_fragments_per_event: 1
+      max_fragment_size_bytes: 1.048576e6
+      routing_token_config: {
+         use_routing_master: false
+      }
+      sources: {}
+}
+   metrics: {
+      evbFile: {
+         fileName: "/tmp/EventBuilder/evb_%UID%_metrics.log"
+         level: 3
+         metricPluginType: "file"
+         uniquify: true
+      }
+   }
+}

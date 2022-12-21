@@ -1,0 +1,152 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ARTDAQ_BOARD_READER_TABLE",
+"COMMENT" : "artdaq Board Reader top level.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1569950328,
+"COL_TYPES" : {
+"BOARD_READER_GROUP_ID" : "STRING",
+"BOARD_READER_UID" : "STRING",
+"STATUS" : "STRING",
+"EXECUTION_HOSTNAME" : "STRING",
+"SUBSYSTEM_LINK" : "STRING",
+"SUBSYSTEM_LINK_UID" : "STRING",
+"DAQ_GENERATOR_PLUGIN_TYPE" : "STRING",
+"DAQ_GENERATOR_FRAGMENT_TYPE" : "STRING",
+"DAQ_PARAMETERS_LINK" : "STRING",
+"DAQ_PARAMETERS_LINK_GROUP_ID" : "STRING",
+"DAQ_METRICS_LINK" : "STRING",
+"DAQ_METRICS_LINK_GROUP_ID" : "STRING",
+"METRIC_ALARM_THRESHOLDS_LINK" : "STRING",
+"METRIC_ALARM_THRESHOLDS_LINK_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"BOARD_READER_GROUP_ID" : "readerGroup0",
+"BOARD_READER_UID" : "reader0",
+"STATUS" : "On",
+"EXECUTION_HOSTNAME" : "DEFAULT",
+"SUBSYSTEM_LINK" : "ARTDAQSubsystemTable",
+"SUBSYSTEM_LINK_UID" : "subsystem1",
+"DAQ_GENERATOR_PLUGIN_TYPE" : "UDPReceiver",
+"DAQ_GENERATOR_FRAGMENT_TYPE" : "UDP",
+"DAQ_PARAMETERS_LINK" : "ARTDAQDaqParameterTable",
+"DAQ_PARAMETERS_LINK_GROUP_ID" : "reader0Parameters",
+"DAQ_METRICS_LINK" : "ARTDAQMetricTable",
+"DAQ_METRICS_LINK_GROUP_ID" : "reader0Metrics",
+"METRIC_ALARM_THRESHOLDS_LINK" : "NO_LINK",
+"METRIC_ALARM_THRESHOLDS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1569950328"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2020-08-11T21:49:46.968-0500",
+"rawdata" : [
+
+]
+},
+"version" : "2",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:49:46.969-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:49:46.968-0500"
+},
+{
+"name" : "artdaqConfig_v2",
+"assigned" : "2020-08-11T21:49:49.922-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:49:46.968-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:49:46.968-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2020-08-11T21:49:46.968-0500",
+"value" : {
+"name" : "2",
+"assigned" : "2020-08-11T21:49:46.968-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2020-08-11T21:49:46.969-0500",
+"value" : {
+"name" : "ARTDAQBoardReaderTable",
+"assigned" : "2020-08-11T21:49:46.969-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2020-08-11T21:49:46.969-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:49:46.969-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:49:49.922-0500",
+"value" : {
+"name" : "artdaqConfig_v2",
+"assigned" : "2020-08-11T21:49:49.922-0500"
+}
+}
+],
+"created" : "2020-08-11T21:49:46.968-0500"
+},
+"_id" : {
+"$oid" : "473abaaa8e984fdfb0d1bfa7"
+},
+"collection" : "ARTDAQBoardReaderTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

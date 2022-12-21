@@ -1,0 +1,138 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ARTDAQ_SUBSYSTEM_TABLE",
+"COMMENT" : "Auto-generated from mock-up.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1569950265,
+"COL_TYPES" : {
+"SUBSYSTEM_UID" : "STRING",
+"SUBSYSTEM_DESTINATION_LINK" : "STRING",
+"SUBSYSTEM_DESTINATION_UID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"SUBSYSTEM_UID" : "subsystem1",
+"SUBSYSTEM_DESTINATION_LINK" : "ARTDAQSubsystemTable",
+"SUBSYSTEM_DESTINATION_UID" : "subsystem2",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1569950265"
+},
+{
+"SUBSYSTEM_UID" : "subsystem2",
+"SUBSYSTEM_DESTINATION_LINK" : "NO_LINK",
+"SUBSYSTEM_DESTINATION_UID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1569950265"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2020-08-11T21:49:48.519-0500",
+"rawdata" : [
+
+]
+},
+"version" : "2",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:49:48.520-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:49:48.520-0500"
+},
+{
+"name" : "artdaqConfig_v2",
+"assigned" : "2020-08-11T21:49:51.243-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:49:48.520-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:49:48.520-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2020-08-11T21:49:48.520-0500",
+"value" : {
+"name" : "2",
+"assigned" : "2020-08-11T21:49:48.520-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2020-08-11T21:49:48.520-0500",
+"value" : {
+"name" : "ARTDAQSubsystemTable",
+"assigned" : "2020-08-11T21:49:48.520-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2020-08-11T21:49:48.520-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:49:48.520-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:49:51.243-0500",
+"value" : {
+"name" : "artdaqConfig_v2",
+"assigned" : "2020-08-11T21:49:51.243-0500"
+}
+}
+],
+"created" : "2020-08-11T21:49:48.519-0500"
+},
+"_id" : {
+"$oid" : "57ae5e1f6eec4e30a780432e"
+},
+"collection" : "ARTDAQSubsystemTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

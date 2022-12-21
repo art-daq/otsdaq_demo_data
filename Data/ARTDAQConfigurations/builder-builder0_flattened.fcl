@@ -1,0 +1,73 @@
+art: {
+   outputs: {
+      binaryNetOutput: {
+         destinations: {}
+         module_type: "BinaryNetOutput"
+         routing_table_config: {
+            use_routing_master: false
+         }
+      }
+   }
+   physics: {
+      analyzers: {
+         wf: {
+            fileName: "/tmp/otsdaqdemp_onmon_evb.root"
+            fragment_ids: [
+               0
+            ]
+            fragment_type_labels: [
+               "DataGen"
+            ]
+            module_type: "WFViewer"
+            prescale: 60
+            write_to_file: true
+         }
+      }
+      my_output_modules: [
+         "binaryNetOutput"
+      ]
+      p1: [
+         "BuildInfo"
+      ]
+      producers: {
+         BuildInfo: {
+            instance_name: "Artdaq"
+            module_type: "ArtdaqOtsBuildInfo"
+         }
+      }
+   }
+   process_name: "DAQ"
+   services: {
+      ArtdaqFragmentNamingServiceInterface: {
+         helper_plugin: "OtsArtdaqFragmentNamingService"
+         service_provider: "ArtdaqFragmentNamingService"
+      }
+      ArtdaqSharedMemoryServiceInterface: {
+         resume_after_timeout: false
+         service_provider: "ArtdaqSharedMemoryService"
+         waiting_time: "DEFAULT"
+      }
+   }
+   source: {
+      module_type: "OtsInput"
+   }
+}
+daq: {
+   event_builder: {
+      buffer_count: 20
+      expected_fragments_per_event: 1
+      max_fragment_size_bytes: 1.048576e6
+      routing_token_config: {
+         use_routing_master: false
+      }
+      sources: {}
+}
+   metrics: {
+      evbFile: {
+         fileName: "/tmp/EventBuilder/evb_%UID%_metrics.log"
+         level: 3
+         metricPluginType: "file"
+         uniquify: true
+      }
+   }
+}

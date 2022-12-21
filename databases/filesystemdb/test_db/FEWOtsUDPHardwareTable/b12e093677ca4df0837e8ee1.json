@@ -1,0 +1,129 @@
+{
+"document" : {
+"data" : {
+"NAME" : "FEW_OTS_UDP_HARDWARE_TABLE",
+"COMMENT" : "",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1504201458,
+"COL_TYPES" : {
+"INTERFACE_ID" : "STRING",
+"STATUS" : "STRING",
+"FIRMWARE_VERSION" : "NUMBER",
+"IP_ADDRESS" : "STRING",
+"PORT" : "NUMBER",
+"INTERFACE_IP_ADDRESS" : "STRING",
+"INTERFACE_PORT" : "NUMBER",
+"CLOCK_SELECT" : "STRING",
+"CLOCK_SPEED_M_HZ" : "NUMBER",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2020-08-11T21:49:49.447-0500",
+"rawdata" : [
+
+]
+},
+"version" : "2",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:49:49.448-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:49:49.448-0500"
+},
+{
+"name" : "artdaqConfig_v2",
+"assigned" : "2020-08-11T21:49:51.909-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:49:49.448-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:49:49.448-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2020-08-11T21:49:49.448-0500",
+"value" : {
+"name" : "2",
+"assigned" : "2020-08-11T21:49:49.448-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2020-08-11T21:49:49.448-0500",
+"value" : {
+"name" : "FEWOtsUDPHardwareTable",
+"assigned" : "2020-08-11T21:49:49.448-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2020-08-11T21:49:49.448-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:49:49.448-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:49:51.909-0500",
+"value" : {
+"name" : "artdaqConfig_v2",
+"assigned" : "2020-08-11T21:49:51.909-0500"
+}
+}
+],
+"created" : "2020-08-11T21:49:49.447-0500"
+},
+"_id" : {
+"$oid" : "b12e093677ca4df0837e8ee1"
+},
+"collection" : "FEWOtsUDPHardwareTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

@@ -1,0 +1,127 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ARTDAQ_PHYSICS_FILTER_TABLE",
+"COMMENT" : "",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1504201458,
+"COL_TYPES" : {
+"FILTER_GROUP_ID" : "STRING",
+"FILTER_UID" : "STRING",
+"STATUS" : "STRING",
+"FILTER_KEY" : "STRING",
+"FILTER_MODULE_TYPE" : "STRING",
+"FILTER_MODULE_PARAMETER_LINK" : "STRING",
+"FILTER_MODULE_PARAMETER_LINK_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2020-08-11T21:49:47.930-0500",
+"rawdata" : [
+
+]
+},
+"version" : "2",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:49:47.931-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:49:47.931-0500"
+},
+{
+"name" : "artdaqConfig_v2",
+"assigned" : "2020-08-11T21:49:50.781-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:49:47.931-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:49:47.931-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2020-08-11T21:49:47.931-0500",
+"value" : {
+"name" : "2",
+"assigned" : "2020-08-11T21:49:47.931-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2020-08-11T21:49:47.931-0500",
+"value" : {
+"name" : "ARTDAQPhysicsFilterTable",
+"assigned" : "2020-08-11T21:49:47.931-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2020-08-11T21:49:47.931-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:49:47.931-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:49:50.781-0500",
+"value" : {
+"name" : "artdaqConfig_v2",
+"assigned" : "2020-08-11T21:49:50.781-0500"
+}
+}
+],
+"created" : "2020-08-11T21:49:47.930-0500"
+},
+"_id" : {
+"$oid" : "99b1848108cd4ca296295c56"
+},
+"collection" : "ARTDAQPhysicsFilterTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

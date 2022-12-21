@@ -1,0 +1,53 @@
+art: {
+   outputs: {
+      normalOutput: {
+         fileName: "NoGitData/OutputData/artdaqdemo_r%r_s%s_%#.root"
+         module_type: "RootOutput"
+      }
+      rootNetOutput: {
+         destinations: {}
+         module_type: "RootNetOutput"
+         routing_table_config: {
+            use_routing_master: false
+         }
+      }
+   }
+   physics: {
+      my_output_modules: [
+         "normalOutput",
+         "rootNetOutput"
+      ]
+   }
+   process_name: "DAQDL"
+   services: {
+      ArtdaqFragmentNamingServiceInterface: {
+         helper_plugin: "OtsArtdaqFragmentNamingService"
+         service_provider: "ArtdaqFragmentNamingService"
+      }
+      ArtdaqSharedMemoryServiceInterface: {
+         resume_after_timeout: false
+         service_provider: "ArtdaqSharedMemoryService"
+         waiting_time: "DEFAULT"
+      }
+   }
+   source: {
+      module_type: "NetMonInput"
+   }
+}
+daq: {
+   aggregator: {
+      buffer_count: 20
+      expected_fragments_per_event: 1
+      is_datalogger: true
+      max_fragment_size_bytes: 1.048576e6
+      sources: {}
+}
+   metrics: {
+      aggFile: {
+         fileName: "/tmp/aggregator/agg_%UID%_metrics.log"
+         level: 3
+         metricPluginType: "file"
+         uniquify: true
+      }
+   }
+}

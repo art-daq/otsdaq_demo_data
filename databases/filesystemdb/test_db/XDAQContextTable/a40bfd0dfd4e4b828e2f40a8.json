@@ -1,0 +1,138 @@
+{
+"document" : {
+"data" : {
+"NAME" : "XDAQ_CONTEXT_TABLE",
+"COMMENT" : "Example context with artdaq off; with environment variables.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1569952858,
+"COL_TYPES" : {
+"CONTEXT_UID" : "STRING",
+"STATUS" : "STRING",
+"ID" : "NUMBER",
+"ADDRESS" : "STRING",
+"PORT" : "NUMBER",
+"LINK_TO_APPLICATION_TABLE" : "STRING",
+"LINK_TO_APPLICATION_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"CONTEXT_UID" : "mainContext",
+"STATUS" : "On",
+"ID" : "0",
+"ADDRESS" : "DEFAULT",
+"PORT" : "0",
+"LINK_TO_APPLICATION_TABLE" : "XDAQApplicationTable",
+"LINK_TO_APPLICATION_GROUP_ID" : "testContextApps",
+"COMMENT_DESCRIPTION" : "main context",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1569952858"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2020-08-11T21:49:54.627-0500",
+"rawdata" : [
+
+]
+},
+"version" : "5",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:49:54.628-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:49:54.627-0500"
+},
+{
+"name" : "testContext_v5",
+"assigned" : "2020-08-11T21:49:55.211-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:49:54.627-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:49:54.627-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2020-08-11T21:49:54.627-0500",
+"value" : {
+"name" : "5",
+"assigned" : "2020-08-11T21:49:54.628-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2020-08-11T21:49:54.628-0500",
+"value" : {
+"name" : "XDAQContextTable",
+"assigned" : "2020-08-11T21:49:54.628-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2020-08-11T21:49:54.628-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:49:54.628-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:49:55.211-0500",
+"value" : {
+"name" : "testContext_v5",
+"assigned" : "2020-08-11T21:49:55.211-0500"
+}
+}
+],
+"created" : "2020-08-11T21:49:54.627-0500"
+},
+"_id" : {
+"$oid" : "a40bfd0dfd4e4b828e2f40a8"
+},
+"collection" : "XDAQContextTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

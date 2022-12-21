@@ -1,0 +1,136 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ARTDAQ_SERVICES_TABLE",
+"COMMENT" : "Auto-generated from mock-up.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1567790732,
+"COL_TYPES" : {
+"SERVICES_UID" : "STRING",
+"SHARED_MEMORY_RESUME_AFTER_TIMEOUT" : "STRING",
+"SHARED_MEMORY_WAITING_TIME" : "STRING",
+"FRAGMENT_NAMING_SERVICE_PROVIDER" : "STRING",
+"SERVICES_PARAMETERS_LINK" : "STRING",
+"SERVICE_PARAMETERS_LINK_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"SERVICES_UID" : "netMonTransportService",
+"SHARED_MEMORY_RESUME_AFTER_TIMEOUT" : "False",
+"SHARED_MEMORY_WAITING_TIME" : "DEFAULT",
+"FRAGMENT_NAMING_SERVICE_PROVIDER" : "DEFAULT",
+"SERVICES_PARAMETERS_LINK" : "NO_LINK",
+"SERVICE_PARAMETERS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1567790713"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2020-08-11T21:49:48.327-0500",
+"rawdata" : [
+
+]
+},
+"version" : "2",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:49:48.329-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:49:48.329-0500"
+},
+{
+"name" : "artdaqConfig_v2",
+"assigned" : "2020-08-11T21:49:51.115-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:49:48.329-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:49:48.329-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2020-08-11T21:49:48.329-0500",
+"value" : {
+"name" : "2",
+"assigned" : "2020-08-11T21:49:48.329-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2020-08-11T21:49:48.329-0500",
+"value" : {
+"name" : "ARTDAQServicesTable",
+"assigned" : "2020-08-11T21:49:48.329-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2020-08-11T21:49:48.329-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:49:48.329-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:49:51.115-0500",
+"value" : {
+"name" : "artdaqConfig_v2",
+"assigned" : "2020-08-11T21:49:51.115-0500"
+}
+}
+],
+"created" : "2020-08-11T21:49:48.327-0500"
+},
+"_id" : {
+"$oid" : "feb2e1de64ae4d03a47256e5"
+},
+"collection" : "ARTDAQServicesTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

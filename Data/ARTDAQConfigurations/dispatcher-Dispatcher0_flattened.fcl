@@ -1,0 +1,53 @@
+art: {
+   physics: {
+      a1: [
+         "wf"
+      ]
+      analyzers: {
+         wf: {
+            fileName: "/tmp/otsdaqdemp_onmon_agg.root"
+            fragment_ids: [
+               0
+            ]
+            fragment_type_labels: [
+               "DataGen"
+            ]
+            module_type: "WFViewer"
+            prescale: 60
+            write_to_file: true
+         }
+      }
+   }
+   process_name: "DAQDI"
+   services: {
+      ArtdaqFragmentNamingServiceInterface: {
+         helper_plugin: "OtsArtdaqFragmentNamingService"
+         service_provider: "ArtdaqFragmentNamingService"
+      }
+      ArtdaqSharedMemoryServiceInterface: {
+         resume_after_timeout: false
+         service_provider: "ArtdaqSharedMemoryService"
+         waiting_time: "DEFAULT"
+      }
+   }
+   source: {
+      module_type: "NetMonInput"
+   }
+}
+daq: {
+   aggregator: {
+      buffer_count: 20
+      expected_fragments_per_event: 1
+      is_dispatcher: true
+      max_fragment_size_bytes: 1.048576e6
+      sources: {}
+}
+   metrics: {
+      aggFile: {
+         fileName: "/tmp/aggregator/agg_%UID%_metrics.log"
+         level: 3
+         metricPluginType: "file"
+         uniquify: true
+      }
+   }
+}

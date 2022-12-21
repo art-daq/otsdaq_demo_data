@@ -1,0 +1,264 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ARTDAQ_METRIC_PARAMETER_TABLE",
+"COMMENT" : "No comment.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1504822217,
+"COL_TYPES" : {
+"METRIC_PARAMETER_GROUP_ID" : "STRING",
+"METRIC_PARAMETER_UID" : "STRING",
+"STATUS" : "STRING",
+"METRIC_PARAMETER_KEY" : "STRING",
+"METRIC_PARAMETER_VALUE" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"METRIC_PARAMETER_GROUP_ID" : "reader0MetricPGroup",
+"METRIC_PARAMETER_UID" : "readerFileP0",
+"STATUS" : "On",
+"METRIC_PARAMETER_KEY" : "fileName",
+"METRIC_PARAMETER_VALUE" : "\"/tmp/BoardReader/br_%UID%_metrics.log\"",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "DEFAULT",
+"RECORD_INSERTION_TIME" : "0"
+},
+{
+"METRIC_PARAMETER_GROUP_ID" : "reader0MetricPGroup",
+"METRIC_PARAMETER_UID" : "readerMetricP0",
+"STATUS" : "On",
+"METRIC_PARAMETER_KEY" : "uniquify",
+"METRIC_PARAMETER_VALUE" : "true",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "DEFAULT",
+"RECORD_INSERTION_TIME" : "0"
+},
+{
+"METRIC_PARAMETER_GROUP_ID" : "builder0MetricPGroup",
+"METRIC_PARAMETER_UID" : "builderFileP0",
+"STATUS" : "On",
+"METRIC_PARAMETER_KEY" : "fileName",
+"METRIC_PARAMETER_VALUE" : "\"/tmp/EventBuilder/evb_%UID%_metrics.log\"",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "DEFAULT",
+"RECORD_INSERTION_TIME" : "0"
+},
+{
+"METRIC_PARAMETER_GROUP_ID" : "builder0MetricPGroup",
+"METRIC_PARAMETER_UID" : "builderMetricP0",
+"STATUS" : "On",
+"METRIC_PARAMETER_KEY" : "uniquify",
+"METRIC_PARAMETER_VALUE" : "true",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "DEFAULT",
+"RECORD_INSERTION_TIME" : "0"
+},
+{
+"METRIC_PARAMETER_GROUP_ID" : "builder0GangliaPGroup",
+"METRIC_PARAMETER_UID" : "gangliaMetricP1",
+"STATUS" : "On",
+"METRIC_PARAMETER_KEY" : "reporting_interval",
+"METRIC_PARAMETER_VALUE" : "15.0",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "DEFAULT",
+"RECORD_INSERTION_TIME" : "0"
+},
+{
+"METRIC_PARAMETER_GROUP_ID" : "builder0GangliaPGroup",
+"METRIC_PARAMETER_UID" : "gangliaFileP1",
+"STATUS" : "On",
+"METRIC_PARAMETER_KEY" : "configFile",
+"METRIC_PARAMETER_VALUE" : "\"/etc/ganglia/gmond.conf\"",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "DEFAULT",
+"RECORD_INSERTION_TIME" : "0"
+},
+{
+"METRIC_PARAMETER_GROUP_ID" : "builder0GangliaPGroup",
+"METRIC_PARAMETER_UID" : "gangliaMetricP2",
+"STATUS" : "On",
+"METRIC_PARAMETER_KEY" : "group",
+"METRIC_PARAMETER_VALUE" : "\"ARTDAQ\"",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "DEFAULT",
+"RECORD_INSERTION_TIME" : "0"
+},
+{
+"METRIC_PARAMETER_GROUP_ID" : "builder0MessageFacilityPGroup",
+"METRIC_PARAMETER_UID" : "builderMessageFacilityMetricP0",
+"STATUS" : "On",
+"METRIC_PARAMETER_KEY" : "output_message_application_name",
+"METRIC_PARAMETER_VALUE" : "\"ARTDAQ Metric\"",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1504818676"
+},
+{
+"METRIC_PARAMETER_GROUP_ID" : "builder0MessageFacilityPGroup",
+"METRIC_PARAMETER_UID" : "builderMessageFacilityMetricP1",
+"STATUS" : "On",
+"METRIC_PARAMETER_KEY" : "output_message_severity",
+"METRIC_PARAMETER_VALUE" : "0",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1504818676"
+},
+{
+"METRIC_PARAMETER_GROUP_ID" : "builder0GraphiteMetricPGroup",
+"METRIC_PARAMETER_UID" : "builderGraphiteMetricP0",
+"STATUS" : "On",
+"METRIC_PARAMETER_KEY" : "DEFAULT",
+"METRIC_PARAMETER_VALUE" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "DEFAULT",
+"RECORD_INSERTION_TIME" : "0"
+},
+{
+"METRIC_PARAMETER_GROUP_ID" : "builder0GraphiteMetricPGroup",
+"METRIC_PARAMETER_UID" : "builderGraphiteMetricP1",
+"STATUS" : "On",
+"METRIC_PARAMETER_KEY" : "DEFAULT",
+"METRIC_PARAMETER_VALUE" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "DEFAULT",
+"RECORD_INSERTION_TIME" : "0"
+},
+{
+"METRIC_PARAMETER_GROUP_ID" : "builder0GraphiteMetricPGroup",
+"METRIC_PARAMETER_UID" : "builderGraphiteMetricP2",
+"STATUS" : "On",
+"METRIC_PARAMETER_KEY" : "DEFAULT",
+"METRIC_PARAMETER_VALUE" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "DEFAULT",
+"RECORD_INSERTION_TIME" : "0"
+},
+{
+"METRIC_PARAMETER_GROUP_ID" : "aggregator0Metric0PGroup",
+"METRIC_PARAMETER_UID" : "aggregatorFileP0",
+"STATUS" : "On",
+"METRIC_PARAMETER_KEY" : "fileName",
+"METRIC_PARAMETER_VALUE" : "\"/tmp/aggregator/agg_%UID%_metrics.log\"",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "DEFAULT",
+"RECORD_INSERTION_TIME" : "0"
+},
+{
+"METRIC_PARAMETER_GROUP_ID" : "aggregator0Metric0PGroup",
+"METRIC_PARAMETER_UID" : "aggregatorFileP1",
+"STATUS" : "On",
+"METRIC_PARAMETER_KEY" : "uniquify",
+"METRIC_PARAMETER_VALUE" : "true",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "DEFAULT",
+"RECORD_INSERTION_TIME" : "0"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2020-08-11T21:49:47.411-0500",
+"rawdata" : [
+
+]
+},
+"version" : "2",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:49:47.412-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:49:47.412-0500"
+},
+{
+"name" : "artdaqConfig_v2",
+"assigned" : "2020-08-11T21:49:50.299-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:49:47.412-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:49:47.412-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2020-08-11T21:49:47.412-0500",
+"value" : {
+"name" : "2",
+"assigned" : "2020-08-11T21:49:47.412-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2020-08-11T21:49:47.412-0500",
+"value" : {
+"name" : "ARTDAQMetricParameterTable",
+"assigned" : "2020-08-11T21:49:47.412-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2020-08-11T21:49:47.412-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:49:47.412-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:49:50.299-0500",
+"value" : {
+"name" : "artdaqConfig_v2",
+"assigned" : "2020-08-11T21:49:50.299-0500"
+}
+}
+],
+"created" : "2020-08-11T21:49:47.411-0500"
+},
+"_id" : {
+"$oid" : "a216b0186f7c46f7a2c31bd2"
+},
+"collection" : "ARTDAQMetricParameterTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}
