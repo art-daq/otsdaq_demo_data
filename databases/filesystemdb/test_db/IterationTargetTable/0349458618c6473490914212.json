@@ -1,0 +1,124 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ITERATION_TARGET_TABLE",
+"COMMENT" : "Auto-generated from mock-up.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1531928253,
+"COL_TYPES" : {
+"ITERATION_TARGET_GROUP_ID" : "STRING",
+"ITERATION_TARGET_GROUP_MEMBER_UID" : "STRING",
+"LINK_TO_TARGET" : "STRING",
+"LINK_TO_TARGET_UID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2020-08-11T21:59:15.241-0500",
+"rawdata" : [
+
+]
+},
+"version" : "2",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:59:15.243-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:59:15.243-0500"
+},
+{
+"name" : "iterateDefaultGroup_v2",
+"assigned" : "2020-08-11T21:59:16.281-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:59:15.243-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:59:15.243-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2020-08-11T21:59:15.243-0500",
+"value" : {
+"name" : "2",
+"assigned" : "2020-08-11T21:59:15.243-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2020-08-11T21:59:15.243-0500",
+"value" : {
+"name" : "IterationTargetTable",
+"assigned" : "2020-08-11T21:59:15.243-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2020-08-11T21:59:15.243-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:59:15.243-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:59:16.281-0500",
+"value" : {
+"name" : "iterateDefaultGroup_v2",
+"assigned" : "2020-08-11T21:59:16.281-0500"
+}
+}
+],
+"created" : "2020-08-11T21:59:15.241-0500"
+},
+"_id" : {
+"$oid" : "0349458618c6473490914212"
+},
+"collection" : "IterationTargetTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}
