@@ -1,0 +1,140 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ROC_INTERFACE_TABLE",
+"COMMENT" : "Auto-generated from mock-up.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1551150212,
+"COL_TYPES" : {
+"UID" : "STRING",
+"STATUS" : "STRING",
+"ROC_GROUP_ID" : "STRING",
+"ROC_INTERFACE_PLUGIN_NAME" : "STRING",
+"LINK_ID" : "NUMBER",
+"EVENT_WINDOW_DELAY_OFFSET" : "NUMBER",
+"ROC_TYPE_LINK_TABLE" : "STRING",
+"ROC_TYPE_LINK_UID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"UID" : "ROC0",
+"STATUS" : "On",
+"ROC_GROUP_ID" : "DTC0_ROCGroup",
+"ROC_INTERFACE_PLUGIN_NAME" : "ROCCalorimeterInterface",
+"LINK_ID" : "0",
+"EVENT_WINDOW_DELAY_OFFSET" : "4",
+"ROC_TYPE_LINK_TABLE" : "NO_LINK",
+"ROC_TYPE_LINK_UID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1551150208"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2020-08-11T22:05:18.248-0500",
+"rawdata" : [
+
+]
+},
+"version" : "2",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T22:05:18.249-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2020-08-11T22:05:18.249-0500"
+},
+{
+"name" : "defaultConfig_v2",
+"assigned" : "2020-08-11T22:05:19.050-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T22:05:18.249-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2020-08-11T22:05:18.249-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2020-08-11T22:05:18.249-0500",
+"value" : {
+"name" : "2",
+"assigned" : "2020-08-11T22:05:18.249-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2020-08-11T22:05:18.249-0500",
+"value" : {
+"name" : "ROCInterfaceTable",
+"assigned" : "2020-08-11T22:05:18.249-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2020-08-11T22:05:18.249-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T22:05:18.249-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T22:05:19.051-0500",
+"value" : {
+"name" : "defaultConfig_v2",
+"assigned" : "2020-08-11T22:05:19.050-0500"
+}
+}
+],
+"created" : "2020-08-11T22:05:18.248-0500"
+},
+"_id" : {
+"$oid" : "50948b97fa3c42d4b3b3241f"
+},
+"collection" : "ROCInterfaceTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

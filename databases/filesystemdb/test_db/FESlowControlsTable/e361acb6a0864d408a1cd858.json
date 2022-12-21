@@ -1,0 +1,168 @@
+{
+"document" : {
+"data" : {
+"NAME" : "FE_SLOW_CONTROLS_TABLE",
+"COMMENT" : "1 second period. w/latched alarms field true, w/alarms and text format. first try with hw emulator slow controls. w/ valid data type. w/status.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1480280002,
+"COL_TYPES" : {
+"FE_GROUP_ID" : "STRING",
+"CHANNEL_NAME" : "STRING",
+"STATUS" : "STRING",
+"CHANNEL_DATA_TYPE" : "STRING",
+"UNITS" : "STRING",
+"UNIVERSAL_INTERFACE_ADDRESS" : "STRING",
+"UNIVERSAL_DATA_BIT_OFFSET" : "NUMBER",
+"READ_ACCESS" : "STRING",
+"WRITE_ACCESS" : "STRING",
+"RECORD_CHANGES_ONLY" : "STRING",
+"DELAY_BETWEEN_SAMPLES_IN_SECONDS" : "NUMBER",
+"MONITORING_ENABLED" : "STRING",
+"LOCAL_SAVING_ENABLED" : "STRING",
+"LOCAL_FILE_PATH" : "STRING",
+"RADIX_FILE_NAME" : "STRING",
+"SAVE_BINARY_FILE" : "STRING",
+"ALARMS_ENABLED" : "STRING",
+"LATCH_ALARMS" : "STRING",
+"LOW_LOW_THRESHOLD" : "STRING",
+"LOW_THRESHOLD" : "STRING",
+"HIGH_THRESHOLD" : "STRING",
+"HIGH_HIGH_THRESHOLD" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"FE_GROUP_ID" : "OtsHwEmulatorGroup0",
+"CHANNEL_NAME" : "BurstDataCount",
+"STATUS" : "On",
+"CHANNEL_DATA_TYPE" : "unsigned long long",
+"UNITS" : "DEFAULT",
+"UNIVERSAL_INTERFACE_ADDRESS" : "0x1001",
+"UNIVERSAL_DATA_BIT_OFFSET" : "0",
+"READ_ACCESS" : "Yes",
+"WRITE_ACCESS" : "Yes",
+"RECORD_CHANGES_ONLY" : "True",
+"DELAY_BETWEEN_SAMPLES_IN_SECONDS" : "1",
+"MONITORING_ENABLED" : "Yes",
+"LOCAL_SAVING_ENABLED" : "Yes",
+"LOCAL_FILE_PATH" : "/tmp/",
+"RADIX_FILE_NAME" : "SlowControls",
+"SAVE_BINARY_FILE" : "False",
+"ALARMS_ENABLED" : "Yes",
+"LATCH_ALARMS" : "True",
+"LOW_LOW_THRESHOLD" : "0",
+"LOW_THRESHOLD" : "1",
+"HIGH_THRESHOLD" : "9",
+"HIGH_HIGH_THRESHOLD" : "10",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1480280002"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2020-08-11T22:05:17.998-0500",
+"rawdata" : [
+
+]
+},
+"version" : "2",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T22:05:17.999-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2020-08-11T22:05:17.999-0500"
+},
+{
+"name" : "defaultConfig_v2",
+"assigned" : "2020-08-11T22:05:18.900-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T22:05:17.999-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2020-08-11T22:05:17.999-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2020-08-11T22:05:17.999-0500",
+"value" : {
+"name" : "2",
+"assigned" : "2020-08-11T22:05:17.999-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2020-08-11T22:05:17.999-0500",
+"value" : {
+"name" : "FESlowControlsTable",
+"assigned" : "2020-08-11T22:05:17.999-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2020-08-11T22:05:17.999-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T22:05:17.999-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T22:05:18.900-0500",
+"value" : {
+"name" : "defaultConfig_v2",
+"assigned" : "2020-08-11T22:05:18.900-0500"
+}
+}
+],
+"created" : "2020-08-11T22:05:17.998-0500"
+},
+"_id" : {
+"$oid" : "e361acb6a0864d408a1cd858"
+},
+"collection" : "FESlowControlsTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

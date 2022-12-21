@@ -1,0 +1,134 @@
+{
+"document" : {
+"data" : {
+"NAME" : "FE_SUPERVISOR_TABLE",
+"COMMENT" : "Tutorial FE Supervisor table.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1548819407,
+"COL_TYPES" : {
+"SUPERVISOR_UID" : "STRING",
+"LINK_TO_FE_INTERFACE_TABLE" : "STRING",
+"LINK_TO_FE_INTERFACE_GROUP_ID" : "STRING",
+"ENABLE_SLOW_CONTROLS_METRIC_MANAGER" : "STRING",
+"SLOW_CONTROLS_METRIC_MANAGER_CHANNEL_NAME_PREAMBLE" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"SUPERVISOR_UID" : "FESupervisor0",
+"LINK_TO_FE_INTERFACE_TABLE" : "FEInterfaceTable",
+"LINK_TO_FE_INTERFACE_GROUP_ID" : "FEGroup0",
+"ENABLE_SLOW_CONTROLS_METRIC_MANAGER" : "No",
+"SLOW_CONTROLS_METRIC_MANAGER_CHANNEL_NAME_PREAMBLE" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1548819407"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2020-08-11T22:05:18.078-0500",
+"rawdata" : [
+
+]
+},
+"version" : "2",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T22:05:18.079-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2020-08-11T22:05:18.079-0500"
+},
+{
+"name" : "defaultConfig_v2",
+"assigned" : "2020-08-11T22:05:18.950-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T22:05:18.079-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2020-08-11T22:05:18.079-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2020-08-11T22:05:18.079-0500",
+"value" : {
+"name" : "2",
+"assigned" : "2020-08-11T22:05:18.079-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2020-08-11T22:05:18.079-0500",
+"value" : {
+"name" : "FESupervisorTable",
+"assigned" : "2020-08-11T22:05:18.079-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2020-08-11T22:05:18.079-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T22:05:18.079-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T22:05:18.951-0500",
+"value" : {
+"name" : "defaultConfig_v2",
+"assigned" : "2020-08-11T22:05:18.950-0500"
+}
+}
+],
+"created" : "2020-08-11T22:05:18.079-0500"
+},
+"_id" : {
+"$oid" : "9b585f1b8c28485588e69e98"
+},
+"collection" : "FESupervisorTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}
