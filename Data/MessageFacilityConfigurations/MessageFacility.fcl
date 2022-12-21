@@ -11,3 +11,10 @@ console: {
 	filename_delimit: 		"/srcs/"
 	format_string: 			"|%L:%N:%f [%u]\t%m"
 }
+
+#file: {
+#	type: "file" 
+#	filename: "/dev/null" 
+#}
+file:""
+

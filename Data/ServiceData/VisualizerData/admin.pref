@@ -1,5 +1,5 @@
 radioSelect 0
-autoRefresh 
-autoHide 
-hardRefresh 
-autoRefreshPeriod 
+autoRefresh 1
+autoHide 0
+hardRefresh 1
+autoRefreshPeriod 0
