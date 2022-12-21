@@ -7,3 +7,10 @@ console : {
 		noLineBreaks: true
 	}
 }
+
+#file: {
+#	type: "file" 
+#	filename: "/dev/null" 
+#}
+file:""
+udp : {}

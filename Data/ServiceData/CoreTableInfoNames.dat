@@ -1,4 +1,6 @@
+ARTDAQ/*
 ConfigCore/*
+../../../otsdaq_prepmodernization/Data/ConfigurationInfo/FE*
 ContextGroup/DesktopIconTable
 ContextGroup/DesktopWindowParameterTable
 ContextGroup/GatewaySupervisorTable
