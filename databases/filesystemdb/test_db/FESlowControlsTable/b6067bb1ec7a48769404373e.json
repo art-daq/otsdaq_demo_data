@@ -47,7 +47,7 @@
 "DELAY_BETWEEN_SAMPLES_IN_SECONDS" : "1",
 "MONITORING_ENABLED" : "Yes",
 "LOCAL_SAVING_ENABLED" : "Yes",
-"LOCAL_FILE_PATH" : "/home/rrivera/ots/tmp/",
+"LOCAL_FILE_PATH" : "/tmp/",
 "RADIX_FILE_NAME" : "SlowControls",
 "SAVE_BINARY_FILE" : "False",
 "ALARMS_ENABLED" : "Yes",

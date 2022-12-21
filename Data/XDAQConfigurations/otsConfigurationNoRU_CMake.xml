@@ -11,56 +11,56 @@
 			<properties xmlns="urn:xdaq-application:GatewaySupervisor" xsi:type="soapenc:Struct">
 			</properties>
 		</xc:Application>
-		<xc:Module>/home/rrivera/data/ots/srcs/otsdaq_demo/NoGitData//libGatewaySupervisor.so</xc:Module>
+		<xc:Module>srcs/otsdaq_demo/NoGitData//libGatewaySupervisor.so</xc:Module>
 
 		<!-- Application GroupID = 'mainContext' UID='FESupervisor' sourceConfig='XDAQApplicationTable_v3 @ 1548708116' -->
 		<xc:Application class="ots::FESupervisor" id="210" instance="1" network="local" group="daq">
 			<properties xmlns="urn:xdaq-application:FESupervisor" xsi:type="soapenc:Struct">
 			</properties>
 		</xc:Application>
-		<xc:Module>/home/rrivera/data/ots/srcs/otsdaq_demo/NoGitData//libCoreSupervisors.so</xc:Module>
+		<xc:Module>srcs/otsdaq_demo/NoGitData//libCoreSupervisors.so</xc:Module>
 
 		<!-- Application GroupID = 'mainContext' UID='ChatSupervisor' sourceConfig='XDAQApplicationTable_v3 @ 1548708116' -->
 		<xc:Application class="ots::ChatSupervisor" id="250" instance="1" network="local" group="daq">
 			<properties xmlns="urn:xdaq-application:ChatSupervisor" xsi:type="soapenc:Struct">
 			</properties>
 		</xc:Application>
-		<xc:Module>/home/rrivera/data/ots/srcs/otsdaq_demo/NoGitData//libChat.so</xc:Module>
+		<xc:Module>srcs/otsdaq_demo/NoGitData//libChat.so</xc:Module>
 
 		<!-- Application GroupID = 'mainContext' UID='ConsoleSupervisor' sourceConfig='XDAQApplicationTable_v3 @ 1548708116' -->
 		<xc:Application class="ots::ConsoleSupervisor" id="260" instance="1" network="local" group="daq">
 			<properties xmlns="urn:xdaq-application:ConsoleSupervisor" xsi:type="soapenc:Struct">
 			</properties>
 		</xc:Application>
-		<xc:Module>/home/rrivera/data/ots/srcs/otsdaq_demo/NoGitData//libConsole.so</xc:Module>
+		<xc:Module>srcs/otsdaq_demo/NoGitData//libConsole.so</xc:Module>
 
 		<!-- Application GroupID = 'mainContext' UID='DataManagerSupervisor' sourceConfig='XDAQApplicationTable_v3 @ 1548708116' -->
 		<xc:Application class="ots::DataManagerSupervisor" id="310" instance="1" network="local" group="daq">
 			<properties xmlns="urn:xdaq-application:DataManagerSupervisor" xsi:type="soapenc:Struct">
 			</properties>
 		</xc:Application>
-		<xc:Module>/home/rrivera/data/ots/srcs/otsdaq_demo/NoGitData//libCoreSupervisors.so</xc:Module>
+		<xc:Module>srcs/otsdaq_demo/NoGitData//libCoreSupervisors.so</xc:Module>
 
 		<!-- Application GroupID = 'mainContext' UID='LogbookSupervisor' sourceConfig='XDAQApplicationTable_v3 @ 1548708116' -->
 		<xc:Application class="ots::LogbookSupervisor" id="261" instance="1" network="local" group="daq">
 			<properties xmlns="urn:xdaq-application:LogbookSupervisor" xsi:type="soapenc:Struct">
 			</properties>
 		</xc:Application>
-		<xc:Module>/home/rrivera/data/ots/srcs/otsdaq_demo/NoGitData//libLogbook.so</xc:Module>
+		<xc:Module>srcs/otsdaq_demo/NoGitData//libLogbook.so</xc:Module>
 
 		<!-- Application GroupID = 'mainContext' UID='VisualSupervisor' sourceConfig='XDAQApplicationTable_v3 @ 1548708116' -->
 		<xc:Application class="ots::VisualSupervisor" id="270" instance="1" network="local" group="daq">
 			<properties xmlns="urn:xdaq-application:VisualSupervisor" xsi:type="soapenc:Struct">
 			</properties>
 		</xc:Application>
-		<xc:Module>/home/rrivera/data/ots/srcs/otsdaq_demo/NoGitData//libVisualization.so</xc:Module>
+		<xc:Module>srcs/otsdaq_demo/NoGitData//libVisualization.so</xc:Module>
 
 		<!-- Application GroupID = 'mainContext' UID='ConfigurationGUISupervisor' sourceConfig='XDAQApplicationTable_v3 @ 1548708116' -->
 		<xc:Application class="ots::ConfigurationGUISupervisor" id="281" instance="1" network="local" group="daq">
 			<properties xmlns="urn:xdaq-application:ConfigurationGUISupervisor" xsi:type="soapenc:Struct">
 			</properties>
 		</xc:Application>
-		<xc:Module>/home/rrivera/data/ots/srcs/otsdaq_demo/NoGitData//libConfigurationGUI.so</xc:Module>
+		<xc:Module>srcs/otsdaq_demo/NoGitData//libConfigurationGUI.so</xc:Module>
 
 		<!-- Application GroupID = 'mainContext' UID='ControlsDashboardSupervisor' sourceConfig='XDAQApplicationTable_v3 @ 1548708116' -->
 		<!--
@@ -68,7 +68,7 @@
 			<properties xmlns="urn:xdaq-application:ControlsDashboardSupervisor" xsi:type="soapenc:Struct">
 			</properties>
 		</xc:Application>
-		<xc:Module>/home/rrivera/data/ots/srcs/otsdaq_demo/NoGitData//libControlsDashboard.so</xc:Module>
+		<xc:Module>srcs/otsdaq_demo/NoGitData//libControlsDashboard.so</xc:Module>
 		-->
 
 		<!-- Application GroupID = 'mainContext' UID='MacroMakerSupervisor' sourceConfig='XDAQApplicationTable_v3 @ 1548708116' -->
@@ -76,7 +76,7 @@
 			<properties xmlns="urn:xdaq-application:MacroMakerSupervisor" xsi:type="soapenc:Struct">
 			</properties>
 		</xc:Application>
-		<xc:Module>/home/rrivera/data/ots/srcs/otsdaq_demo/NoGitData//libMacroMaker.so</xc:Module>
+		<xc:Module>srcs/otsdaq_demo/NoGitData//libMacroMaker.so</xc:Module>
 
 	</xc:Context>
 
