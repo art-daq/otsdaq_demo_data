@@ -1,0 +1,138 @@
+{
+"document" : {
+"data" : {
+"NAME" : "DATA_MANAGER_SUPERVISOR_TABLE",
+"COMMENT" : "Tutorial Data Manager Supervisor table.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1548791341,
+"COL_TYPES" : {
+"SUPERVISOR_UID" : "STRING",
+"LINK_TO_DATA_BUFFER_TABLE" : "STRING",
+"LINK_TO_DATA_BUFFER_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"SUPERVISOR_UID" : "DataManagerSupervisor0",
+"LINK_TO_DATA_BUFFER_TABLE" : "DataBufferTable",
+"LINK_TO_DATA_BUFFER_GROUP_ID" : "DMGroup0",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1548791341"
+},
+{
+"SUPERVISOR_UID" : "VisualSupervisor0",
+"LINK_TO_DATA_BUFFER_TABLE" : "DataBufferTable",
+"LINK_TO_DATA_BUFFER_GROUP_ID" : "DMVisualizerGroup0",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1548791341"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2020-08-11T22:09:04.436-0500",
+"rawdata" : [
+
+]
+},
+"version" : "2",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T22:09:04.437-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2020-08-11T22:09:04.437-0500"
+},
+{
+"name" : "defaultConfig_v2",
+"assigned" : "2020-08-11T22:09:05.533-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T22:09:04.437-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2020-08-11T22:09:04.437-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2020-08-11T22:09:04.437-0500",
+"value" : {
+"name" : "2",
+"assigned" : "2020-08-11T22:09:04.437-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2020-08-11T22:09:04.437-0500",
+"value" : {
+"name" : "DataManagerSupervisorTable",
+"assigned" : "2020-08-11T22:09:04.437-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2020-08-11T22:09:04.437-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T22:09:04.437-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T22:09:05.533-0500",
+"value" : {
+"name" : "defaultConfig_v2",
+"assigned" : "2020-08-11T22:09:05.533-0500"
+}
+}
+],
+"created" : "2020-08-11T22:09:04.436-0500"
+},
+"_id" : {
+"$oid" : "39d8b54182d24497a0290edb"
+},
+"collection" : "DataManagerSupervisorTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}
