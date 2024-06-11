@@ -1,0 +1,148 @@
+{
+"document" : {
+"data" : {
+"NAME" : "GATEWAY_SUPERVISOR_TABLE",
+"COMMENT" : "No comment.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1548699877,
+"COL_TYPES" : {
+"SUPERVISOR_UID" : "STRING",
+"NUMBER_OF_STATE_MACHINE_BROADCAST_THREADS" : "NUMBER",
+"LINK_TO_STATE_MACHINE_TABLE" : "STRING",
+"STATE_MACHINE_GROUP_ID" : "STRING",
+"ENABLE_APPLICATION_STATUS_MONITORING" : "STRING",
+"ENABLE_STATE_CHANGES_OVER_UDP" : "STRING",
+"IP_ADDRESS_FOR_STATE_CHANGES_OVER_UDP" : "STRING",
+"PORT_FOR_STATE_CHANGES_OVER_UDP" : "NUMBER",
+"ENABLE_ACK_FOR_STATE_CHANGES_OVER_UDP" : "STRING",
+"ENABLE_ARTDAQ_COMMANDER_PLUGIN" : "STRING",
+"ARTDAQ_COMMANDER_PLUGIN_TYPE" : "STRING",
+"ARTDAQ_COMMANDER_ID" : "NUMBER",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"SUPERVISOR_UID" : "Supervisor0",
+"NUMBER_OF_STATE_MACHINE_BROADCAST_THREADS" : "0",
+"LINK_TO_STATE_MACHINE_TABLE" : "StateMachineTable",
+"STATE_MACHINE_GROUP_ID" : "Supervisor0_FSMs",
+"ENABLE_APPLICATION_STATUS_MONITORING" : "No",
+"ENABLE_STATE_CHANGES_OVER_UDP" : "No",
+"IP_ADDRESS_FOR_STATE_CHANGES_OVER_UDP" : "DEFAULT",
+"PORT_FOR_STATE_CHANGES_OVER_UDP" : "0",
+"ENABLE_ACK_FOR_STATE_CHANGES_OVER_UDP" : "No",
+"ENABLE_ARTDAQ_COMMANDER_PLUGIN" : "No",
+"ARTDAQ_COMMANDER_PLUGIN_TYPE" : "DEFAULT",
+"ARTDAQ_COMMANDER_ID" : "0",
+"COMMENT_DESCRIPTION" : "Link to a group of state machines.",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1548699877"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2020-08-11T21:44:48.819-0500",
+"rawdata" : [
+
+]
+},
+"version" : "3",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:44:48.820-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:44:48.820-0500"
+},
+{
+"name" : "testContext_v3",
+"assigned" : "2020-08-11T21:44:49.651-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:44:48.820-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2020-08-11T21:44:48.820-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2020-08-11T21:44:48.820-0500",
+"value" : {
+"name" : "3",
+"assigned" : "2020-08-11T21:44:48.820-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2020-08-11T21:44:48.820-0500",
+"value" : {
+"name" : "GatewaySupervisorTable",
+"assigned" : "2020-08-11T21:44:48.820-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2020-08-11T21:44:48.820-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2020-08-11T21:44:48.820-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2020-08-11T21:44:49.651-0500",
+"value" : {
+"name" : "testContext_v3",
+"assigned" : "2020-08-11T21:44:49.651-0500"
+}
+}
+],
+"created" : "2020-08-11T21:44:48.819-0500"
+},
+"_id" : {
+"$oid" : "602a509015ee45a1b36c5202"
+},
+"collection" : "GatewaySupervisorTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

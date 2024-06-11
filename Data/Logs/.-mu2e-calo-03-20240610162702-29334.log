@@ -1,0 +1,625 @@
+%MSG-i configureMessageFacility:  Early 10-Jun-2024 16:27:02 CDT pre-events configureMessageFacility.cc:287
+Message Facility Application . configured with: destinations:{console:{filename_delimit:"/srcs/" format_string:"|%L:%N:%f [%u]\t%m" threshold:"DEBUG" type:"OTS"} file:{append:false directory:"/home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/Logs/." pattern:".-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:32015 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i _TCPConnect:  Early 10-Jun-2024 16:27:02 CDT pre-events TCPConnect.cc:345
+Resolving host 127.0.0.1, on port 32015
+%MSG
+%MSG-i _TCPConnect:  Early 10-Jun-2024 16:27:02 CDT pre-events TCPConnect.cc:372
+Host resolved as 127.0.0.1
+%MSG
+%MSG-i _TCPConnect:  Early 10-Jun-2024 16:27:02 CDT pre-events TCPConnect.cc:248
+Resolving ip mu2e-calo-03.fnal.gov
+%MSG
+/home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/LoginData/HashesData//hashes.xml
+0 Hashes found.
+Users database: /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/LoginData/UsersData//users.xml
+Found Users database next user Id: 1
+1 Users found.
+The current security type is NoSecurity
+CareAboutCookieCodes_: 0
+/home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/LoginData/UsersData//activeSessions.sv
+Persistent active sessions were not found to be loaded at file: /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/LoginData/UsersData//activeSessions.sv
+Attempting to load username with lock: admin
+Setting lock
+actingUser = admin
+Permissions: allUsers: 255
+usersUsernameWithLock_ = 
+lock = 1
+username = admin
+isUsernameActive(username) = 0
+User 'admin' has locked out the system!
+Done with Web Users initialization!
+ConfigurationGUISupervisor:UNINITIALIZED_supervisorApplicationUID	<> application->getApplicationContext()->getContextDescriptor()->getURL() = http://mu2e-calo-03.fnal.gov:2015
+ConfigurationGUISupervisor:UNINITIALIZED_supervisorApplicationUID	<> application->getApplicationDescriptor()->getLocalId() = 280
+ConfigurationGUISupervisor:UNINITIALIZED_supervisorApplicationUID	<> supervisorClass_ = ots::ConfigurationGUISupervisor
+ConfigurationGUISupervisor:UNINITIALIZED_supervisorApplicationUID	<> supervisorClassNoNamespace_ = ConfigurationGUISupervisor
+Initializing info based on XDAQ context...
+Init
+Initializing info for Wiz mode XDAQ context...
+The TRACE-controller app for hostname 'mu2e-calo-03.fnal.gov' is CLASS:LID = ots::CodeEditorSupervisor:240 name = LID-240
+TRACE-controller app count = 1
+Supervisor Info initialization complete!
+ConfigurationGUISupervisor:UNINITIALIZED_supervisorApplicationUID	<> Wiz mode detected. So skipping configuration location work for supervisor of class 'ots::ConfigurationGUISupervisor'
+ConfigurationGUISupervisor:280	<> CorePropertySupervisorBase::supervisorContextUID_ = NO CONTEXT ID IN WIZ MODE
+ConfigurationGUISupervisor:280	<> CorePropertySupervisorBase::supervisorApplicationUID_ = 280
+ConfigurationGUISupervisor:280	<> CorePropertySupervisorBase::supervisorConfigurationPath_ = NO APP PATH IN WIZ MODE
+FSM-ConfigurationGUISupervisor	<> Constructing FiniteStateMachine
+FSM-ConfigurationGUISupervisor	<> Resetting RunControlStateMachine with name 'ConfigurationGUISupervisor'...
+Request name: StateMachine jobName: StateMachine
+ConfigurationGUISupervisor:280	<> Constructor.
+ConfigurationGUISupervisor:280	<> Constructed.
+ConfigurationGUISupervisor:280	<> Constructor started.
+ConfigurationGUISupervisor:280	<> Initializing...
+ConfigurationGUISupervisor:280	<> Activating saved context, which may prepare for normal mode...
+ConfigurationGUISupervisor:280	<> Attempting test activation of the context group.
+TableBase-TableGroupMetadata	<> Special table 'TableGroupMetadata' constructed. 1
+READONLY_USER	<> runTimeSeconds() = 0.000452131
+IS_FILESYSTEM_DB = 1
+READONLY_USER	<> runTimeSeconds() = 0.0400475
+READONLY_USER	<> runTimeSeconds() = 0.0408119
+READONLY_USER	<> username_ = READONLY_USER
+READONLY_USER	<> ACTIVE_GROUPS_FILENAME = /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/ActiveTableGroups.cfg
+READONLY_USER	<> ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitDatabases/filesystemdb/test_db
+TableBase-GroupCache_testContext	<> TableBase for 'GroupCache_testContext' constructed.
+GROUP_CACHE-TEST_CONTEXTv-2	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+GROUP_CACHE-TEST_CONTEXTv3	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+READONLY_USER	<> ------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(3)']
+READONLY_USER	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisor
+READONLY_USER	<> ------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(3)']
+TableBase-GroupCache_TableEditWizBackbone	<> TableBase for 'GroupCache_TableEditWizBackbone' constructed.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv-2	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv4	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+READONLY_USER	<> Ignoring that groupMetadataTable_ is missing for group 'TableEditWizBackbone(4). Going with anonymous defaults.
+READONLY_USER	<> ------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+READONLY_USER	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+READONLY_USER	<> ------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+TableBase-GroupCache_defaultConfig	<> TableBase for 'GroupCache_defaultConfig' constructed.
+GROUP_CACHE-DEFAULT_CONFIGv-2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+GROUP_CACHE-DEFAULT_CONFIGv2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+READONLY_USER	<> Not loading group because it is not of type Context or Backbone (it is type 'Configuration').
+READONLY_USER	<> runTimeSeconds() = 0.13771
+READONLY_USER	<> Destroying Backbone Key: 4
+READONLY_USER	<> Destroying Context Key: 3
+ConfigurationGUISupervisor:280	<> Done with test context.
+ConfigurationGUISupervisor:280	<> Constructor complete.
+Constructor.
+Initializing info based on XDAQ context...
+Init
+Initializing info for Wiz mode XDAQ context...
+The TRACE-controller app for hostname 'mu2e-calo-03.fnal.gov' is CLASS:LID = ots::CodeEditorSupervisor:240 name = LID-240
+TRACE-controller app count = 1
+Supervisor Info initialization complete!
+(Reverting to default wiz security) Sequence length file NOT found: /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/OtsWizardData/sequence.dat
+Sequence length = 4
+mu2e-calo-03.fnal.gov:2015/urn:xdaq-application:lid=290/Verify?code=fa37
+Marked alive: /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/Logs/otsdaq_is_alive-wiz-0.dat
+Constructed.
+ConsoleSupervisor:UNINITIALIZED_supervisorApplicationUID	<> application->getApplicationContext()->getContextDescriptor()->getURL() = http://mu2e-calo-03.fnal.gov:2015
+ConsoleSupervisor:UNINITIALIZED_supervisorApplicationUID	<> application->getApplicationDescriptor()->getLocalId() = 260
+ConsoleSupervisor:UNINITIALIZED_supervisorApplicationUID	<> supervisorClass_ = ots::ConsoleSupervisor
+ConsoleSupervisor:UNINITIALIZED_supervisorApplicationUID	<> supervisorClassNoNamespace_ = ConsoleSupervisor
+Initializing info based on XDAQ context...
+Init
+Initializing info for Wiz mode XDAQ context...
+The TRACE-controller app for hostname 'mu2e-calo-03.fnal.gov' is CLASS:LID = ots::CodeEditorSupervisor:240 name = LID-240
+TRACE-controller app count = 1
+Supervisor Info initialization complete!
+ConsoleSupervisor:UNINITIALIZED_supervisorApplicationUID	<> Wiz mode detected. So skipping configuration location work for supervisor of class 'ots::ConsoleSupervisor'
+ConsoleSupervisor:260	<> CorePropertySupervisorBase::supervisorContextUID_ = NO CONTEXT ID IN WIZ MODE
+ConsoleSupervisor:260	<> CorePropertySupervisorBase::supervisorApplicationUID_ = 260
+ConsoleSupervisor:260	<> CorePropertySupervisorBase::supervisorConfigurationPath_ = NO APP PATH IN WIZ MODE
+FSM-ConsoleSupervisor	<> Constructing FiniteStateMachine
+FSM-ConsoleSupervisor	<> Resetting RunControlStateMachine with name 'ConsoleSupervisor'...
+Request name: StateMachine jobName: StateMachine
+ConsoleSupervisor:260	<> Constructor.
+ConsoleSupervisor:260	<> Constructed.
+ConsoleSupervisor:260	<> Constructor started.
+ConsoleSupervisor:260	<> Constructor complete.
+Starting workloop based on config file: /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/MessageFacilityConfigurations/QuietForwarder.cfg
+CodeEditorSupervisor:UNINITIALIZED_supervisorApplicationUID	<> application->getApplicationContext()->getContextDescriptor()->getURL() = http://mu2e-calo-03.fnal.gov:2015
+CodeEditorSupervisor:UNINITIALIZED_supervisorApplicationUID	<> application->getApplicationDescriptor()->getLocalId() = 240
+CodeEditorSupervisor:UNINITIALIZED_supervisorApplicationUID	<> supervisorClass_ = ots::CodeEditorSupervisor
+CodeEditorSupervisor:UNINITIALIZED_supervisorApplicationUID	<> supervisorClassNoNamespace_ = CodeEditorSupervisor
+Initializing info based on XDAQ context...
+Init
+Initializing info for Wiz mode XDAQ context...
+The TRACE-controller app for hostname 'mu2e-calo-03.fnal.gov' is CLASS:LID = ots::CodeEditorSupervisor:240 name = LID-240
+TRACE-controller app count = 1
+Supervisor Info initialization complete!
+CodeEditorSupervisor:UNINITIALIZED_supervisorApplicationUID	<> Wiz mode detected. So skipping configuration location work for supervisor of class 'ots::CodeEditorSupervisor'
+Socket constructor 127.0.0.1:32016
+CodeEditorSupervisor:240	<> CorePropertySupervisorBase::supervisorContextUID_ = NO CONTEXT ID IN WIZ MODE
+IPAddress: 127.0.0.1 port: 32016 htons: 4221
+CodeEditorSupervisor:240	<> CorePropertySupervisorBase::supervisorApplicationUID_ = 240
+Constructed socket for port 32016=32016 htons: 4221
+CodeEditorSupervisor:240	<> CorePropertySupervisorBase::supervisorConfigurationPath_ = NO APP PATH IN WIZ MODE
+FSM-CodeEditorSupervisor	<> Constructing FiniteStateMachine
+ReceiverSocket constructor 127.0.0.1:32016
+Initializing port 32016 htons: 4221
+]	Binding port: 32016
+]	Socket Number: 9 for port: 32016 initialized.
+:):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):)
+:):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):)
+SOCKET ON PORT: 32016 ON IP: 127.0.0.1 INITIALIZED OK!
+:):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):)
+:):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):)
+]	Socket Number: 9 for port: 32016 initialized.
+Setting socket receive buffer size = 20971520 0x1400000
+FSM-CodeEditorSupervisor	<> Resetting RunControlStateMachine with name 'CodeEditorSupervisor'...
+DEBUG messages look like this.
+Request name: StateMachine jobName: StateMachine
+CodeEditorSupervisor:240	<> Constructor.
+CodeEditorSupervisor:240	<> Constructed.
+CodeEditorSupervisor:240	<> Constructed.
+Console has first message.
+INFO messages look like this.
+WARNING messages look like this.
+ERROR messages look like this.
+submittedSequence=fa37 1718054847
+*** Successfully authenticated security sequence @ 1718054847
+*** Successfully authenticated security sequence @ 1718054848
+ConfigurationGUISupervisor:280	<> Wiz mode detected. Skipping setup of supervisor properties for supervisor of class 'ots::ConfigurationGUISupervisor'
+ConfigurationGUISupervisor:280	<> readOnly_ = 0
+ConfigurationGUISupervisor:280	<> Final supervisor property settings:
+ConfigurationGUISupervisor:280	<> 	AllowNoLoginRequestTypes = 
+ConfigurationGUISupervisor:280	<> 	AutomatedRequestTypes = getActiveTableGroups
+ConfigurationGUISupervisor:280	<> 	CheckUserLockRequestTypes = *
+ConfigurationGUISupervisor:280	<> 	NoXmlWhiteSpaceRequestTypes = 
+ConfigurationGUISupervisor:280	<> 	NonXMLRequestTypes = 
+ConfigurationGUISupervisor:280	<> 	RequireSecurityRequestTypes = 
+ConfigurationGUISupervisor:280	<> 	RequireUserLockRequestTypes = *
+ConfigurationGUISupervisor:280	<> 	UserGroupsAllowed = 
+ConfigurationGUISupervisor:280	<> 	UserGroupsDisallowed = 
+ConfigurationGUISupervisor:280	<> 	UserPermissionsThreshold = *=10 | deleteTreeNodeRecords=255 | saveTableInfo=255 | deleteTableInfo=255
+ConfigurationGUISupervisor:280	<> requestType: getTreeView
+ConfigurationGUISupervisor:280	<> Creating new Configuration Manager. time=1718054854
+TableBase-TableGroupMetadata	<> Special table 'TableGroupMetadata' constructed. 1
+READONLY_USER	<> runTimeSeconds() = 0.000115923
+READONLY_USER	<> runTimeSeconds() = 0.000172983
+READONLY_USER	<> runTimeSeconds() = 0.000453062
+READONLY_USER	<> runTimeSeconds() = 0.000522146
+READONLY_USER	<> Private constructor for write access called.
+admin	<> Instantiating Config Manager with Write Access! (for admin) time=1718054854 runTimeSeconds()=0.000703029
+admin	<> runTimeSeconds() = 0.0015954
+admin	<> ======================================================== getAllTableInfo start runtime=0.00171452
+admin	<> Refreshing all! Extracting list of tables...
+admin	<> Extracting list of tables complete.
+admin	<> Now initializing...
+admin	<> username_ = admin
+admin	<> ACTIVE_GROUPS_FILENAME = /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/ActiveTableGroups.cfg
+admin	<> ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitDatabases/filesystemdb/test_db
+TableBase-GroupCache_testContext	<> TableBase for 'GroupCache_testContext' constructed.
+GROUP_CACHE-TEST_CONTEXTv-2	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+GROUP_CACHE-TEST_CONTEXTv3	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(3)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisor
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(3)']
+TableBase-GroupCache_TableEditWizBackbone	<> TableBase for 'GroupCache_TableEditWizBackbone' constructed.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv-2	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv4	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+admin	<> Ignoring that groupMetadataTable_ is missing for group 'TableEditWizBackbone(4). Going with anonymous defaults.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+TableBase-GroupCache_defaultConfig	<> TableBase for 'GroupCache_defaultConfig' constructed.
+GROUP_CACHE-DEFAULT_CONFIGv-2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+GROUP_CACHE-DEFAULT_CONFIGv2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(2)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(2)']
+admin	<> ======================================================== getAllTableInfo end runtime=0.176662
+TableBase-TableGroupMetadata	<> Special table 'TableGroupMetadata' constructed. 1
+READONLY_USER	<> runTimeSeconds() = 3.5592e-05
+READONLY_USER	<> runTimeSeconds() = 6.1635e-05
+READONLY_USER	<> runTimeSeconds() = 0.000221912
+READONLY_USER	<> runTimeSeconds() = 0.000257379
+READONLY_USER	<> Private constructor for write access called.
+TreeDiff	<> Instantiating Config Manager with Write Access! (for TreeDiff) time=1718054854 runTimeSeconds()=0.000315077
+TreeDiff	<> runTimeSeconds() = 0.000346325
+ConfigurationGUISupervisor:280	<> Refreshing all table info, ignoring warnings...
+admin	<> ======================================================== getAllTableInfo start runtime=0.177256
+admin	<> Refreshing all! Extracting list of tables...
+admin	<> Extracting list of tables complete.
+admin	<> Now initializing...
+admin	<> username_ = admin
+admin	<> Destroying Configuration Key: 2
+admin	<> Destroying Backbone Key: 4
+admin	<> Destroying Context Key: 3
+admin	<> ACTIVE_GROUPS_FILENAME = /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/ActiveTableGroups.cfg
+admin	<> ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitDatabases/filesystemdb/test_db
+admin	<> Ignoring warnings while loading and activating group 'testContext(3)'
+TableBase-GroupCache_testContext	<> TableBase for 'GroupCache_testContext' constructed.
+GROUP_CACHE-TEST_CONTEXTv-2	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+GROUP_CACHE-TEST_CONTEXTv3	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(3)']
+admin	<> Errors detected while loading Table Group: testContext(3). Ignoring the following errors: 
+|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'FESupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'FESupervisorTable' ...|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'DataManagerSupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'DataManagerSupervisorTable' ...|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'VisualSupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'DataManagerSupervisorTable' ...
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisor
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(3)']
+admin	<> Ignoring warnings while loading and activating group 'TableEditWizBackbone(4)'
+TableBase-GroupCache_TableEditWizBackbone	<> TableBase for 'GroupCache_TableEditWizBackbone' constructed.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv-2	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv4	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+admin	<> Ignoring that groupMetadataTable_ is missing for group 'TableEditWizBackbone(4). Going with anonymous defaults.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+admin	<> Ignoring warnings while loading and activating group 'defaultConfig(2)'
+TableBase-GroupCache_defaultConfig	<> TableBase for 'GroupCache_defaultConfig' constructed.
+GROUP_CACHE-DEFAULT_CONFIGv-2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+GROUP_CACHE-DEFAULT_CONFIGv2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(2)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(2)']
+admin	<> ======================================================== getAllTableInfo end runtime=0.321377
+ConfigurationGUISupervisor:280	<> Using active groups.
+StringMacros::mapToString(filterMap) = 
+ConfigurationGUISupervisor:280	<> requestType: getUniqueFieldValuesForRecords
+ConfigurationGUISupervisor:280	<> tableGroup: 
+ConfigurationGUISupervisor:280	<> tableGroupKey: -1
+ConfigurationGUISupervisor:280	<> startPath: /DesktopIconTable
+ConfigurationGUISupervisor:280	<> fieldList: Status,ForceOnlyOneInstance,RequiredPermissionLevel
+ConfigurationGUISupervisor:280	<> recordList: FSM,Chat,Logbook,Visualizer,ConfigureGUI,FESubConfigGUI,DPSubConfigGUI,MacroMaker,ControlsDashboard,NOvALog,DBUtilities,Console,FEMacroTest,SmartLaunch,SystemDiagram
+ConfigurationGUISupervisor:280	<> modifiedTables: 
+ConfigurationGUISupervisor:280	<> Refreshing all table info, ignoring warnings...
+admin	<> ======================================================== getAllTableInfo start runtime=0.338216
+admin	<> Refreshing all! Extracting list of tables...
+admin	<> Extracting list of tables complete.
+admin	<> Now initializing...
+admin	<> username_ = admin
+admin	<> Destroying Configuration Key: 2
+admin	<> Destroying Backbone Key: 4
+admin	<> Destroying Context Key: 3
+admin	<> ACTIVE_GROUPS_FILENAME = /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/ActiveTableGroups.cfg
+admin	<> ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitDatabases/filesystemdb/test_db
+admin	<> Ignoring warnings while loading and activating group 'testContext(3)'
+TableBase-GroupCache_testContext	<> TableBase for 'GroupCache_testContext' constructed.
+GROUP_CACHE-TEST_CONTEXTv-2	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+GROUP_CACHE-TEST_CONTEXTv3	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(3)']
+admin	<> Errors detected while loading Table Group: testContext(3). Ignoring the following errors: 
+|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'FESupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'FESupervisorTable' ...|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'DataManagerSupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'DataManagerSupervisorTable' ...|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'VisualSupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'DataManagerSupervisorTable' ...
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisor
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(3)']
+admin	<> Ignoring warnings while loading and activating group 'TableEditWizBackbone(4)'
+TableBase-GroupCache_TableEditWizBackbone	<> TableBase for 'GroupCache_TableEditWizBackbone' constructed.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv-2	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv4	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+admin	<> Ignoring that groupMetadataTable_ is missing for group 'TableEditWizBackbone(4). Going with anonymous defaults.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+admin	<> Ignoring warnings while loading and activating group 'defaultConfig(2)'
+TableBase-GroupCache_defaultConfig	<> TableBase for 'GroupCache_defaultConfig' constructed.
+GROUP_CACHE-DEFAULT_CONFIGv-2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+GROUP_CACHE-DEFAULT_CONFIGv2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(2)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(2)']
+admin	<> ======================================================== getAllTableInfo end runtime=0.478447
+ConfigurationGUISupervisor:280	<> Using active groups.
+ConfigurationGUISupervisor:280	<> FSM,Chat,Logbook,Visualizer,ConfigureGUI,FESubConfigGUI,DPSubConfigGUI,MacroMaker,ControlsDashboard,NOvALog,DBUtilities,Console,FEMacroTest,SmartLaunch,SystemDiagram
+ConfigurationGUISupervisor:280	<> recordList FSM
+ConfigurationGUISupervisor:280	<> recordList Chat
+ConfigurationGUISupervisor:280	<> recordList Logbook
+ConfigurationGUISupervisor:280	<> recordList Visualizer
+ConfigurationGUISupervisor:280	<> recordList ConfigureGUI
+ConfigurationGUISupervisor:280	<> recordList FESubConfigGUI
+ConfigurationGUISupervisor:280	<> recordList DPSubConfigGUI
+ConfigurationGUISupervisor:280	<> recordList MacroMaker
+ConfigurationGUISupervisor:280	<> recordList ControlsDashboard
+ConfigurationGUISupervisor:280	<> recordList NOvALog
+ConfigurationGUISupervisor:280	<> recordList DBUtilities
+ConfigurationGUISupervisor:280	<> recordList Console
+ConfigurationGUISupervisor:280	<> recordList FEMacroTest
+ConfigurationGUISupervisor:280	<> recordList SmartLaunch
+ConfigurationGUISupervisor:280	<> recordList SystemDiagram
+ConfigurationGUISupervisor:280	<> fieldList = Status,ForceOnlyOneInstance,RequiredPermissionLevel
+ConfigurationGUISupervisor:280	<> StringMacros::vectorToString(fieldsToGet) = Status, ForceOnlyOneInstance, RequiredPermissionLevel
+ConfigurationGUISupervisor:280	<> field = Status
+ConfigurationGUISupervisor:280	<> uniqueValue Off
+ConfigurationGUISupervisor:280	<> uniqueValue On
+ConfigurationGUISupervisor:280	<> field = ForceOnlyOneInstance
+ConfigurationGUISupervisor:280	<> uniqueValue False
+ConfigurationGUISupervisor:280	<> uniqueValue True
+ConfigurationGUISupervisor:280	<> field = RequiredPermissionLevel
+ConfigurationGUISupervisor:280	<> uniqueValue 1
+ConfigurationGUISupervisor:280	<> uniqueValue 10
+ConfigurationGUISupervisor:280	<> uniqueValue 255
+ConfigurationGUISupervisor:280	<> requestType: getTreeNodeCommonFields
+ConfigurationGUISupervisor:280	<> tableGroup: 
+ConfigurationGUISupervisor:280	<> tableGroupKey: -1
+ConfigurationGUISupervisor:280	<> startPath: /DesktopIconTable
+ConfigurationGUISupervisor:280	<> depth: -1
+ConfigurationGUISupervisor:280	<> fieldList: 
+ConfigurationGUISupervisor:280	<> recordList: FSM,Chat,Logbook,Visualizer,ConfigureGUI,FESubConfigGUI,DPSubConfigGUI,MacroMaker,ControlsDashboard,NOvALog,DBUtilities,Console,FEMacroTest,SmartLaunch,SystemDiagram
+ConfigurationGUISupervisor:280	<> modifiedTables: 
+ConfigurationGUISupervisor:280	<> Refreshing all table info, ignoring warnings...
+admin	<> ======================================================== getAllTableInfo start runtime=0.537227
+admin	<> Refreshing all! Extracting list of tables...
+admin	<> Extracting list of tables complete.
+admin	<> Now initializing...
+admin	<> username_ = admin
+admin	<> Destroying Configuration Key: 2
+admin	<> Destroying Backbone Key: 4
+admin	<> Destroying Context Key: 3
+admin	<> ACTIVE_GROUPS_FILENAME = /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/ActiveTableGroups.cfg
+admin	<> ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitDatabases/filesystemdb/test_db
+admin	<> Ignoring warnings while loading and activating group 'testContext(3)'
+TableBase-GroupCache_testContext	<> TableBase for 'GroupCache_testContext' constructed.
+GROUP_CACHE-TEST_CONTEXTv-2	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+GROUP_CACHE-TEST_CONTEXTv3	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(3)']
+admin	<> Errors detected while loading Table Group: testContext(3). Ignoring the following errors: 
+|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'FESupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'FESupervisorTable' ...|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'DataManagerSupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'DataManagerSupervisorTable' ...|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'VisualSupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'DataManagerSupervisorTable' ...
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisor
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(3)']
+admin	<> Ignoring warnings while loading and activating group 'TableEditWizBackbone(4)'
+TableBase-GroupCache_TableEditWizBackbone	<> TableBase for 'GroupCache_TableEditWizBackbone' constructed.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv-2	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv4	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+admin	<> Ignoring that groupMetadataTable_ is missing for group 'TableEditWizBackbone(4). Going with anonymous defaults.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+admin	<> Ignoring warnings while loading and activating group 'defaultConfig(2)'
+TableBase-GroupCache_defaultConfig	<> TableBase for 'GroupCache_defaultConfig' constructed.
+GROUP_CACHE-DEFAULT_CONFIGv-2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+GROUP_CACHE-DEFAULT_CONFIGv2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(2)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(2)']
+admin	<> ======================================================== getAllTableInfo end runtime=0.677204
+ConfigurationGUISupervisor:280	<> Using active groups.
+ConfigurationGUISupervisor:280	<> FSM,Chat,Logbook,Visualizer,ConfigureGUI,FESubConfigGUI,DPSubConfigGUI,MacroMaker,ControlsDashboard,NOvALog,DBUtilities,Console,FEMacroTest,SmartLaunch,SystemDiagram
+ConfigurationGUISupervisor:280	<> recordList FSM
+ConfigurationGUISupervisor:280	<> recordList Chat
+ConfigurationGUISupervisor:280	<> recordList Logbook
+ConfigurationGUISupervisor:280	<> recordList Visualizer
+ConfigurationGUISupervisor:280	<> recordList ConfigureGUI
+ConfigurationGUISupervisor:280	<> recordList FESubConfigGUI
+ConfigurationGUISupervisor:280	<> recordList DPSubConfigGUI
+ConfigurationGUISupervisor:280	<> recordList MacroMaker
+ConfigurationGUISupervisor:280	<> recordList ControlsDashboard
+ConfigurationGUISupervisor:280	<> recordList NOvALog
+ConfigurationGUISupervisor:280	<> recordList DBUtilities
+ConfigurationGUISupervisor:280	<> recordList Console
+ConfigurationGUISupervisor:280	<> recordList FEMacroTest
+ConfigurationGUISupervisor:280	<> recordList SmartLaunch
+ConfigurationGUISupervisor:280	<> recordList SystemDiagram
+======================= check for count = 15
+Checking Status = 15
+Checking Caption = 15
+Checking AlternateText = 15
+Checking ForceOnlyOneInstance = 15
+Checking RequiredPermissionLevel = 15
+Checking ImageURL = 15
+Checking WindowContentURL = 15
+Checking LinkToApplicationTable = 15
+Checking LinkToApplicationUID = 15
+Checking LinkToParameterTable = 15
+Checking LinkToParameterGroupID = 15
+Checking FolderPath = 15
+Checking CommentDescription = 15
+Final Status
+Final Caption
+Final AlternateText
+Final ForceOnlyOneInstance
+Final RequiredPermissionLevel
+Final ImageURL
+Final WindowContentURL
+Final LinkToApplicationTable
+Final LinkToApplicationUID
+Final LinkToParameterTable
+Final LinkToParameterGroupID
+Final FolderPath
+Final CommentDescription
+ConfigurationGUISupervisor:280	<> requestType: getTreeView
+TableBase-TableGroupMetadata	<> Special table 'TableGroupMetadata' constructed. 1
+READONLY_USER	<> runTimeSeconds() = 3.8631e-05
+READONLY_USER	<> runTimeSeconds() = 7.1994e-05
+READONLY_USER	<> runTimeSeconds() = 0.000230703
+READONLY_USER	<> runTimeSeconds() = 0.000265347
+READONLY_USER	<> Private constructor for write access called.
+TreeDiff	<> Instantiating Config Manager with Write Access! (for TreeDiff) time=1718054855 runTimeSeconds()=0.000312116
+TreeDiff	<> runTimeSeconds() = 0.000349067
+ConfigurationGUISupervisor:280	<> Refreshing all table info, ignoring warnings...
+admin	<> ======================================================== getAllTableInfo start runtime=0.68924
+admin	<> Refreshing all! Extracting list of tables...
+admin	<> Extracting list of tables complete.
+admin	<> Now initializing...
+admin	<> username_ = admin
+admin	<> Destroying Configuration Key: 2
+admin	<> Destroying Backbone Key: 4
+admin	<> Destroying Context Key: 3
+admin	<> ACTIVE_GROUPS_FILENAME = /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/ActiveTableGroups.cfg
+admin	<> ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitDatabases/filesystemdb/test_db
+admin	<> Ignoring warnings while loading and activating group 'testContext(3)'
+TableBase-GroupCache_testContext	<> TableBase for 'GroupCache_testContext' constructed.
+GROUP_CACHE-TEST_CONTEXTv-2	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+GROUP_CACHE-TEST_CONTEXTv3	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(3)']
+admin	<> Errors detected while loading Table Group: testContext(3). Ignoring the following errors: 
+|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'FESupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'FESupervisorTable' ...|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'DataManagerSupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'DataManagerSupervisorTable' ...|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'VisualSupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'DataManagerSupervisorTable' ...
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisor
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(3)']
+admin	<> Ignoring warnings while loading and activating group 'TableEditWizBackbone(4)'
+TableBase-GroupCache_TableEditWizBackbone	<> TableBase for 'GroupCache_TableEditWizBackbone' constructed.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv-2	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv4	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+admin	<> Ignoring that groupMetadataTable_ is missing for group 'TableEditWizBackbone(4). Going with anonymous defaults.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+admin	<> Ignoring warnings while loading and activating group 'defaultConfig(2)'
+TableBase-GroupCache_defaultConfig	<> TableBase for 'GroupCache_defaultConfig' constructed.
+GROUP_CACHE-DEFAULT_CONFIGv-2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+GROUP_CACHE-DEFAULT_CONFIGv2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(2)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(2)']
+admin	<> ======================================================== getAllTableInfo end runtime=0.830122
+ConfigurationGUISupervisor:280	<> Using active groups.
+StringMacros::mapToString(filterMap) = 
+ConfigurationGUISupervisor:280	<> requestType: getTreeNodeCommonFields
+ConfigurationGUISupervisor:280	<> tableGroup: 
+ConfigurationGUISupervisor:280	<> tableGroupKey: -1
+ConfigurationGUISupervisor:280	<> startPath: /DesktopIconTable
+ConfigurationGUISupervisor:280	<> depth: -1
+ConfigurationGUISupervisor:280	<> fieldList: 
+ConfigurationGUISupervisor:280	<> recordList: FSM,Chat,Logbook,Visualizer,ConfigureGUI,FESubConfigGUI,DPSubConfigGUI,MacroMaker,ControlsDashboard,NOvALog,DBUtilities,Console,FEMacroTest,SmartLaunch,SystemDiagram
+ConfigurationGUISupervisor:280	<> modifiedTables: 
+ConfigurationGUISupervisor:280	<> Refreshing all table info, ignoring warnings...
+admin	<> ======================================================== getAllTableInfo start runtime=0.8476
+admin	<> Refreshing all! Extracting list of tables...
+admin	<> Extracting list of tables complete.
+admin	<> Now initializing...
+admin	<> username_ = admin
+admin	<> Destroying Configuration Key: 2
+admin	<> Destroying Backbone Key: 4
+admin	<> Destroying Context Key: 3
+admin	<> ACTIVE_GROUPS_FILENAME = /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/ActiveTableGroups.cfg
+admin	<> ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitDatabases/filesystemdb/test_db
+admin	<> Ignoring warnings while loading and activating group 'testContext(3)'
+TableBase-GroupCache_testContext	<> TableBase for 'GroupCache_testContext' constructed.
+GROUP_CACHE-TEST_CONTEXTv-2	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+GROUP_CACHE-TEST_CONTEXTv3	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(3)']
+admin	<> Errors detected while loading Table Group: testContext(3). Ignoring the following errors: 
+|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'FESupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'FESupervisorTable' ...|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'DataManagerSupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'DataManagerSupervisorTable' ...|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'VisualSupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'DataManagerSupervisorTable' ...
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisor
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(3)']
+admin	<> Ignoring warnings while loading and activating group 'TableEditWizBackbone(4)'
+TableBase-GroupCache_TableEditWizBackbone	<> TableBase for 'GroupCache_TableEditWizBackbone' constructed.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv-2	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv4	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+admin	<> Ignoring that groupMetadataTable_ is missing for group 'TableEditWizBackbone(4). Going with anonymous defaults.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+admin	<> Ignoring warnings while loading and activating group 'defaultConfig(2)'
+TableBase-GroupCache_defaultConfig	<> TableBase for 'GroupCache_defaultConfig' constructed.
+GROUP_CACHE-DEFAULT_CONFIGv-2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+GROUP_CACHE-DEFAULT_CONFIGv2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(2)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(2)']
+admin	<> ======================================================== getAllTableInfo end runtime=0.986193
+ConfigurationGUISupervisor:280	<> Using active groups.
+ConfigurationGUISupervisor:280	<> FSM,Chat,Logbook,Visualizer,ConfigureGUI,FESubConfigGUI,DPSubConfigGUI,MacroMaker,ControlsDashboard,NOvALog,DBUtilities,Console,FEMacroTest,SmartLaunch,SystemDiagram
+ConfigurationGUISupervisor:280	<> recordList FSM
+ConfigurationGUISupervisor:280	<> recordList Chat
+ConfigurationGUISupervisor:280	<> recordList Logbook
+ConfigurationGUISupervisor:280	<> recordList Visualizer
+ConfigurationGUISupervisor:280	<> recordList ConfigureGUI
+ConfigurationGUISupervisor:280	<> recordList FESubConfigGUI
+ConfigurationGUISupervisor:280	<> recordList DPSubConfigGUI
+ConfigurationGUISupervisor:280	<> recordList MacroMaker
+ConfigurationGUISupervisor:280	<> recordList ControlsDashboard
+ConfigurationGUISupervisor:280	<> recordList NOvALog
+ConfigurationGUISupervisor:280	<> recordList DBUtilities
+ConfigurationGUISupervisor:280	<> recordList Console
+ConfigurationGUISupervisor:280	<> recordList FEMacroTest
+ConfigurationGUISupervisor:280	<> recordList SmartLaunch
+ConfigurationGUISupervisor:280	<> recordList SystemDiagram
+======================= check for count = 15
+Checking Status = 15
+Checking Caption = 15
+Checking AlternateText = 15
+Checking ForceOnlyOneInstance = 15
+Checking RequiredPermissionLevel = 15
+Checking ImageURL = 15
+Checking WindowContentURL = 15
+Checking LinkToApplicationTable = 15
+Checking LinkToApplicationUID = 15
+Checking LinkToParameterTable = 15
+Checking LinkToParameterGroupID = 15
+Checking FolderPath = 15
+Checking CommentDescription = 15
+Final Status
+Final Caption
+Final AlternateText
+Final ForceOnlyOneInstance
+Final RequiredPermissionLevel
+Final ImageURL
+Final WindowContentURL
+Final LinkToApplicationTable
+Final LinkToApplicationUID
+Final LinkToParameterTable
+Final LinkToParameterGroupID
+Final FolderPath
+Final CommentDescription
+ConfigurationGUISupervisor:280	<> requestType: getTreeNodeFieldValues
+ConfigurationGUISupervisor:280	<> tableGroup: 
+ConfigurationGUISupervisor:280	<> tableGroupKey: -1
+ConfigurationGUISupervisor:280	<> startPath: /DesktopIconTable
+ConfigurationGUISupervisor:280	<> fieldList: Status,Caption,AlternateText,ForceOnlyOneInstance,RequiredPermissionLevel,ImageURL,WindowContentURL,LinkToApplicationTable,LinkToApplicationUID,LinkToParameterTable,LinkToParameterGroupID,FolderPath,CommentDescription
+ConfigurationGUISupervisor:280	<> recordList: FSM
+ConfigurationGUISupervisor:280	<> modifiedTables: 
+ConfigurationGUISupervisor:280	<> Refreshing all table info, ignoring warnings...
+admin	<> ======================================================== getAllTableInfo start runtime=1.04844
+admin	<> Refreshing all! Extracting list of tables...
+admin	<> Extracting list of tables complete.
+admin	<> Now initializing...
+admin	<> username_ = admin
+admin	<> Destroying Configuration Key: 2
+admin	<> Destroying Backbone Key: 4
+admin	<> Destroying Context Key: 3
+admin	<> ACTIVE_GROUPS_FILENAME = /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/ActiveTableGroups.cfg
+admin	<> ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitDatabases/filesystemdb/test_db
+admin	<> Ignoring warnings while loading and activating group 'testContext(3)'
+TableBase-GroupCache_testContext	<> TableBase for 'GroupCache_testContext' constructed.
+GROUP_CACHE-TEST_CONTEXTv-2	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+GROUP_CACHE-TEST_CONTEXTv3	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(3)']
+admin	<> Errors detected while loading Table Group: testContext(3). Ignoring the following errors: 
+|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'FESupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'FESupervisorTable' ...|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'DataManagerSupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'DataManagerSupervisorTable' ...|ConfigurationManager: /scratch/workspace/otsdaq-release-build/SLF7/s128-e20-prof/build/otsdaq/v2_08_00-buildFW/src/otsdaq/ConfigurationInterface/ConfigurationManager.cc:2630 |	At node 'XDAQApplicationTable' with entry UID 'VisualSupervisor' there is a disconnected child node at link column 'LinkToSupervisorTable' that points to table named 'DataManagerSupervisorTable' ...
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisor
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(3)']
+admin	<> Ignoring warnings while loading and activating group 'TableEditWizBackbone(4)'
+TableBase-GroupCache_TableEditWizBackbone	<> TableBase for 'GroupCache_TableEditWizBackbone' constructed.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv-2	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv4	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+admin	<> Ignoring that groupMetadataTable_ is missing for group 'TableEditWizBackbone(4). Going with anonymous defaults.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+admin	<> Ignoring warnings while loading and activating group 'defaultConfig(2)'
+TableBase-GroupCache_defaultConfig	<> TableBase for 'GroupCache_defaultConfig' constructed.
+GROUP_CACHE-DEFAULT_CONFIGv-2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+GROUP_CACHE-DEFAULT_CONFIGv2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+admin	<> ------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(2)']
+admin	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+admin	<> ------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(2)']
+admin	<> ======================================================== getAllTableInfo end runtime=1.19044
+ConfigurationGUISupervisor:280	<> Using active groups.
+ConfigurationGUISupervisor:280	<> Status,Caption,AlternateText,ForceOnlyOneInstance,RequiredPermissionLevel,ImageURL,WindowContentURL,LinkToApplicationTable,LinkToApplicationUID,LinkToParameterTable,LinkToParameterGroupID,FolderPath,CommentDescription
+ConfigurationGUISupervisor:280	<> recordUID FSM
+Console is alive and waiting... (if no messages, next heartbeat is in two minutes)
+Console is alive and waiting... (if no messages, next heartbeat is in two minutes)
+Console is alive and waiting... (if no messages, next heartbeat is in two minutes)
+Console is alive and waiting... (if no messages, next heartbeat is in two minutes)
+Console is alive and waiting... (if no messages, next heartbeat is in two minutes)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)
+Console is alive and waiting a long time... (if no messages, next heartbeat is in one hour)

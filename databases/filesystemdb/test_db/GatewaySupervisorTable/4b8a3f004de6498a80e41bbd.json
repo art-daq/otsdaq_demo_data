@@ -1,0 +1,129 @@
+{
+"document" : {
+"data" : {
+"NAME" : "GATEWAY_SUPERVISOR_TABLE",
+"COMMENT" : "",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1718120519,
+"COL_TYPES" : {
+"SUPERVISOR_UID" : "STRING",
+"NUMBER_OF_STATE_MACHINE_BROADCAST_THREADS" : "NUMBER",
+"LINK_TO_STATE_MACHINE_TABLE" : "STRING",
+"STATE_MACHINE_GROUP_ID" : "STRING",
+"ENABLE_APPLICATION_STATUS_MONITORING" : "STRING",
+"ENABLE_STATE_CHANGES_OVER_UDP" : "STRING",
+"IP_ADDRESS_FOR_STATE_CHANGES_OVER_UDP" : "STRING",
+"PORT_FOR_STATE_CHANGES_OVER_UDP" : "NUMBER",
+"ENABLE_ACK_FOR_STATE_CHANGES_OVER_UDP" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2024-06-11T10:41:59.591-0500",
+"rawdata" : [
+
+]
+},
+"version" : "4",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2024-06-11T10:41:59.591-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2024-06-11T10:41:59.591-0500"
+},
+{
+"name" : "testContext_v5",
+"assigned" : "2024-06-11T10:42:30.925-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2024-06-11T10:41:59.591-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2024-06-11T10:41:59.591-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2024-06-11T10:41:59.591-0500",
+"value" : {
+"name" : "4",
+"assigned" : "2024-06-11T10:41:59.591-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2024-06-11T10:41:59.591-0500",
+"value" : {
+"name" : "GatewaySupervisorTable",
+"assigned" : "2024-06-11T10:41:59.591-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2024-06-11T10:41:59.591-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2024-06-11T10:41:59.591-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2024-06-11T10:42:30.925-0500",
+"value" : {
+"name" : "testContext_v5",
+"assigned" : "2024-06-11T10:42:30.925-0500"
+}
+}
+],
+"created" : "2024-06-11T10:41:59.591-0500"
+},
+"_id" : {
+"$oid" : "4b8a3f004de6498a80e41bbd"
+},
+"collection" : "GatewaySupervisorTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

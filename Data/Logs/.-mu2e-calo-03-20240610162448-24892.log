@@ -1,0 +1,158 @@
+%MSG-i configureMessageFacility:  Early 10-Jun-2024 16:24:48 CDT pre-events configureMessageFacility.cc:287
+Message Facility Application . configured with: destinations:{console:{filename_delimit:"/srcs/" format_string:"|%L:%N:%f [%u]\t%m" threshold:"DEBUG" type:"OTS"} file:{append:false directory:"/home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/Logs/." pattern:".-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:32015 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i _TCPConnect:  Early 10-Jun-2024 16:24:48 CDT pre-events TCPConnect.cc:345
+Resolving host 127.0.0.1, on port 32015
+%MSG
+%MSG-i _TCPConnect:  Early 10-Jun-2024 16:24:48 CDT pre-events TCPConnect.cc:372
+Host resolved as 127.0.0.1
+%MSG
+%MSG-i _TCPConnect:  Early 10-Jun-2024 16:24:48 CDT pre-events TCPConnect.cc:248
+Resolving ip mu2e-calo-03.fnal.gov
+%MSG
+/home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/LoginData/HashesData//hashes.xml
+0 Hashes found.
+Users database: /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/LoginData/UsersData//users.xml
+Found Users database next user Id: 1
+1 Users found.
+The current security type is NoSecurity
+CareAboutCookieCodes_: 0
+/home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/LoginData/UsersData//activeSessions.sv
+Persistent active sessions were not found to be loaded at file: /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/LoginData/UsersData//activeSessions.sv
+Attempting to load username with lock: admin
+Setting lock
+actingUser = admin
+Permissions: allUsers: 255
+usersUsernameWithLock_ = 
+lock = 1
+username = admin
+isUsernameActive(username) = 0
+User 'admin' has locked out the system!
+Done with Web Users initialization!
+ConfigurationGUISupervisor:UNINITIALIZED_supervisorApplicationUID	<> application->getApplicationContext()->getContextDescriptor()->getURL() = http://mu2e-calo-03.fnal.gov:2015
+ConfigurationGUISupervisor:UNINITIALIZED_supervisorApplicationUID	<> application->getApplicationDescriptor()->getLocalId() = 280
+ConfigurationGUISupervisor:UNINITIALIZED_supervisorApplicationUID	<> supervisorClass_ = ots::ConfigurationGUISupervisor
+ConfigurationGUISupervisor:UNINITIALIZED_supervisorApplicationUID	<> supervisorClassNoNamespace_ = ConfigurationGUISupervisor
+Initializing info based on XDAQ context...
+Init
+Initializing info for Wiz mode XDAQ context...
+The TRACE-controller app for hostname 'mu2e-calo-03.fnal.gov' is CLASS:LID = ots::CodeEditorSupervisor:240 name = LID-240
+TRACE-controller app count = 1
+Supervisor Info initialization complete!
+ConfigurationGUISupervisor:UNINITIALIZED_supervisorApplicationUID	<> Wiz mode detected. So skipping configuration location work for supervisor of class 'ots::ConfigurationGUISupervisor'
+ConfigurationGUISupervisor:280	<> CorePropertySupervisorBase::supervisorContextUID_ = NO CONTEXT ID IN WIZ MODE
+ConfigurationGUISupervisor:280	<> CorePropertySupervisorBase::supervisorApplicationUID_ = 280
+ConfigurationGUISupervisor:280	<> CorePropertySupervisorBase::supervisorConfigurationPath_ = NO APP PATH IN WIZ MODE
+FSM-ConfigurationGUISupervisor	<> Constructing FiniteStateMachine
+FSM-ConfigurationGUISupervisor	<> Resetting RunControlStateMachine with name 'ConfigurationGUISupervisor'...
+Request name: StateMachine jobName: StateMachine
+ConfigurationGUISupervisor:280	<> Constructor.
+ConfigurationGUISupervisor:280	<> Constructed.
+ConfigurationGUISupervisor:280	<> Constructor started.
+ConfigurationGUISupervisor:280	<> Initializing...
+ConfigurationGUISupervisor:280	<> Activating saved context, which may prepare for normal mode...
+ConfigurationGUISupervisor:280	<> Attempting test activation of the context group.
+TableBase-TableGroupMetadata	<> Special table 'TableGroupMetadata' constructed. 1
+READONLY_USER	<> runTimeSeconds() = 0.000498554
+IS_FILESYSTEM_DB = 1
+READONLY_USER	<> runTimeSeconds() = 0.0390931
+READONLY_USER	<> runTimeSeconds() = 0.0398148
+READONLY_USER	<> username_ = READONLY_USER
+READONLY_USER	<> ACTIVE_GROUPS_FILENAME = /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/ActiveTableGroups.cfg
+READONLY_USER	<> ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitDatabases/filesystemdb/test_db
+TableBase-GroupCache_testContext	<> TableBase for 'GroupCache_testContext' constructed.
+GROUP_CACHE-TEST_CONTEXTv-2	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+GROUP_CACHE-TEST_CONTEXTv3	<> TableView copy for 'GROUP_CACHE-TEST_CONTEXT' done.
+READONLY_USER	<> ------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(3)']
+READONLY_USER	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisor
+READONLY_USER	<> ------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(3)']
+TableBase-GroupCache_TableEditWizBackbone	<> TableBase for 'GroupCache_TableEditWizBackbone' constructed.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv-2	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONEv4	<> TableView copy for 'GROUP_CACHE-TABLE_EDIT_WIZ_BACKBONE' done.
+READONLY_USER	<> Ignoring that groupMetadataTable_ is missing for group 'TableEditWizBackbone(4). Going with anonymous defaults.
+READONLY_USER	<> ------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+READONLY_USER	<>  PROCESSOR_COUNT 28 ==> 14 threads for initializing tables.
+READONLY_USER	<> ------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(4)']
+TableBase-GroupCache_defaultConfig	<> TableBase for 'GroupCache_defaultConfig' constructed.
+GROUP_CACHE-DEFAULT_CONFIGv-2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+GROUP_CACHE-DEFAULT_CONFIGv2	<> TableView copy for 'GROUP_CACHE-DEFAULT_CONFIG' done.
+READONLY_USER	<> Not loading group because it is not of type Context or Backbone (it is type 'Configuration').
+READONLY_USER	<> runTimeSeconds() = 0.123794
+READONLY_USER	<> Destroying Backbone Key: 4
+READONLY_USER	<> Destroying Context Key: 3
+ConfigurationGUISupervisor:280	<> Done with test context.
+ConfigurationGUISupervisor:280	<> Constructor complete.
+Constructor.
+Initializing info based on XDAQ context...
+Init
+Initializing info for Wiz mode XDAQ context...
+The TRACE-controller app for hostname 'mu2e-calo-03.fnal.gov' is CLASS:LID = ots::CodeEditorSupervisor:240 name = LID-240
+TRACE-controller app count = 1
+Supervisor Info initialization complete!
+(Reverting to default wiz security) Sequence length file NOT found: /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/ServiceData/OtsWizardData/sequence.dat
+Sequence length = 4
+mu2e-calo-03.fnal.gov:2015/urn:xdaq-application:lid=290/Verify?code=fa37
+Marked alive: /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/Logs/otsdaq_is_alive-wiz-0.dat
+Constructed.
+ConsoleSupervisor:UNINITIALIZED_supervisorApplicationUID	<> application->getApplicationContext()->getContextDescriptor()->getURL() = http://mu2e-calo-03.fnal.gov:2015
+ConsoleSupervisor:UNINITIALIZED_supervisorApplicationUID	<> application->getApplicationDescriptor()->getLocalId() = 260
+ConsoleSupervisor:UNINITIALIZED_supervisorApplicationUID	<> supervisorClass_ = ots::ConsoleSupervisor
+ConsoleSupervisor:UNINITIALIZED_supervisorApplicationUID	<> supervisorClassNoNamespace_ = ConsoleSupervisor
+Initializing info based on XDAQ context...
+Init
+Initializing info for Wiz mode XDAQ context...
+The TRACE-controller app for hostname 'mu2e-calo-03.fnal.gov' is CLASS:LID = ots::CodeEditorSupervisor:240 name = LID-240
+TRACE-controller app count = 1
+Supervisor Info initialization complete!
+ConsoleSupervisor:UNINITIALIZED_supervisorApplicationUID	<> Wiz mode detected. So skipping configuration location work for supervisor of class 'ots::ConsoleSupervisor'
+ConsoleSupervisor:260	<> CorePropertySupervisorBase::supervisorContextUID_ = NO CONTEXT ID IN WIZ MODE
+ConsoleSupervisor:260	<> CorePropertySupervisorBase::supervisorApplicationUID_ = 260
+ConsoleSupervisor:260	<> CorePropertySupervisorBase::supervisorConfigurationPath_ = NO APP PATH IN WIZ MODE
+FSM-ConsoleSupervisor	<> Constructing FiniteStateMachine
+FSM-ConsoleSupervisor	<> Resetting RunControlStateMachine with name 'ConsoleSupervisor'...
+Request name: StateMachine jobName: StateMachine
+ConsoleSupervisor:260	<> Constructor.
+ConsoleSupervisor:260	<> Constructed.
+ConsoleSupervisor:260	<> Constructor started.
+ConsoleSupervisor:260	<> Constructor complete.
+Starting workloop based on config file: /home/mu2edaq/otsdaq_demo/srcs/otsdaq_demo/NoGitData/MessageFacilityConfigurations/QuietForwarder.cfg
+CodeEditorSupervisor:UNINITIALIZED_supervisorApplicationUID	<> application->getApplicationContext()->getContextDescriptor()->getURL() = http://mu2e-calo-03.fnal.gov:2015
+CodeEditorSupervisor:UNINITIALIZED_supervisorApplicationUID	<> application->getApplicationDescriptor()->getLocalId() = 240
+CodeEditorSupervisor:UNINITIALIZED_supervisorApplicationUID	<> supervisorClass_ = ots::CodeEditorSupervisor
+CodeEditorSupervisor:UNINITIALIZED_supervisorApplicationUID	<> supervisorClassNoNamespace_ = CodeEditorSupervisor
+Initializing info based on XDAQ context...
+Init
+Initializing info for Wiz mode XDAQ context...
+The TRACE-controller app for hostname 'mu2e-calo-03.fnal.gov' is CLASS:LID = ots::CodeEditorSupervisor:240 name = LID-240
+TRACE-controller app count = 1
+Supervisor Info initialization complete!
+Socket constructor 127.0.0.1:32016
+CodeEditorSupervisor:UNINITIALIZED_supervisorApplicationUID	<> Wiz mode detected. So skipping configuration location work for supervisor of class 'ots::CodeEditorSupervisor'
+IPAddress: 127.0.0.1 port: 32016 htons: 4221
+CodeEditorSupervisor:240	<> CorePropertySupervisorBase::supervisorContextUID_ = NO CONTEXT ID IN WIZ MODE
+Constructed socket for port 32016=32016 htons: 4221
+CodeEditorSupervisor:240	<> CorePropertySupervisorBase::supervisorApplicationUID_ = 240
+CodeEditorSupervisor:240	<> CorePropertySupervisorBase::supervisorConfigurationPath_ = NO APP PATH IN WIZ MODE
+FSM-CodeEditorSupervisor	<> Constructing FiniteStateMachine
+ReceiverSocket constructor 127.0.0.1:32016
+Initializing port 32016 htons: 4221
+]	Binding port: 32016
+]	Socket Number: 8 for port: 32016 initialized.
+:):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):)
+:):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):)
+FSM-CodeEditorSupervisor	<> Resetting RunControlStateMachine with name 'CodeEditorSupervisor'...
+SOCKET ON PORT: 32016 ON IP: 127.0.0.1 INITIALIZED OK!
+Request name: StateMachine jobName: StateMachine
+:):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):)
+CodeEditorSupervisor:240	<> Constructor.
+:):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):)
+CodeEditorSupervisor:240	<> Constructed.
+]	Socket Number: 8 for port: 32016 initialized.
+Setting socket receive buffer size = 20971520 0x1400000
+DEBUG messages look like this.
+Console has first message.
+INFO messages look like this.
+WARNING messages look like this.
+ERROR messages look like this.
+CodeEditorSupervisor:240	<> Constructed.

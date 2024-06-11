@@ -3,19 +3,19 @@
               xmlns:soapenc = "http://schemas.xmlsoap.org/soap/encoding/" 
               xmlns:xc      = "http://xdaq.web.cern.ch/xdaq/xsd/2004/XMLConfiguration-30">
 
-  <xc:Context id="0" url="http://localhost:2015">
+  <xc:Context id="0" url="http://mu2e-calo-03.fnal.gov:2015">
+
+    <xc:Application class="ots::WizardSupervisor" id="290" icon="/WebPath/images/otsdaqIcons/logo_square.png" icon16x16="/WebPath/images/otsdaqIcons/favicon-16x16.png" instance="1" network="local" group="daq"/>
+    <xc:Module>/cvmfs/fermilab.opensciencegrid.org/products/artdaq/otsdaq/v2_08_00/slf7.x86_64.e20.s128.prof/lib/libWizardSupervisor.so</xc:Module>
 
     <xc:Application class="ots::ConfigurationGUISupervisor" id="280" instance="1" network="local" group="daq"/>
-    <xc:Module>build_slf7.x86_64/otsdaq_utilities/lib/libConfigurationGUI.so</xc:Module>
-
-    <xc:Application class="ots::WizardSupervisor" id="290" instance="1" network="local" group="daq"/>
-    <xc:Module>build_slf7.x86_64/otsdaq/lib/libWizardSupervisor.so</xc:Module>
+    <xc:Module>/cvmfs/fermilab.opensciencegrid.org/products/artdaq/otsdaq_utilities/v2_08_00/slf7.x86_64.e20.s128.prof/lib/libConfigurationGUI.so</xc:Module>
 
     <xc:Application class="ots::ConsoleSupervisor" id="260" instance="1" network="local" group="daq"/>
-    <xc:Module>build_slf7.x86_64/otsdaq_utilities/lib/libConsole.so</xc:Module>
+    <xc:Module>/cvmfs/fermilab.opensciencegrid.org/products/artdaq/otsdaq_utilities/v2_08_00/slf7.x86_64.e20.s128.prof/lib/libConsole.so</xc:Module>
 
     <xc:Application class="ots::CodeEditorSupervisor" id="240" instance="1" network="local" group="daq"/>
-    <xc:Module>build_slf7.x86_64/otsdaq/lib/libCodeEditor.so</xc:Module>
+    <xc:Module>/cvmfs/fermilab.opensciencegrid.org/products/artdaq/otsdaq/v2_08_00/slf7.x86_64.e20.s128.prof/lib/libCodeEditor.so</xc:Module>
     
   </xc:Context>
 

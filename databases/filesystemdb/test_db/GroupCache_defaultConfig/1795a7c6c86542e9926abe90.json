@@ -1,0 +1,108 @@
+{
+"document" : {
+"data" : {
+"DQMHistosConsumerTable" : "2",
+"DataBufferTable" : "2",
+"DataManagerSupervisorTable" : "2",
+"DataProcessorTable" : "2",
+"FEInterfaceTable" : "2",
+"FEOtsUDPTemplateInterfaceTable" : "2",
+"FESlowControlsTable" : "2",
+"FESupervisorTable" : "2",
+"RawDataSaverConsumerTable" : "2",
+"TableGroupMetadata" : "2",
+"UDPDataListenerProducerTable" : "2",
+"UDPDataStreamerConsumerTable" : "2"
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2024-06-10T16:05:01.852-0500",
+"rawdata" : [
+
+]
+},
+"version" : "2",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2024-06-10T16:05:01.852-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2024-06-10T16:05:01.852-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2024-06-10T16:05:01.852-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2024-06-10T16:05:01.852-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2024-06-10T16:05:01.852-0500",
+"value" : {
+"name" : "2",
+"assigned" : "2024-06-10T16:05:01.852-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2024-06-10T16:05:01.852-0500",
+"value" : {
+"name" : "GroupCache_defaultConfig",
+"assigned" : "2024-06-10T16:05:01.852-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2024-06-10T16:05:01.852-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2024-06-10T16:05:01.852-0500"
+}
+}
+],
+"created" : "2024-06-10T16:05:01.852-0500"
+},
+"_id" : {
+"$oid" : "1795a7c6c86542e9926abe90"
+},
+"collection" : "GroupCache_defaultConfig",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}
