@@ -70,7 +70,7 @@
 "DATA_PROCESSOR_GROUP_ID" : "DBGroup1",
 "PROCESSOR_UID" : "DB1Consumer1",
 "PROCESSOR_TYPE" : "Consumer",
-"PROCESSOR_PLUGIN_NAME" : "DemoDQMHistosConsumer",
+"PROCESSOR_PLUGIN_NAME" : "RawDataVisualizerConsumer",
 "LINK_TO_PROCESSOR_TABLE" : "DQMHistosConsumerTable",
 "LINK_TO_PROCESSOR_UID" : "DQMHistos0",
 "STATUS" : "On",

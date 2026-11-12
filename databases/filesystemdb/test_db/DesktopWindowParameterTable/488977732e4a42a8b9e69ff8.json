@@ -17,6 +17,16 @@
 },
 "DATA_SET" : [
 {
+"WINDOW_PARAMETER_GROUP_ID" : "Visualizer_params",
+"WINDOW_PARAMETER_UID" : "Visualizer_param0",
+"ENABLED" : "True",
+"WINDOW_PARAMETER_KEY" : "mode",
+"WINDOW_PARAMETER_VALUE" : "waveform",
+"COMMENT_DESCRIPTION" : "Open the Visualizer in waveform mode (no ROOT needed).",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794528000"
+},
+{
 "WINDOW_PARAMETER_GROUP_ID" : "FE_Cfg_params",
 "WINDOW_PARAMETER_UID" : "FE_Cfg_param0",
 "ENABLED" : "True",
