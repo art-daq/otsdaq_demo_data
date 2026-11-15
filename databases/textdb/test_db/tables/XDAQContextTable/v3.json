@@ -1,0 +1,32 @@
+{
+"NAME" : "XDAQ_CONTEXT_TABLE",
+"COMMENT" : "Example context with artdaq off with environment variables.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1574694677,
+"COL_TYPES" : {
+"CONTEXT_UID" : "STRING",
+"LINK_TO_APPLICATION_TABLE" : "STRING",
+"LINK_TO_APPLICATION_GROUP_ID" : "STRING",
+"STATUS" : "STRING",
+"ID" : "NUMBER",
+"ADDRESS" : "STRING",
+"PORT" : "NUMBER",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"CONTEXT_UID" : "mainContext",
+"LINK_TO_APPLICATION_TABLE" : "XDAQApplicationTable",
+"LINK_TO_APPLICATION_GROUP_ID" : "testContextApps",
+"STATUS" : "On",
+"ID" : "0",
+"ADDRESS" : "http://${HOSTNAME}",
+"PORT" : "${OTS_MAIN_PORT}",
+"COMMENT_DESCRIPTION" : "main context",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1574694677"
+}
+]
+}

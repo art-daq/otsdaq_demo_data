@@ -1,0 +1,12 @@
+DQMHistosConsumerTable 2
+DataBufferTable 2
+DataManagerSupervisorTable 2
+DataProcessorTable 2
+FEInterfaceTable 2
+FEOtsUDPTemplateInterfaceTable 2
+FESlowControlsTable 2
+FESupervisorTable 2
+RawDataSaverConsumerTable 2
+TableGroupMetadata 2
+UDPDataListenerProducerTable 2
+UDPDataStreamerConsumerTable 2

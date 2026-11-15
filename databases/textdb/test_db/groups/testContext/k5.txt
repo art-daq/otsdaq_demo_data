@@ -1,0 +1,10 @@
+DesktopIconTable 3
+DesktopWindowParameterTable 3
+GatewaySupervisorTable 4
+MessageFacilityTable 3
+SlowControlsDashboardSupervisorTable 3
+StateMachineTable 4
+TableGroupMetadata 5
+XDAQApplicationPropertyTable 3
+XDAQApplicationTable 4
+XDAQContextTable 3

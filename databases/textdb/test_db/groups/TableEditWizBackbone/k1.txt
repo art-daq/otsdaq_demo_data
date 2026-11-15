@@ -1,0 +1,3 @@
+GroupAliasesTable 1
+TableGroupMetadata 1
+VersionAliasesTable 1

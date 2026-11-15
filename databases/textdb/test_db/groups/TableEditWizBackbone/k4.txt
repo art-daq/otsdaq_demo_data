@@ -1,0 +1,2 @@
+GroupAliasesTable 4
+VersionAliasesTable 4
