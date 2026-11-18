@@ -1,0 +1,123 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ITERATION_COMMAND_INCLUDED_SUBSYSTEMS_TABLE",
+"COMMENT" : "First version, no rows",
+"AUTHOR" : "rrivera",
+"CREATION_TIME" : 1794969330,
+"COL_TYPES" : {
+"COMMAND_ID" : "STRING",
+"MODE" : "STRING",
+"SUBSYSTEMS" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-17T20:35:30.554-0600",
+"rawdata" : [
+
+]
+},
+"version" : "0",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T20:35:30.555-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-17T20:35:30.555-0600"
+},
+{
+"name" : "iterateDefaultGroup_v3",
+"assigned" : "2026-11-17T20:35:49.357-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T20:35:30.555-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-17T20:35:30.555-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-17T20:35:30.555-0600",
+"value" : {
+"name" : "0",
+"assigned" : "2026-11-17T20:35:30.555-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-17T20:35:30.555-0600",
+"value" : {
+"name" : "IterationCommandIncludedSubsystemsTable",
+"assigned" : "2026-11-17T20:35:30.555-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-17T20:35:30.555-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T20:35:30.555-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T20:35:49.357-0600",
+"value" : {
+"name" : "iterateDefaultGroup_v3",
+"assigned" : "2026-11-17T20:35:49.357-0600"
+}
+}
+],
+"created" : "2026-11-17T20:35:30.554-0600"
+},
+"_id" : {
+"$oid" : "5ab8a3bebf484054833591dc"
+},
+"collection" : "IterationCommandIncludedSubsystemsTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}
