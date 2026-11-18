@@ -1,0 +1,138 @@
+{
+"document" : {
+"data" : {
+"NAME" : "GROUP_ALIASES_TABLE",
+"COMMENT" : "Default Backbone for artdaq (1-1-1).",
+"AUTHOR" : "rrivera",
+"CREATION_TIME" : 1794971719,
+"COL_TYPES" : {
+"GROUP_KEY_ALIAS" : "STRING",
+"GROUP_NAME" : "STRING",
+"GROUP_KEY" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"GROUP_KEY_ALIAS" : "defaultContextAlias",
+"GROUP_NAME" : "testContext",
+"GROUP_KEY" : "3",
+"COMMENT_DESCRIPTION" : "default safe context",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1597201734"
+},
+{
+"GROUP_KEY_ALIAS" : "defaultSystemAlias",
+"GROUP_NAME" : "defaultConfig",
+"GROUP_KEY" : "3",
+"COMMENT_DESCRIPTION" : "default safe running",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1794971719"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-17T21:15:19.128-0600",
+"rawdata" : [
+
+]
+},
+"version" : "5",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:15:19.129-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:15:19.129-0600"
+},
+{
+"name" : "GroupAliasTreeEditWizBackbone_v5",
+"assigned" : "2026-11-17T21:15:19.375-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:15:19.129-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:15:19.129-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-17T21:15:19.129-0600",
+"value" : {
+"name" : "5",
+"assigned" : "2026-11-17T21:15:19.129-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-17T21:15:19.129-0600",
+"value" : {
+"name" : "GroupAliasesTable",
+"assigned" : "2026-11-17T21:15:19.129-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-17T21:15:19.129-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:15:19.129-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:15:19.375-0600",
+"value" : {
+"name" : "GroupAliasTreeEditWizBackbone_v5",
+"assigned" : "2026-11-17T21:15:19.375-0600"
+}
+}
+],
+"created" : "2026-11-17T21:15:19.128-0600"
+},
+"_id" : {
+"$oid" : "b6709873274b488a81ed9a33"
+},
+"collection" : "GroupAliasesTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

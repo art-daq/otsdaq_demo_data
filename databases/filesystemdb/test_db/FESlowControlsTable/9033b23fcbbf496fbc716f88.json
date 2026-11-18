@@ -1,0 +1,226 @@
+{
+"document" : {
+"data" : {
+"NAME" : "FE_SLOW_CONTROLS_TABLE",
+"COMMENT" : "Repaired from v2 after a definition change (by column name; new columns get defaults)",
+"AUTHOR" : "rrivera",
+"CREATION_TIME" : 1794971711,
+"COL_TYPES" : {
+"FE_GROUP_ID" : "STRING",
+"CHANNEL_NAME" : "STRING",
+"STATUS" : "STRING",
+"CHANNEL_DATA_TYPE" : "STRING",
+"UNITS" : "STRING",
+"UNIVERSAL_INTERFACE_ADDRESS" : "STRING",
+"UNIVERSAL_DATA_BIT_OFFSET" : "NUMBER",
+"TRANSFORMATION" : "STRING",
+"READ_ACCESS" : "STRING",
+"WRITE_ACCESS" : "STRING",
+"RECORD_CHANGES_ONLY" : "STRING",
+"DELAY_BETWEEN_SAMPLES_IN_SECONDS" : "NUMBER",
+"MONITORING_ENABLED" : "STRING",
+"LOCAL_SAVING_ENABLED" : "STRING",
+"LOCAL_FILE_PATH" : "STRING",
+"RADIX_FILE_NAME" : "STRING",
+"SAVE_BINARY_FILE" : "STRING",
+"ALARMS_ENABLED" : "STRING",
+"LATCH_ALARMS" : "STRING",
+"LOW_LOW_THRESHOLD" : "STRING",
+"LOW_THRESHOLD" : "STRING",
+"HIGH_THRESHOLD" : "STRING",
+"HIGH_HIGH_THRESHOLD" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"FE_GROUP_ID" : "OtsHwEmulatorGroup0",
+"CHANNEL_NAME" : "BurstDataCount",
+"STATUS" : "On",
+"CHANNEL_DATA_TYPE" : "unsigned long long",
+"UNITS" : "DEFAULT",
+"UNIVERSAL_INTERFACE_ADDRESS" : "0x1001",
+"UNIVERSAL_DATA_BIT_OFFSET" : "0",
+"TRANSFORMATION" : "",
+"READ_ACCESS" : "Yes",
+"WRITE_ACCESS" : "Yes",
+"RECORD_CHANGES_ONLY" : "True",
+"DELAY_BETWEEN_SAMPLES_IN_SECONDS" : "1",
+"MONITORING_ENABLED" : "Yes",
+"LOCAL_SAVING_ENABLED" : "Yes",
+"LOCAL_FILE_PATH" : "/tmp/",
+"RADIX_FILE_NAME" : "SlowControls",
+"SAVE_BINARY_FILE" : "False",
+"ALARMS_ENABLED" : "Yes",
+"LATCH_ALARMS" : "True",
+"LOW_LOW_THRESHOLD" : "0",
+"LOW_THRESHOLD" : "1",
+"HIGH_THRESHOLD" : "9",
+"HIGH_HIGH_THRESHOLD" : "10",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1794971711"
+},
+{
+"FE_GROUP_ID" : "DTC0SlowControlsChannels",
+"CHANNEL_NAME" : "DTCTemperature",
+"STATUS" : "On",
+"CHANNEL_DATA_TYPE" : "unsigned short",
+"UNITS" : "DEFAULT",
+"UNIVERSAL_INTERFACE_ADDRESS" : "b110111",
+"UNIVERSAL_DATA_BIT_OFFSET" : "0",
+"TRANSFORMATION" : "",
+"READ_ACCESS" : "Yes",
+"WRITE_ACCESS" : "No",
+"RECORD_CHANGES_ONLY" : "False",
+"DELAY_BETWEEN_SAMPLES_IN_SECONDS" : "0",
+"MONITORING_ENABLED" : "No",
+"LOCAL_SAVING_ENABLED" : "No",
+"LOCAL_FILE_PATH" : "DEFAULT",
+"RADIX_FILE_NAME" : "DEFAULT",
+"SAVE_BINARY_FILE" : "False",
+"ALARMS_ENABLED" : "No",
+"LATCH_ALARMS" : "False",
+"LOW_LOW_THRESHOLD" : "DEFAULT",
+"LOW_THRESHOLD" : "DEFAULT",
+"HIGH_THRESHOLD" : "DEFAULT",
+"HIGH_HIGH_THRESHOLD" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1794971711"
+},
+{
+"FE_GROUP_ID" : "ROC0SlowControlsChannels",
+"CHANNEL_NAME" : "ROCCalorimeterTemperature",
+"STATUS" : "On",
+"CHANNEL_DATA_TYPE" : "10b",
+"UNITS" : "DEFAULT",
+"UNIVERSAL_INTERFACE_ADDRESS" : "0",
+"UNIVERSAL_DATA_BIT_OFFSET" : "0",
+"TRANSFORMATION" : "",
+"READ_ACCESS" : "Yes",
+"WRITE_ACCESS" : "No",
+"RECORD_CHANGES_ONLY" : "False",
+"DELAY_BETWEEN_SAMPLES_IN_SECONDS" : "0",
+"MONITORING_ENABLED" : "No",
+"LOCAL_SAVING_ENABLED" : "No",
+"LOCAL_FILE_PATH" : "DEFAULT",
+"RADIX_FILE_NAME" : "DEFAULT",
+"SAVE_BINARY_FILE" : "False",
+"ALARMS_ENABLED" : "No",
+"LATCH_ALARMS" : "False",
+"LOW_LOW_THRESHOLD" : "DEFAULT",
+"LOW_THRESHOLD" : "DEFAULT",
+"HIGH_THRESHOLD" : "DEFAULT",
+"HIGH_HIGH_THRESHOLD" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1794971711"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-17T21:15:11.678-0600",
+"rawdata" : [
+
+]
+},
+"version" : "3",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:15:11.678-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:15:11.678-0600"
+},
+{
+"name" : "defaultConfig_v3",
+"assigned" : "2026-11-17T21:15:11.965-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:15:11.678-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:15:11.678-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-17T21:15:11.678-0600",
+"value" : {
+"name" : "3",
+"assigned" : "2026-11-17T21:15:11.678-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-17T21:15:11.678-0600",
+"value" : {
+"name" : "FESlowControlsTable",
+"assigned" : "2026-11-17T21:15:11.678-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-17T21:15:11.678-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:15:11.678-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:15:11.965-0600",
+"value" : {
+"name" : "defaultConfig_v3",
+"assigned" : "2026-11-17T21:15:11.965-0600"
+}
+}
+],
+"created" : "2026-11-17T21:15:11.678-0600"
+},
+"_id" : {
+"$oid" : "9033b23fcbbf496fbc716f88"
+},
+"collection" : "FESlowControlsTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}
