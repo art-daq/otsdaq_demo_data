@@ -1,7 +1,9 @@
 {
 "ouid" : [
+"1ba4e376d04e430d8580a133",
 "45681367798d44b3af162a0a",
 "47d500d1cb1f4ebea469ebc5",
+"511934a35bec4b168655ddbd",
 "6c500c29f8b442d3aab99f6f",
 "8b847a28fca44c3b8865c85c",
 "9662122dc1d843e1931f49f5",
@@ -41,12 +43,20 @@
 ],
 "9" : [
 "aed658484d684457b69d5613"
+],
+"10" : [
+"1ba4e376d04e430d8580a133"
+],
+"11" : [
+"511934a35bec4b168655ddbd"
 ]
 },
 "configurations.name" : {
 "notprovided" : [
+"1ba4e376d04e430d8580a133",
 "45681367798d44b3af162a0a",
 "47d500d1cb1f4ebea469ebc5",
+"511934a35bec4b168655ddbd",
 "6c500c29f8b442d3aab99f6f",
 "8b847a28fca44c3b8865c85c",
 "9662122dc1d843e1931f49f5",
@@ -82,12 +92,20 @@
 ],
 "GroupAliasTreeEditWizBackbone_v8" : [
 "aed658484d684457b69d5613"
+],
+"artdaqConfig_v5" : [
+"1ba4e376d04e430d8580a133"
+],
+"GroupAliasTreeEditWizBackbone_v9" : [
+"511934a35bec4b168655ddbd"
 ]
 },
 "entities.name" : {
 "OTSROOT" : [
+"1ba4e376d04e430d8580a133",
 "45681367798d44b3af162a0a",
 "47d500d1cb1f4ebea469ebc5",
+"511934a35bec4b168655ddbd",
 "6c500c29f8b442d3aab99f6f",
 "8b847a28fca44c3b8865c85c",
 "9662122dc1d843e1931f49f5",
@@ -115,7 +133,9 @@
 "2026-11-17T21:56:05.306-0600",
 "2026-11-17T21:56:23.071-0600",
 "2026-11-17T22:12:01.169-0600",
-"2026-11-17T22:12:24.264-0600"
+"2026-11-17T22:12:24.264-0600",
+"2026-11-18T15:05:11.111-0600",
+"2026-11-18T15:05:12.826-0600"
 ],
 "GroupAliasTreeEditWizBackbone_v1" : [
 "2020-08-11T21:49:46.658-0500"
@@ -143,6 +163,12 @@
 ],
 "GroupAliasTreeEditWizBackbone_v8" : [
 "2026-11-17T22:12:24.328-0600"
+],
+"artdaqConfig_v5" : [
+"2026-11-18T15:05:12.192-0600"
+],
+"GroupAliasTreeEditWizBackbone_v9" : [
+"2026-11-18T15:05:12.889-0600"
 ]
 }
 }

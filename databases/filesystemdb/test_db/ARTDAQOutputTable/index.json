@@ -19,6 +19,9 @@
 ],
 "artdaqConfig_v4" : [
 "bad19711c5cf41eb9ddaefeb"
+],
+"artdaqConfig_v5" : [
+"bad19711c5cf41eb9ddaefeb"
 ]
 },
 "entities.name" : {
@@ -44,6 +47,9 @@
 ],
 "artdaqConfig_v4" : [
 "2026-11-17T22:12:01.574-0600"
+],
+"artdaqConfig_v5" : [
+"2026-11-18T15:05:11.461-0600"
 ]
 }
 }

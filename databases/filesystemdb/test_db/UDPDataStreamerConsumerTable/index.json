@@ -22,6 +22,9 @@
 ],
 "artdaqConfig_v4" : [
 "d3ab2dd8429143be91cbb67b"
+],
+"artdaqConfig_v5" : [
+"d3ab2dd8429143be91cbb67b"
 ]
 },
 "entities.name" : {
@@ -50,6 +53,9 @@
 ],
 "artdaqConfig_v4" : [
 "2026-11-17T22:12:02.418-0600"
+],
+"artdaqConfig_v5" : [
+"2026-11-18T15:05:12.257-0600"
 ]
 }
 }

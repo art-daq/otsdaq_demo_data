@@ -1,0 +1,141 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ARTDAQ_SOURCE_TABLE",
+"COMMENT" : "artdaq tutorial: numeric shared memory waiting time, ArtdaqInput source, WFViewer analyzers Off (not built)",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1795035911,
+"COL_TYPES" : {
+"SOURCE_UID" : "STRING",
+"SOURCE_MODULE_TYPE" : "STRING",
+"SOURCE_WAITING_TIME" : "STRING",
+"SOURCE_RESUME_AFTER_TIMEOUT" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"SOURCE_UID" : "netMonInputSource",
+"SOURCE_MODULE_TYPE" : "ArtdaqInput",
+"SOURCE_WAITING_TIME" : "DEFAULT",
+"SOURCE_RESUME_AFTER_TIMEOUT" : "False",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1795035910"
+},
+{
+"SOURCE_UID" : "artdaqInputSource",
+"SOURCE_MODULE_TYPE" : "ArtdaqInput",
+"SOURCE_WAITING_TIME" : "DEFAULT",
+"SOURCE_RESUME_AFTER_TIMEOUT" : "False",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1795035910"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-18T15:05:11.015-0600",
+"rawdata" : [
+
+]
+},
+"version" : "4",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T15:05:11.015-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-18T15:05:11.015-0600"
+},
+{
+"name" : "artdaqConfig_v5",
+"assigned" : "2026-11-18T15:05:11.777-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T15:05:11.015-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-18T15:05:11.015-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-18T15:05:11.015-0600",
+"value" : {
+"name" : "4",
+"assigned" : "2026-11-18T15:05:11.015-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-18T15:05:11.015-0600",
+"value" : {
+"name" : "ARTDAQSourceTable",
+"assigned" : "2026-11-18T15:05:11.015-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-18T15:05:11.015-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T15:05:11.015-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T15:05:11.777-0600",
+"value" : {
+"name" : "artdaqConfig_v5",
+"assigned" : "2026-11-18T15:05:11.777-0600"
+}
+}
+],
+"created" : "2026-11-18T15:05:11.015-0600"
+},
+"_id" : {
+"$oid" : "aa2fa1c6b9cc4cf0ae3a774a"
+},
+"collection" : "ARTDAQSourceTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}
