@@ -1,0 +1,148 @@
+{
+"document" : {
+"data" : {
+"NAME" : "FE_SUPERVISOR_TABLE",
+"COMMENT" : "Rebuilt by column name from table version 2 after a table definition change",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1794974165,
+"COL_TYPES" : {
+"SUPERVISOR_UID" : "STRING",
+"LINK_TO_FE_INTERFACE_TABLE" : "STRING",
+"LINK_TO_FE_INTERFACE_GROUP_ID" : "STRING",
+"SLOW_CONTROLS_METRIC_MANAGER_CHANNEL_NAME_PREAMBLE" : "STRING",
+"DAQ_METRICS_LINK" : "STRING",
+"DAQ_METRICS_LINK_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"SUPERVISOR_UID" : "FESupervisor0",
+"LINK_TO_FE_INTERFACE_TABLE" : "FEInterfaceTable",
+"LINK_TO_FE_INTERFACE_GROUP_ID" : "FEGroup0",
+"SLOW_CONTROLS_METRIC_MANAGER_CHANNEL_NAME_PREAMBLE" : "DEFAULT",
+"DAQ_METRICS_LINK" : "NO_LINK",
+"DAQ_METRICS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974165"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-17T21:56:05.249-0600",
+"rawdata" : [
+
+]
+},
+"version" : "3",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:56:05.249-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:56:05.249-0600"
+},
+{
+"name" : "artdaqConfig_v3",
+"assigned" : "2026-11-17T21:56:06.303-0600"
+},
+{
+"name" : "artdaqConfig_v4",
+"assigned" : "2026-11-17T22:12:02.251-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:56:05.249-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:56:05.249-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-17T21:56:05.249-0600",
+"value" : {
+"name" : "3",
+"assigned" : "2026-11-17T21:56:05.249-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-17T21:56:05.249-0600",
+"value" : {
+"name" : "FESupervisorTable",
+"assigned" : "2026-11-17T21:56:05.249-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-17T21:56:05.249-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:56:05.249-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:56:06.303-0600",
+"value" : {
+"name" : "artdaqConfig_v3",
+"assigned" : "2026-11-17T21:56:06.303-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T22:12:02.251-0600",
+"value" : {
+"name" : "artdaqConfig_v4",
+"assigned" : "2026-11-17T22:12:02.251-0600"
+}
+}
+],
+"created" : "2026-11-17T21:56:05.249-0600"
+},
+"_id" : {
+"$oid" : "59f4620075fa497e9f420a1d"
+},
+"collection" : "FESupervisorTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

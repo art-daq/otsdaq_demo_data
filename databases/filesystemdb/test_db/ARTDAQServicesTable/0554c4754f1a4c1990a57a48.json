@@ -1,0 +1,150 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ARTDAQ_SERVICES_TABLE",
+"COMMENT" : "Rebuilt by column name from table version 2 after a table definition change",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1794974165,
+"COL_TYPES" : {
+"SERVICES_UID" : "STRING",
+"SHARED_MEMORY_RESUME_AFTER_TIMEOUT" : "STRING",
+"SHARED_MEMORY_WAITING_TIME" : "STRING",
+"FRAGMENT_NAMING_SERVICE_PROVIDER" : "STRING",
+"ENABLED_FRAGMENT_TYPES" : "STRING",
+"SERVICES_PARAMETERS_LINK" : "STRING",
+"SERVICE_PARAMETERS_LINK_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"SERVICES_UID" : "netMonTransportService",
+"SHARED_MEMORY_RESUME_AFTER_TIMEOUT" : "False",
+"SHARED_MEMORY_WAITING_TIME" : "DEFAULT",
+"FRAGMENT_NAMING_SERVICE_PROVIDER" : "DEFAULT",
+"ENABLED_FRAGMENT_TYPES" : "DEFAULT",
+"SERVICES_PARAMETERS_LINK" : "NO_LINK",
+"SERVICE_PARAMETERS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974165"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-17T21:56:05.100-0600",
+"rawdata" : [
+
+]
+},
+"version" : "3",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:56:05.100-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:56:05.100-0600"
+},
+{
+"name" : "artdaqConfig_v3",
+"assigned" : "2026-11-17T21:56:05.948-0600"
+},
+{
+"name" : "artdaqConfig_v4",
+"assigned" : "2026-11-17T22:12:01.874-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:56:05.100-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:56:05.100-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-17T21:56:05.100-0600",
+"value" : {
+"name" : "3",
+"assigned" : "2026-11-17T21:56:05.100-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-17T21:56:05.100-0600",
+"value" : {
+"name" : "ARTDAQServicesTable",
+"assigned" : "2026-11-17T21:56:05.100-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-17T21:56:05.100-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:56:05.100-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:56:05.948-0600",
+"value" : {
+"name" : "artdaqConfig_v3",
+"assigned" : "2026-11-17T21:56:05.948-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T22:12:01.874-0600",
+"value" : {
+"name" : "artdaqConfig_v4",
+"assigned" : "2026-11-17T22:12:01.874-0600"
+}
+}
+],
+"created" : "2026-11-17T21:56:05.100-0600"
+},
+"_id" : {
+"$oid" : "0554c4754f1a4c1990a57a48"
+},
+"collection" : "ARTDAQServicesTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

@@ -16,6 +16,12 @@
 ],
 "defaultConfig_v4" : [
 "b88beb9e11cc4c7fa5d0999c"
+],
+"artdaqConfig_v3" : [
+"b88beb9e11cc4c7fa5d0999c"
+],
+"artdaqConfig_v4" : [
+"b88beb9e11cc4c7fa5d0999c"
 ]
 },
 "entities.name" : {
@@ -38,6 +44,12 @@
 ],
 "defaultConfig_v4" : [
 "2020-08-11T21:49:53.822-0500"
+],
+"artdaqConfig_v3" : [
+"2026-11-17T21:56:06.140-0600"
+],
+"artdaqConfig_v4" : [
+"2026-11-17T22:12:02.076-0600"
 ]
 }
 }

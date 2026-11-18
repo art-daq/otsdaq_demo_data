@@ -1,0 +1,211 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ARTDAQ_ART_TABLE",
+"COMMENT" : "Rebuilt by column name from table version 2 after a table definition change",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1794974164,
+"COL_TYPES" : {
+"ART_CONFIG_UID" : "STRING",
+"SERVICES_LINK" : "STRING",
+"SERVICES_LINK_UID" : "STRING",
+"OUTPUTS_LINK" : "STRING",
+"OUTPUTS_LINK_UID" : "STRING",
+"PHYSICS_LINK" : "STRING",
+"PHYSICS_LINK_UID" : "STRING",
+"SOURCE_LINK" : "STRING",
+"SOURCE_LINK_UID" : "STRING",
+"PROCESS_NAME" : "STRING",
+"ADD_ON_PARAMETERS_LINK" : "STRING",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"ART_CONFIG_UID" : "builderSubsystem1Config",
+"SERVICES_LINK" : "ARTDAQServicesTable",
+"SERVICES_LINK_UID" : "netMonTransportService",
+"OUTPUTS_LINK" : "ARTDAQOutputTable",
+"OUTPUTS_LINK_UID" : "builder0outputs",
+"PHYSICS_LINK" : "ARTDAQPhysicsTable",
+"PHYSICS_LINK_UID" : "builder0physics0",
+"SOURCE_LINK" : "ARTDAQSourceTable",
+"SOURCE_LINK_UID" : "artdaqInputSource",
+"PROCESS_NAME" : "DAQ",
+"ADD_ON_PARAMETERS_LINK" : "NO_LINK",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974164"
+},
+{
+"ART_CONFIG_UID" : "builderSubsystem2Config",
+"SERVICES_LINK" : "ARTDAQServicesTable",
+"SERVICES_LINK_UID" : "netMonTransportService",
+"OUTPUTS_LINK" : "ARTDAQOutputTable",
+"OUTPUTS_LINK_UID" : "builder1outputs",
+"PHYSICS_LINK" : "ARTDAQPhysicsTable",
+"PHYSICS_LINK_UID" : "builder1physics0",
+"SOURCE_LINK" : "ARTDAQSourceTable",
+"SOURCE_LINK_UID" : "artdaqInputSource",
+"PROCESS_NAME" : "DAQ2",
+"ADD_ON_PARAMETERS_LINK" : "NO_LINK",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974164"
+},
+{
+"ART_CONFIG_UID" : "loggerConfig",
+"SERVICES_LINK" : "ARTDAQServicesTable",
+"SERVICES_LINK_UID" : "netMonTransportService",
+"OUTPUTS_LINK" : "ARTDAQOutputTable",
+"OUTPUTS_LINK_UID" : "aggregator0outputs",
+"PHYSICS_LINK" : "ARTDAQPhysicsTable",
+"PHYSICS_LINK_UID" : "aggregator0physics0",
+"SOURCE_LINK" : "ARTDAQSourceTable",
+"SOURCE_LINK_UID" : "netMonInputSource",
+"PROCESS_NAME" : "DAQDL",
+"ADD_ON_PARAMETERS_LINK" : "NO_LINK",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974164"
+},
+{
+"ART_CONFIG_UID" : "DispatcherConfig",
+"SERVICES_LINK" : "ARTDAQServicesTable",
+"SERVICES_LINK_UID" : "netMonTransportService",
+"OUTPUTS_LINK" : "NO_LINK",
+"OUTPUTS_LINK_UID" : "DEFAULT",
+"PHYSICS_LINK" : "ARTDAQPhysicsTable",
+"PHYSICS_LINK_UID" : "Dispatcher0physics",
+"SOURCE_LINK" : "ARTDAQSourceTable",
+"SOURCE_LINK_UID" : "netMonInputSource",
+"PROCESS_NAME" : "DAQDI",
+"ADD_ON_PARAMETERS_LINK" : "NO_LINK",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974164"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-17T21:56:04.870-0600",
+"rawdata" : [
+
+]
+},
+"version" : "3",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:56:04.871-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:56:04.870-0600"
+},
+{
+"name" : "artdaqConfig_v3",
+"assigned" : "2026-11-17T21:56:05.342-0600"
+},
+{
+"name" : "artdaqConfig_v4",
+"assigned" : "2026-11-17T22:12:01.246-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:56:04.870-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:56:04.870-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-17T21:56:04.871-0600",
+"value" : {
+"name" : "3",
+"assigned" : "2026-11-17T21:56:04.871-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-17T21:56:04.871-0600",
+"value" : {
+"name" : "ARTDAQArtTable",
+"assigned" : "2026-11-17T21:56:04.871-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-17T21:56:04.871-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:56:04.871-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:56:05.342-0600",
+"value" : {
+"name" : "artdaqConfig_v3",
+"assigned" : "2026-11-17T21:56:05.342-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T22:12:01.246-0600",
+"value" : {
+"name" : "artdaqConfig_v4",
+"assigned" : "2026-11-17T22:12:01.246-0600"
+}
+}
+],
+"created" : "2026-11-17T21:56:04.870-0600"
+},
+"_id" : {
+"$oid" : "abd8185872804f2e93e31d98"
+},
+"collection" : "ARTDAQArtTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

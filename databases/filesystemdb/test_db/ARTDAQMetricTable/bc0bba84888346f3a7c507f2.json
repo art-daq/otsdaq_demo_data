@@ -1,0 +1,231 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ARTDAQ_METRIC_TABLE",
+"COMMENT" : "Rebuilt by column name from table version 2 after a table definition change",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1794974165,
+"COL_TYPES" : {
+"METRIC_GROUP_ID" : "STRING",
+"METRIC_UID" : "STRING",
+"STATUS" : "STRING",
+"METRIC_KEY" : "STRING",
+"METRIC_PLUGIN_TYPE" : "STRING",
+"METRIC_LEVEL_STRING" : "STRING",
+"SEND_SYSTEM_METRICS" : "STRING",
+"SEND_PROCESS_METRICS" : "STRING",
+"METRIC_PARAMETERS_LINK" : "STRING",
+"METRIC_PARAMETERS_LINK_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"METRIC_GROUP_ID" : "DEFAULT | reader0Metrics",
+"METRIC_UID" : "readerMetric0",
+"STATUS" : "On",
+"METRIC_KEY" : "brFile",
+"METRIC_PLUGIN_TYPE" : "\"file\"",
+"METRIC_LEVEL_STRING" : "3",
+"SEND_SYSTEM_METRICS" : "False",
+"SEND_PROCESS_METRICS" : "False",
+"METRIC_PARAMETERS_LINK" : "ARTDAQMetricParameterTable",
+"METRIC_PARAMETERS_LINK_GROUP_ID" : "reader0MetricPGroup",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974165"
+},
+{
+"METRIC_GROUP_ID" : "builder0Metrics",
+"METRIC_UID" : "builderMetric0",
+"STATUS" : "On",
+"METRIC_KEY" : "evbFile",
+"METRIC_PLUGIN_TYPE" : "\"file\"",
+"METRIC_LEVEL_STRING" : "3",
+"SEND_SYSTEM_METRICS" : "False",
+"SEND_PROCESS_METRICS" : "False",
+"METRIC_PARAMETERS_LINK" : "ARTDAQMetricParameterTable",
+"METRIC_PARAMETERS_LINK_GROUP_ID" : "builder0MetricPGroup",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974165"
+},
+{
+"METRIC_GROUP_ID" : "aggreator0Metrics | builder0Metrics",
+"METRIC_UID" : "builderMetric1",
+"STATUS" : "Off",
+"METRIC_KEY" : "ganglia",
+"METRIC_PLUGIN_TYPE" : "\"ganglia\"",
+"METRIC_LEVEL_STRING" : "%{ganglia_level}",
+"SEND_SYSTEM_METRICS" : "False",
+"SEND_PROCESS_METRICS" : "False",
+"METRIC_PARAMETERS_LINK" : "ARTDAQMetricParameterTable",
+"METRIC_PARAMETERS_LINK_GROUP_ID" : "builder0GangliaPGroup",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974165"
+},
+{
+"METRIC_GROUP_ID" : "aggreator0Metrics | builder0Metrics",
+"METRIC_UID" : "builderMetric2",
+"STATUS" : "Off",
+"METRIC_KEY" : "msgfac",
+"METRIC_PLUGIN_TYPE" : "\"msgFacility\"",
+"METRIC_LEVEL_STRING" : "%{mf_level}",
+"SEND_SYSTEM_METRICS" : "False",
+"SEND_PROCESS_METRICS" : "False",
+"METRIC_PARAMETERS_LINK" : "ARTDAQMetricParameterTable",
+"METRIC_PARAMETERS_LINK_GROUP_ID" : "builder0MessageFacilityPGroup",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974165"
+},
+{
+"METRIC_GROUP_ID" : "aggreator0Metrics | builder0Metrics",
+"METRIC_UID" : "builderMetric3",
+"STATUS" : "Off",
+"METRIC_KEY" : "graphite",
+"METRIC_PLUGIN_TYPE" : "\"graphite\"",
+"METRIC_LEVEL_STRING" : "%{graphite_level}",
+"SEND_SYSTEM_METRICS" : "False",
+"SEND_PROCESS_METRICS" : "False",
+"METRIC_PARAMETERS_LINK" : "ARTDAQMetricParameterTable",
+"METRIC_PARAMETERS_LINK_GROUP_ID" : "builder0GraphiteMetricPGroup",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974165"
+},
+{
+"METRIC_GROUP_ID" : "aggreator0Metrics",
+"METRIC_UID" : "aggregatorMetric0",
+"STATUS" : "On",
+"METRIC_KEY" : "aggFile",
+"METRIC_PLUGIN_TYPE" : "\"file\"",
+"METRIC_LEVEL_STRING" : "3",
+"SEND_SYSTEM_METRICS" : "False",
+"SEND_PROCESS_METRICS" : "False",
+"METRIC_PARAMETERS_LINK" : "ARTDAQMetricParameterTable",
+"METRIC_PARAMETERS_LINK_GROUP_ID" : "aggregator0Metric0PGroup",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974165"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-17T21:56:05.060-0600",
+"rawdata" : [
+
+]
+},
+"version" : "3",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:56:05.060-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:56:05.060-0600"
+},
+{
+"name" : "artdaqConfig_v3",
+"assigned" : "2026-11-17T21:56:05.597-0600"
+},
+{
+"name" : "artdaqConfig_v4",
+"assigned" : "2026-11-17T22:12:01.508-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:56:05.060-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:56:05.060-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-17T21:56:05.060-0600",
+"value" : {
+"name" : "3",
+"assigned" : "2026-11-17T21:56:05.060-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-17T21:56:05.060-0600",
+"value" : {
+"name" : "ARTDAQMetricTable",
+"assigned" : "2026-11-17T21:56:05.060-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-17T21:56:05.060-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:56:05.060-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:56:05.597-0600",
+"value" : {
+"name" : "artdaqConfig_v3",
+"assigned" : "2026-11-17T21:56:05.597-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T22:12:01.508-0600",
+"value" : {
+"name" : "artdaqConfig_v4",
+"assigned" : "2026-11-17T22:12:01.508-0600"
+}
+}
+],
+"created" : "2026-11-17T21:56:05.060-0600"
+},
+"_id" : {
+"$oid" : "bc0bba84888346f3a7c507f2"
+},
+"collection" : "ARTDAQMetricTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

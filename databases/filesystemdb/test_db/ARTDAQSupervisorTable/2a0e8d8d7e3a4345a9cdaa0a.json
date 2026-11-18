@@ -1,0 +1,162 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ARTDAQ_SUPERVISOR_TABLE",
+"COMMENT" : "Rebuilt by column name from table version 2 after a table definition change",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1794974165,
+"COL_TYPES" : {
+"SUPERVISOR_UID" : "STRING",
+"DAQ_INTERFACE_DEBUG_LEVEL" : "NUMBER",
+"DAQ_SETUP_SCRIPT" : "STRING",
+"BOARDREADERS_LINK" : "STRING",
+"BOARDREADERS_LINK_GROUP_ID" : "STRING",
+"EVENTBUILDERS_LINK" : "STRING",
+"EVENTBUILDERS_LINK_GROUP_ID" : "STRING",
+"DATALOGGERS_LINK" : "STRING",
+"DATALOGGERS_LINK_GROUP_ID" : "STRING",
+"DISPATCHERS_LINK" : "STRING",
+"DISPATCHERS_LINK_GROUP_ID" : "STRING",
+"ROUTINGMANAGERS_LINK" : "STRING",
+"ROUTINGMANAGERS_LINK_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"SUPERVISOR_UID" : "artdaqSupervisor0",
+"DAQ_INTERFACE_DEBUG_LEVEL" : "1",
+"DAQ_SETUP_SCRIPT" : "${MRB_BUILDDIR}/../setup_ots.sh",
+"BOARDREADERS_LINK" : "ARTDAQBoardReaderTable",
+"BOARDREADERS_LINK_GROUP_ID" : "readerGroup0",
+"EVENTBUILDERS_LINK" : "ARTDAQEventBuilderTable",
+"EVENTBUILDERS_LINK_GROUP_ID" : "builderGroup0",
+"DATALOGGERS_LINK" : "ARTDAQDataLoggerTable",
+"DATALOGGERS_LINK_GROUP_ID" : "loggerGroup0",
+"DISPATCHERS_LINK" : "ARTDAQDispatcherTable",
+"DISPATCHERS_LINK_GROUP_ID" : "DispatcherGroup0",
+"ROUTINGMANAGERS_LINK" : "NO_LINK",
+"ROUTINGMANAGERS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974165"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-17T21:56:05.174-0600",
+"rawdata" : [
+
+]
+},
+"version" : "3",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:56:05.174-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:56:05.174-0600"
+},
+{
+"name" : "artdaqConfig_v3",
+"assigned" : "2026-11-17T21:56:06.044-0600"
+},
+{
+"name" : "artdaqConfig_v4",
+"assigned" : "2026-11-17T22:12:01.974-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:56:05.174-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:56:05.174-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-17T21:56:05.174-0600",
+"value" : {
+"name" : "3",
+"assigned" : "2026-11-17T21:56:05.174-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-17T21:56:05.174-0600",
+"value" : {
+"name" : "ARTDAQSupervisorTable",
+"assigned" : "2026-11-17T21:56:05.174-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-17T21:56:05.174-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:56:05.174-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:56:06.044-0600",
+"value" : {
+"name" : "artdaqConfig_v3",
+"assigned" : "2026-11-17T21:56:06.044-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T22:12:01.974-0600",
+"value" : {
+"name" : "artdaqConfig_v4",
+"assigned" : "2026-11-17T22:12:01.974-0600"
+}
+}
+],
+"created" : "2026-11-17T21:56:05.174-0600"
+},
+"_id" : {
+"$oid" : "2a0e8d8d7e3a4345a9cdaa0a"
+},
+"collection" : "ARTDAQSupervisorTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

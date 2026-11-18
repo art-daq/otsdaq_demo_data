@@ -85,6 +85,14 @@
 {
 "name" : "defaultConfig_v4",
 "assigned" : "2020-08-11T21:49:53.983-0500"
+},
+{
+"name" : "artdaqConfig_v3",
+"assigned" : "2026-11-17T21:56:06.237-0600"
+},
+{
+"name" : "artdaqConfig_v4",
+"assigned" : "2026-11-17T22:12:02.178-0600"
 }
 ],
 "changelog" : "notprovided",
@@ -138,6 +146,22 @@
 "value" : {
 "name" : "defaultConfig_v4",
 "assigned" : "2020-08-11T21:49:53.983-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:56:06.237-0600",
+"value" : {
+"name" : "artdaqConfig_v3",
+"assigned" : "2026-11-17T21:56:06.237-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T22:12:02.178-0600",
+"value" : {
+"name" : "artdaqConfig_v4",
+"assigned" : "2026-11-17T22:12:02.178-0600"
 }
 }
 ],
