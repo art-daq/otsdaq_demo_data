@@ -1,0 +1,147 @@
+{
+"document" : {
+"data" : {
+"NAME" : "FE_SUPERVISOR_TABLE",
+"COMMENT" : "Repaired from v2 after a definition change (by column name; new columns get defaults)",
+"AUTHOR" : "rrivera",
+"CREATION_TIME" : 1794971566,
+"COL_TYPES" : {
+"SUPERVISOR_UID" : "STRING",
+"LINK_TO_FE_INTERFACE_TABLE" : "STRING",
+"LINK_TO_FE_INTERFACE_GROUP_ID" : "STRING",
+"SLOW_CONTROLS_METRIC_MANAGER_CHANNEL_NAME_PREAMBLE" : "STRING",
+"DAQ_METRICS_LINK" : "STRING",
+"DAQ_METRICS_LINK_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"SUPERVISOR_UID" : "FESupervisor0",
+"LINK_TO_FE_INTERFACE_TABLE" : "FEInterfaceTable",
+"LINK_TO_FE_INTERFACE_GROUP_ID" : "FEGroup0",
+"SLOW_CONTROLS_METRIC_MANAGER_CHANNEL_NAME_PREAMBLE" : "DEFAULT",
+"DAQ_METRICS_LINK" : "NO_LINK",
+"DAQ_METRICS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1794971566"
+},
+{
+"SUPERVISOR_UID" : "FESupervisor1Config",
+"LINK_TO_FE_INTERFACE_TABLE" : "FEInterfaceTable",
+"LINK_TO_FE_INTERFACE_GROUP_ID" : "FESupervisor1ConfigFEGroup",
+"SLOW_CONTROLS_METRIC_MANAGER_CHANNEL_NAME_PREAMBLE" : "DEFAULT",
+"DAQ_METRICS_LINK" : "NO_LINK",
+"DAQ_METRICS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1794971566"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-17T21:12:46.708-0600",
+"rawdata" : [
+
+]
+},
+"version" : "3",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:12:46.708-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:12:46.708-0600"
+},
+{
+"name" : "defaultConfig_v3",
+"assigned" : "2026-11-17T21:12:55.254-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:12:46.708-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-17T21:12:46.708-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-17T21:12:46.708-0600",
+"value" : {
+"name" : "3",
+"assigned" : "2026-11-17T21:12:46.708-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-17T21:12:46.708-0600",
+"value" : {
+"name" : "FESupervisorTable",
+"assigned" : "2026-11-17T21:12:46.708-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-17T21:12:46.708-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-17T21:12:46.708-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-17T21:12:55.254-0600",
+"value" : {
+"name" : "defaultConfig_v3",
+"assigned" : "2026-11-17T21:12:55.254-0600"
+}
+}
+],
+"created" : "2026-11-17T21:12:46.708-0600"
+},
+"_id" : {
+"$oid" : "04f5a2dcfe224dd0b0b630f5"
+},
+"collection" : "FESupervisorTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}
