@@ -1,0 +1,3 @@
+GroupAliasesTable 0
+TableGroupMetadata 0
+VersionAliasesTable 0

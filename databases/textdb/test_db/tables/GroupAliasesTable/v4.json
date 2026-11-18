@@ -1,0 +1,24 @@
+{
+"NAME" : "GROUP_ALIASES_TABLE",
+"COMMENT" : "Default Backbone.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1552612072,
+"COL_TYPES" : {
+"GROUP_KEY_ALIAS" : "STRING",
+"GROUP_NAME" : "STRING",
+"GROUP_KEY" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"GROUP_KEY_ALIAS" : "defaultSystemAlias",
+"GROUP_NAME" : "defaultConfig",
+"GROUP_KEY" : "1",
+"COMMENT_DESCRIPTION" : "default safe running",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1552612072"
+}
+]
+}
