@@ -1,0 +1,106 @@
+{
+"document" : {
+"data" : {
+"DesktopIconTable" : "3",
+"DesktopWindowParameterTable" : "3",
+"GatewaySupervisorTable" : "4",
+"MessageFacilityTable" : "3",
+"SlowControlsDashboardSupervisorTable" : "3",
+"StateMachineTable" : "3",
+"TableGroupMetadata" : "17",
+"XDAQApplicationPropertyTable" : "3",
+"XDAQApplicationTable" : "6",
+"XDAQContextTable" : "3"
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-18T18:13:34.459-0600",
+"rawdata" : [
+
+]
+},
+"version" : "5",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T18:13:34.459-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-18T18:13:34.459-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:13:34.459-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-18T18:13:34.459-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-18T18:13:34.459-0600",
+"value" : {
+"name" : "5",
+"assigned" : "2026-11-18T18:13:34.459-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-18T18:13:34.459-0600",
+"value" : {
+"name" : "GroupCache_artdaqContext",
+"assigned" : "2026-11-18T18:13:34.459-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-18T18:13:34.459-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T18:13:34.459-0600"
+}
+}
+],
+"created" : "2026-11-18T18:13:34.459-0600"
+},
+"_id" : {
+"$oid" : "6db55714f1154c7e9a500772"
+},
+"collection" : "GroupCache_artdaqContext",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

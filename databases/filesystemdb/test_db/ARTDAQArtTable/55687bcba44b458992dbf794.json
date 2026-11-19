@@ -1,0 +1,245 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ARTDAQ_ART_TABLE",
+"COMMENT" : "artdaq tutorial: live DQM of the emulator data (online monitor with UDPEmulatorDQM, Visualizer buffer DB2)",
+"AUTHOR" : "rrivera",
+"CREATION_TIME" : 1795040597,
+"COL_TYPES" : {
+"ART_CONFIG_UID" : "STRING",
+"SERVICES_LINK" : "STRING",
+"SERVICES_LINK_UID" : "STRING",
+"OUTPUTS_LINK" : "STRING",
+"OUTPUTS_LINK_UID" : "STRING",
+"PHYSICS_LINK" : "STRING",
+"PHYSICS_LINK_UID" : "STRING",
+"SOURCE_LINK" : "STRING",
+"SOURCE_LINK_UID" : "STRING",
+"PROCESS_NAME" : "STRING",
+"ADD_ON_PARAMETERS_LINK" : "STRING",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"ART_CONFIG_UID" : "builderSubsystem1Config",
+"SERVICES_LINK" : "ARTDAQServicesTable",
+"SERVICES_LINK_UID" : "netMonTransportService",
+"OUTPUTS_LINK" : "ARTDAQOutputTable",
+"OUTPUTS_LINK_UID" : "builder0outputs",
+"PHYSICS_LINK" : "ARTDAQPhysicsTable",
+"PHYSICS_LINK_UID" : "builder0physics0",
+"SOURCE_LINK" : "ARTDAQSourceTable",
+"SOURCE_LINK_UID" : "artdaqInputSource",
+"PROCESS_NAME" : "DAQ",
+"ADD_ON_PARAMETERS_LINK" : "NO_LINK",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974164"
+},
+{
+"ART_CONFIG_UID" : "builderSubsystem2Config",
+"SERVICES_LINK" : "ARTDAQServicesTable",
+"SERVICES_LINK_UID" : "netMonTransportService",
+"OUTPUTS_LINK" : "ARTDAQOutputTable",
+"OUTPUTS_LINK_UID" : "builder1outputs",
+"PHYSICS_LINK" : "ARTDAQPhysicsTable",
+"PHYSICS_LINK_UID" : "builder1physics0",
+"SOURCE_LINK" : "ARTDAQSourceTable",
+"SOURCE_LINK_UID" : "artdaqInputSource",
+"PROCESS_NAME" : "DAQ2",
+"ADD_ON_PARAMETERS_LINK" : "NO_LINK",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974164"
+},
+{
+"ART_CONFIG_UID" : "loggerConfig",
+"SERVICES_LINK" : "ARTDAQServicesTable",
+"SERVICES_LINK_UID" : "netMonTransportService",
+"OUTPUTS_LINK" : "ARTDAQOutputTable",
+"OUTPUTS_LINK_UID" : "aggregator0outputs",
+"PHYSICS_LINK" : "ARTDAQPhysicsTable",
+"PHYSICS_LINK_UID" : "aggregator0physics0",
+"SOURCE_LINK" : "ARTDAQSourceTable",
+"SOURCE_LINK_UID" : "netMonInputSource",
+"PROCESS_NAME" : "DAQDL",
+"ADD_ON_PARAMETERS_LINK" : "NO_LINK",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974164"
+},
+{
+"ART_CONFIG_UID" : "DispatcherConfig",
+"SERVICES_LINK" : "ARTDAQServicesTable",
+"SERVICES_LINK_UID" : "netMonTransportService",
+"OUTPUTS_LINK" : "NO_LINK",
+"OUTPUTS_LINK_UID" : "DEFAULT",
+"PHYSICS_LINK" : "ARTDAQPhysicsTable",
+"PHYSICS_LINK_UID" : "Dispatcher0physics",
+"SOURCE_LINK" : "ARTDAQSourceTable",
+"SOURCE_LINK_UID" : "netMonInputSource",
+"PROCESS_NAME" : "DAQDI",
+"ADD_ON_PARAMETERS_LINK" : "NO_LINK",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1794974164"
+},
+{
+"ART_CONFIG_UID" : "udpEmulatorMonitorArt",
+"SERVICES_LINK" : "ARTDAQServicesTable",
+"SERVICES_LINK_UID" : "netMonTransportService",
+"OUTPUTS_LINK" : "NO_LINK",
+"OUTPUTS_LINK_UID" : "udpEmulatorMonitorArt",
+"PHYSICS_LINK" : "ARTDAQPhysicsTable",
+"PHYSICS_LINK_UID" : "udpEmulatorMonitorPhysics",
+"SOURCE_LINK" : "ARTDAQSourceTable",
+"SOURCE_LINK_UID" : "monitorTransferInput",
+"PROCESS_NAME" : "UDPEmulatorMonitor",
+"ADD_ON_PARAMETERS_LINK" : "NO_LINK",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "udpEmulatorMonitorArt",
+"COMMENT_DESCRIPTION" : "No comment.",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1795040595"
+},
+{
+"ART_CONFIG_UID" : "udpEmulatorMonitorDispatcherArt",
+"SERVICES_LINK" : "ARTDAQServicesTable",
+"SERVICES_LINK_UID" : "netMonTransportService",
+"OUTPUTS_LINK" : "ARTDAQOutputTable",
+"OUTPUTS_LINK_UID" : "udpEmulatorMonitorDispatcherOutputs",
+"PHYSICS_LINK" : "NO_LINK",
+"PHYSICS_LINK_UID" : "DEFAULT",
+"SOURCE_LINK" : "ARTDAQSourceTable",
+"SOURCE_LINK_UID" : "netMonInputSource",
+"PROCESS_NAME" : "UDPEmulatorMonitorDispatcher",
+"ADD_ON_PARAMETERS_LINK" : "NO_LINK",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "udpEmulatorMonitorDispatcherArt",
+"COMMENT_DESCRIPTION" : "No comment.",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1795040595"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-18T16:23:17.151-0600",
+"rawdata" : [
+
+]
+},
+"version" : "4",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:23:17.151-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:23:17.151-0600"
+},
+{
+"name" : "artdaqConfig_v6",
+"assigned" : "2026-11-18T16:23:17.633-0600"
+},
+{
+"name" : "artdaqConfig_v7",
+"assigned" : "2026-11-18T16:51:24.760-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:23:17.151-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:23:17.151-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-18T16:23:17.151-0600",
+"value" : {
+"name" : "4",
+"assigned" : "2026-11-18T16:23:17.151-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-18T16:23:17.151-0600",
+"value" : {
+"name" : "ARTDAQArtTable",
+"assigned" : "2026-11-18T16:23:17.151-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-18T16:23:17.151-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:23:17.151-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:23:17.633-0600",
+"value" : {
+"name" : "artdaqConfig_v6",
+"assigned" : "2026-11-18T16:23:17.633-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:51:24.760-0600",
+"value" : {
+"name" : "artdaqConfig_v7",
+"assigned" : "2026-11-18T16:51:24.760-0600"
+}
+}
+],
+"created" : "2026-11-18T16:23:17.151-0600"
+},
+"_id" : {
+"$oid" : "55687bcba44b458992dbf794"
+},
+"collection" : "ARTDAQArtTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

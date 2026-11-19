@@ -1,0 +1,154 @@
+{
+"document" : {
+"data" : {
+"NAME" : "DATA_BUFFER_TABLE",
+"COMMENT" : "artdaq tutorial: Visualizer buffer DB1 (first_demo raw UDP histograms) Off; DB2 shows the artdaq DQM",
+"AUTHOR" : "rrivera",
+"CREATION_TIME" : 1795047892,
+"COL_TYPES" : {
+"DATA_BUFFER_GROUP_ID" : "STRING",
+"DATA_BUFFER_UID" : "STRING",
+"LINK_TO_DATA_PROCESSOR_TABLE" : "STRING",
+"LINK_TO_DATA_PROCESSOR_GROUP_ID" : "STRING",
+"STATUS" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"DATA_BUFFER_GROUP_ID" : "DMGroup0",
+"DATA_BUFFER_UID" : "DB0",
+"LINK_TO_DATA_PROCESSOR_TABLE" : "DataProcessorTable",
+"LINK_TO_DATA_PROCESSOR_GROUP_ID" : "DBGroup0",
+"STATUS" : "On",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1548791143"
+},
+{
+"DATA_BUFFER_GROUP_ID" : "DMVisualizerGroup0",
+"DATA_BUFFER_UID" : "DB1",
+"LINK_TO_DATA_PROCESSOR_TABLE" : "DataProcessorTable",
+"LINK_TO_DATA_PROCESSOR_GROUP_ID" : "DBGroup1",
+"STATUS" : "Off",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1795047892"
+},
+{
+"DATA_BUFFER_GROUP_ID" : "DMVisualizerGroup0",
+"DATA_BUFFER_UID" : "DB2",
+"LINK_TO_DATA_PROCESSOR_TABLE" : "DataProcessorTable",
+"LINK_TO_DATA_PROCESSOR_GROUP_ID" : "DBGroup2",
+"STATUS" : "On",
+"COMMENT_DESCRIPTION" : "No comment.",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1795040596"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-18T18:24:52.679-0600",
+"rawdata" : [
+
+]
+},
+"version" : "4",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T18:24:52.680-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-18T18:24:52.679-0600"
+},
+{
+"name" : "artdaqConfig_v9",
+"assigned" : "2026-11-18T18:24:53.610-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:24:52.679-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-18T18:24:52.679-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-18T18:24:52.679-0600",
+"value" : {
+"name" : "4",
+"assigned" : "2026-11-18T18:24:52.679-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-18T18:24:52.679-0600",
+"value" : {
+"name" : "DataBufferTable",
+"assigned" : "2026-11-18T18:24:52.679-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-18T18:24:52.680-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T18:24:52.680-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:24:53.610-0600",
+"value" : {
+"name" : "artdaqConfig_v9",
+"assigned" : "2026-11-18T18:24:53.610-0600"
+}
+}
+],
+"created" : "2026-11-18T18:24:52.679-0600"
+},
+"_id" : {
+"$oid" : "0b1acb5f8be0428ca3a32844"
+},
+"collection" : "DataBufferTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

@@ -30,6 +30,18 @@
 ],
 "artdaqConfig_v5" : [
 "44ad9b15863b4b21b5b3a060"
+],
+"artdaqConfig_v6" : [
+"44ad9b15863b4b21b5b3a060"
+],
+"artdaqConfig_v7" : [
+"44ad9b15863b4b21b5b3a060"
+],
+"artdaqConfig_v8" : [
+"44ad9b15863b4b21b5b3a060"
+],
+"artdaqConfig_v9" : [
+"44ad9b15863b4b21b5b3a060"
 ]
 },
 "entities.name" : {
@@ -63,6 +75,18 @@
 ],
 "artdaqConfig_v5" : [
 "2026-11-18T15:05:12.066-0600"
+],
+"artdaqConfig_v6" : [
+"2026-11-18T16:23:18.640-0600"
+],
+"artdaqConfig_v7" : [
+"2026-11-18T16:51:25.737-0600"
+],
+"artdaqConfig_v8" : [
+"2026-11-18T18:20:23.044-0600"
+],
+"artdaqConfig_v9" : [
+"2026-11-18T18:24:53.780-0600"
 ]
 }
 }

@@ -1,0 +1,154 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ARTDAQ_ONLINE_MONITOR_TABLE",
+"COMMENT" : "artdaq tutorial: live DQM of the emulator data (online monitor with UDPEmulatorDQM, Visualizer buffer DB2)",
+"AUTHOR" : "rrivera",
+"CREATION_TIME" : 1795040593,
+"COL_TYPES" : {
+"ONLINEMONITOR_GROUP_ID" : "STRING",
+"ONLINEMONITOR_UID" : "STRING",
+"STATUS" : "STRING",
+"EXECUTION_HOSTNAME" : "STRING",
+"MONITOR_ID" : "NUMBER",
+"MONITOR_TCP_LISTEN_PORT" : "NUMBER",
+"MAX_FRAGMENT_SIZE_WORDS" : "NUMBER",
+"TRANSFER_PLUGIN_TYPE" : "STRING",
+"DISPATCHER_PATH" : "STRING",
+"FILTER_PATH_LINK" : "STRING",
+"FILTER_PATH_LINK_UID" : "STRING",
+"ART_LINK" : "STRING",
+"ART_LINK_UID" : "STRING",
+"DISPATCHER_LINK" : "STRING",
+"DISPATCHER_LINK_UID" : "STRING",
+"DISPATCHER_ART_LINK" : "STRING",
+"DISPATCHER_ART_LINK_UID" : "STRING",
+"PREAMBLE_PARAMETERS_LINK" : "STRING",
+"PREAMBLE_PARAMETERS_LINK_GROUP_ID" : "STRING",
+"ADD_ON_PARAMETERS_LINK" : "STRING",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"ONLINEMONITOR_GROUP_ID" : "udpEmulatorMonitors",
+"ONLINEMONITOR_UID" : "udpEmulatorMonitor0",
+"STATUS" : "On",
+"EXECUTION_HOSTNAME" : "DEFAULT",
+"MONITOR_ID" : "100",
+"MONITOR_TCP_LISTEN_PORT" : "2032",
+"MAX_FRAGMENT_SIZE_WORDS" : "DEFAULT",
+"TRANSFER_PLUGIN_TYPE" : "TCPSocket",
+"DISPATCHER_PATH" : "[dispatcherTransferOutput]",
+"FILTER_PATH_LINK" : "NO_LINK",
+"FILTER_PATH_LINK_UID" : "DEFAULT",
+"ART_LINK" : "NO_LINK",
+"ART_LINK_UID" : "DEFAULT",
+"DISPATCHER_LINK" : "NO_LINK",
+"DISPATCHER_LINK_UID" : "DEFAULT",
+"DISPATCHER_ART_LINK" : "NO_LINK",
+"DISPATCHER_ART_LINK_UID" : "DEFAULT",
+"PREAMBLE_PARAMETERS_LINK" : "NO_LINK",
+"PREAMBLE_PARAMETERS_LINK_GROUP_ID" : "DEFAULT",
+"ADD_ON_PARAMETERS_LINK" : "NO_LINK",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "online monitor that fills the emulator histograms",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1795040593"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-18T16:23:13.657-0600",
+"rawdata" : [
+
+]
+},
+"version" : "0",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:23:13.657-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:23:13.657-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:23:13.657-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:23:13.657-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-18T16:23:13.657-0600",
+"value" : {
+"name" : "0",
+"assigned" : "2026-11-18T16:23:13.657-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-18T16:23:13.657-0600",
+"value" : {
+"name" : "ARTDAQOnlineMonitorTable",
+"assigned" : "2026-11-18T16:23:13.657-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-18T16:23:13.657-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:23:13.657-0600"
+}
+}
+],
+"created" : "2026-11-18T16:23:13.657-0600"
+},
+"_id" : {
+"$oid" : "e9f4b2eaf4fc40beb977c3b5"
+},
+"collection" : "ARTDAQOnlineMonitorTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

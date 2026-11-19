@@ -1,0 +1,128 @@
+{
+"document" : {
+"data" : {
+"NAME" : "TABLE_GROUP_METADATA",
+"COMMENT" : "",
+"AUTHOR" : "",
+"CREATION_TIME" : 1548716147,
+"COL_TYPES" : {
+"UNUSED_UID" : "NUMBER",
+"GROUP_ALIASES" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"GROUP_CREATION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"UNUSED_UID" : "0",
+"GROUP_ALIASES" : "",
+"COMMENT_DESCRIPTION" : "artdaq%20tutorial%3A%20physics%20block%20for%20the%20art%20the%20Dispatcher%20runs%20for%20the%20online%20monitor%20%28the%20Dispatcher%20requires%20one%29",
+"AUTHOR" : "rrivera",
+"GROUP_CREATION_TIME" : "1795047621"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-18T18:20:21.935-0600",
+"rawdata" : [
+
+]
+},
+"version" : "18",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T18:20:21.935-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-18T18:20:21.935-0600"
+},
+{
+"name" : "artdaqConfig_v8",
+"assigned" : "2026-11-18T18:20:23.216-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:20:21.935-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-18T18:20:21.935-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-18T18:20:21.935-0600",
+"value" : {
+"name" : "18",
+"assigned" : "2026-11-18T18:20:21.935-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-18T18:20:21.935-0600",
+"value" : {
+"name" : "TableGroupMetadata",
+"assigned" : "2026-11-18T18:20:21.935-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-18T18:20:21.935-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T18:20:21.935-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:20:23.216-0600",
+"value" : {
+"name" : "artdaqConfig_v8",
+"assigned" : "2026-11-18T18:20:23.216-0600"
+}
+}
+],
+"created" : "2026-11-18T18:20:21.935-0600"
+},
+"_id" : {
+"$oid" : "e900954301a845efb263a9ae"
+},
+"collection" : "TableGroupMetadata",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

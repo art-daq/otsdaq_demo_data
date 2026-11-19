@@ -1,0 +1,99 @@
+{
+"document" : {
+"data" : {
+"GroupAliasesTable" : "10",
+"TableGroupMetadata" : "14",
+"VersionAliasesTable" : "6"
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-18T16:23:52.996-0600",
+"rawdata" : [
+
+]
+},
+"version" : "10",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:23:52.996-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:23:52.996-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:23:52.996-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:23:52.996-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-18T16:23:52.996-0600",
+"value" : {
+"name" : "10",
+"assigned" : "2026-11-18T16:23:52.996-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-18T16:23:52.996-0600",
+"value" : {
+"name" : "GroupCache_GroupAliasTreeEditWizBackbone",
+"assigned" : "2026-11-18T16:23:52.996-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-18T16:23:52.996-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:23:52.996-0600"
+}
+}
+],
+"created" : "2026-11-18T16:23:52.996-0600"
+},
+"_id" : {
+"$oid" : "61093ac11c9e46eb9565725a"
+},
+"collection" : "GroupCache_GroupAliasTreeEditWizBackbone",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

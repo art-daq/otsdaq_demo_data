@@ -126,6 +126,18 @@
 {
 "name" : "testContext_v5",
 "assigned" : "2020-08-11T21:49:54.975-0500"
+},
+{
+"name" : "artdaqContext_v4",
+"assigned" : "2026-11-18T16:23:19.996-0600"
+},
+{
+"name" : "artdaqContext_v5",
+"assigned" : "2026-11-18T18:13:34.293-0600"
+},
+{
+"name" : "artdaqContext_v6",
+"assigned" : "2026-11-18T18:24:52.273-0600"
 }
 ],
 "changelog" : "notprovided",
@@ -179,6 +191,30 @@
 "value" : {
 "name" : "testContext_v5",
 "assigned" : "2020-08-11T21:49:54.975-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:23:19.996-0600",
+"value" : {
+"name" : "artdaqContext_v4",
+"assigned" : "2026-11-18T16:23:19.996-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:13:34.293-0600",
+"value" : {
+"name" : "artdaqContext_v5",
+"assigned" : "2026-11-18T18:13:34.293-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:24:52.273-0600",
+"value" : {
+"name" : "artdaqContext_v6",
+"assigned" : "2026-11-18T18:24:52.273-0600"
 }
 }
 ],

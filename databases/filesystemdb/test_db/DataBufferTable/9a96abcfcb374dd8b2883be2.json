@@ -1,0 +1,178 @@
+{
+"document" : {
+"data" : {
+"NAME" : "DATA_BUFFER_TABLE",
+"COMMENT" : "artdaq tutorial: live DQM of the emulator data (online monitor with UDPEmulatorDQM, Visualizer buffer DB2)",
+"AUTHOR" : "rrivera",
+"CREATION_TIME" : 1795040597,
+"COL_TYPES" : {
+"DATA_BUFFER_GROUP_ID" : "STRING",
+"DATA_BUFFER_UID" : "STRING",
+"LINK_TO_DATA_PROCESSOR_TABLE" : "STRING",
+"LINK_TO_DATA_PROCESSOR_GROUP_ID" : "STRING",
+"STATUS" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"DATA_BUFFER_GROUP_ID" : "DMGroup0",
+"DATA_BUFFER_UID" : "DB0",
+"LINK_TO_DATA_PROCESSOR_TABLE" : "DataProcessorTable",
+"LINK_TO_DATA_PROCESSOR_GROUP_ID" : "DBGroup0",
+"STATUS" : "On",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1548791143"
+},
+{
+"DATA_BUFFER_GROUP_ID" : "DMVisualizerGroup0",
+"DATA_BUFFER_UID" : "DB1",
+"LINK_TO_DATA_PROCESSOR_TABLE" : "DataProcessorTable",
+"LINK_TO_DATA_PROCESSOR_GROUP_ID" : "DBGroup1",
+"STATUS" : "On",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1548791143"
+},
+{
+"DATA_BUFFER_GROUP_ID" : "DMVisualizerGroup0",
+"DATA_BUFFER_UID" : "DB2",
+"LINK_TO_DATA_PROCESSOR_TABLE" : "DataProcessorTable",
+"LINK_TO_DATA_PROCESSOR_GROUP_ID" : "DBGroup2",
+"STATUS" : "On",
+"COMMENT_DESCRIPTION" : "No comment.",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1795040596"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-18T16:23:17.456-0600",
+"rawdata" : [
+
+]
+},
+"version" : "3",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:23:17.456-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:23:17.456-0600"
+},
+{
+"name" : "artdaqConfig_v6",
+"assigned" : "2026-11-18T16:23:18.476-0600"
+},
+{
+"name" : "artdaqConfig_v7",
+"assigned" : "2026-11-18T16:51:25.572-0600"
+},
+{
+"name" : "artdaqConfig_v8",
+"assigned" : "2026-11-18T18:20:22.870-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:23:17.456-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:23:17.456-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-18T16:23:17.456-0600",
+"value" : {
+"name" : "3",
+"assigned" : "2026-11-18T16:23:17.456-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-18T16:23:17.456-0600",
+"value" : {
+"name" : "DataBufferTable",
+"assigned" : "2026-11-18T16:23:17.456-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-18T16:23:17.456-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:23:17.456-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:23:18.476-0600",
+"value" : {
+"name" : "artdaqConfig_v6",
+"assigned" : "2026-11-18T16:23:18.476-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:51:25.572-0600",
+"value" : {
+"name" : "artdaqConfig_v7",
+"assigned" : "2026-11-18T16:51:25.572-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:20:22.870-0600",
+"value" : {
+"name" : "artdaqConfig_v8",
+"assigned" : "2026-11-18T18:20:22.870-0600"
+}
+}
+],
+"created" : "2026-11-18T16:23:17.456-0600"
+},
+"_id" : {
+"$oid" : "9a96abcfcb374dd8b2883be2"
+},
+"collection" : "DataBufferTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

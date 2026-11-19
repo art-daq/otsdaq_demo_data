@@ -1,0 +1,128 @@
+{
+"document" : {
+"data" : {
+"NAME" : "TABLE_GROUP_METADATA",
+"COMMENT" : "",
+"AUTHOR" : "",
+"CREATION_TIME" : 1548716147,
+"COL_TYPES" : {
+"UNUSED_UID" : "NUMBER",
+"GROUP_ALIASES" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"GROUP_CREATION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"UNUSED_UID" : "0",
+"GROUP_ALIASES" : "",
+"COMMENT_DESCRIPTION" : "alias%20artdaqSystemAlias",
+"AUTHOR" : "rrivera",
+"GROUP_CREATION_TIME" : "1795042286"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-18T16:51:26.291-0600",
+"rawdata" : [
+
+]
+},
+"version" : "16",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:51:26.291-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:51:26.291-0600"
+},
+{
+"name" : "GroupAliasTreeEditWizBackbone_v11",
+"assigned" : "2026-11-18T16:51:26.355-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:51:26.291-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:51:26.291-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-18T16:51:26.291-0600",
+"value" : {
+"name" : "16",
+"assigned" : "2026-11-18T16:51:26.291-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-18T16:51:26.291-0600",
+"value" : {
+"name" : "TableGroupMetadata",
+"assigned" : "2026-11-18T16:51:26.291-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-18T16:51:26.291-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:51:26.291-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:51:26.355-0600",
+"value" : {
+"name" : "GroupAliasTreeEditWizBackbone_v11",
+"assigned" : "2026-11-18T16:51:26.355-0600"
+}
+}
+],
+"created" : "2026-11-18T16:51:26.291-0600"
+},
+"_id" : {
+"$oid" : "e813571c171a4bf8a2493c3e"
+},
+"collection" : "TableGroupMetadata",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

@@ -1,0 +1,198 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ARTDAQ_DISPATCHER_TABLE",
+"COMMENT" : "artdaq tutorial: live DQM of the emulator data (online monitor with UDPEmulatorDQM, Visualizer buffer DB2)",
+"AUTHOR" : "rrivera",
+"CREATION_TIME" : 1795040596,
+"COL_TYPES" : {
+"DISPATCHER_GROUP_ID" : "STRING",
+"DISPATCHER_UID" : "STRING",
+"STATUS" : "STRING",
+"EXECUTION_HOSTNAME" : "STRING",
+"ALLOWED_PROCESSORS" : "STRING",
+"DISPATCHER_ID" : "NUMBER",
+"DISPATCHER_PORT" : "NUMBER",
+"SUBSYSTEM_LINK" : "STRING",
+"SUBSYSTEM_LINK_UID" : "STRING",
+"DAQ_LINK" : "STRING",
+"DAQ_LINK_UID" : "STRING",
+"ART_LINK" : "STRING",
+"ART_LINK_UID" : "STRING",
+"PREAMBLE_PARAMETERS_LINK" : "STRING",
+"PREAMBLE_PARAMETERS_LINK_GROUP_ID" : "STRING",
+"ADD_ON_PARAMETERS_LINK" : "STRING",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "STRING",
+"METRIC_ALARM_THRESHOLDS_LINK" : "STRING",
+"METRIC_ALARM_THRESHOLDS_LINK_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"DISPATCHER_GROUP_ID" : "DispatcherGroup0",
+"DISPATCHER_UID" : "Dispatcher0",
+"STATUS" : "On",
+"EXECUTION_HOSTNAME" : "DEFAULT",
+"ALLOWED_PROCESSORS" : "DEFAULT",
+"DISPATCHER_ID" : "0",
+"DISPATCHER_PORT" : "10104",
+"SUBSYSTEM_LINK" : "ARTDAQSubsystemTable",
+"SUBSYSTEM_LINK_UID" : "subsystem2",
+"DAQ_LINK" : "ARTDAQDaqTable",
+"DAQ_LINK_UID" : "Dispatcher0Daq",
+"ART_LINK" : "ARTDAQArtTable",
+"ART_LINK_UID" : "DispatcherConfig",
+"PREAMBLE_PARAMETERS_LINK" : "NO_LINK",
+"PREAMBLE_PARAMETERS_LINK_GROUP_ID" : "DEFAULT",
+"ADD_ON_PARAMETERS_LINK" : "NO_LINK",
+"ADD_ON_PARAMETERS_LINK_GROUP_ID" : "DEFAULT",
+"METRIC_ALARM_THRESHOLDS_LINK" : "NO_LINK",
+"METRIC_ALARM_THRESHOLDS_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1795040593"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-18T16:23:16.990-0600",
+"rawdata" : [
+
+]
+},
+"version" : "4",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:23:16.990-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:23:16.990-0600"
+},
+{
+"name" : "artdaqConfig_v6",
+"assigned" : "2026-11-18T16:23:17.793-0600"
+},
+{
+"name" : "artdaqConfig_v7",
+"assigned" : "2026-11-18T16:51:24.923-0600"
+},
+{
+"name" : "artdaqConfig_v8",
+"assigned" : "2026-11-18T18:20:22.191-0600"
+},
+{
+"name" : "artdaqConfig_v9",
+"assigned" : "2026-11-18T18:24:52.944-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:23:16.990-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:23:16.990-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-18T16:23:16.990-0600",
+"value" : {
+"name" : "4",
+"assigned" : "2026-11-18T16:23:16.990-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-18T16:23:16.990-0600",
+"value" : {
+"name" : "ARTDAQDispatcherTable",
+"assigned" : "2026-11-18T16:23:16.990-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-18T16:23:16.990-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:23:16.990-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:23:17.793-0600",
+"value" : {
+"name" : "artdaqConfig_v6",
+"assigned" : "2026-11-18T16:23:17.793-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:51:24.923-0600",
+"value" : {
+"name" : "artdaqConfig_v7",
+"assigned" : "2026-11-18T16:51:24.923-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:20:22.191-0600",
+"value" : {
+"name" : "artdaqConfig_v8",
+"assigned" : "2026-11-18T18:20:22.191-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:24:52.944-0600",
+"value" : {
+"name" : "artdaqConfig_v9",
+"assigned" : "2026-11-18T18:24:52.944-0600"
+}
+}
+],
+"created" : "2026-11-18T16:23:16.990-0600"
+},
+"_id" : {
+"$oid" : "e858f100d302431ea2d18cbc"
+},
+"collection" : "ARTDAQDispatcherTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

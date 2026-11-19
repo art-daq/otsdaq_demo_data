@@ -82,6 +82,22 @@
 {
 "name" : "artdaqConfig_v5",
 "assigned" : "2026-11-18T15:05:11.937-0600"
+},
+{
+"name" : "artdaqConfig_v6",
+"assigned" : "2026-11-18T16:23:18.508-0600"
+},
+{
+"name" : "artdaqConfig_v7",
+"assigned" : "2026-11-18T16:51:25.605-0600"
+},
+{
+"name" : "artdaqConfig_v8",
+"assigned" : "2026-11-18T18:20:22.905-0600"
+},
+{
+"name" : "artdaqConfig_v9",
+"assigned" : "2026-11-18T18:24:53.643-0600"
 }
 ],
 "changelog" : "notprovided",
@@ -159,6 +175,38 @@
 "value" : {
 "name" : "artdaqConfig_v5",
 "assigned" : "2026-11-18T15:05:11.937-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:23:18.508-0600",
+"value" : {
+"name" : "artdaqConfig_v6",
+"assigned" : "2026-11-18T16:23:18.508-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:51:25.605-0600",
+"value" : {
+"name" : "artdaqConfig_v7",
+"assigned" : "2026-11-18T16:51:25.605-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:20:22.905-0600",
+"value" : {
+"name" : "artdaqConfig_v8",
+"assigned" : "2026-11-18T18:20:22.905-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:24:53.643-0600",
+"value" : {
+"name" : "artdaqConfig_v9",
+"assigned" : "2026-11-18T18:24:53.643-0600"
 }
 }
 ],

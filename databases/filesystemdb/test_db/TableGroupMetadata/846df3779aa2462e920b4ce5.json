@@ -1,0 +1,128 @@
+{
+"document" : {
+"data" : {
+"NAME" : "TABLE_GROUP_METADATA",
+"COMMENT" : "",
+"AUTHOR" : "",
+"CREATION_TIME" : 1548716147,
+"COL_TYPES" : {
+"UNUSED_UID" : "NUMBER",
+"GROUP_ALIASES" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"GROUP_CREATION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"UNUSED_UID" : "0",
+"GROUP_ALIASES" : "",
+"COMMENT_DESCRIPTION" : "artdaq%20tutorial%3A%20online%20monitor%20supervisor%20for%20live%20DQM%20of%20the%20emulator%20data",
+"AUTHOR" : "rrivera",
+"GROUP_CREATION_TIME" : "1795040599"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-18T16:23:19.802-0600",
+"rawdata" : [
+
+]
+},
+"version" : "13",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:23:19.803-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:23:19.803-0600"
+},
+{
+"name" : "artdaqContext_v4",
+"assigned" : "2026-11-18T16:23:20.028-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:23:19.803-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:23:19.803-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-18T16:23:19.803-0600",
+"value" : {
+"name" : "13",
+"assigned" : "2026-11-18T16:23:19.803-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-18T16:23:19.803-0600",
+"value" : {
+"name" : "TableGroupMetadata",
+"assigned" : "2026-11-18T16:23:19.803-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-18T16:23:19.803-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:23:19.803-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:23:20.028-0600",
+"value" : {
+"name" : "artdaqContext_v4",
+"assigned" : "2026-11-18T16:23:20.028-0600"
+}
+}
+],
+"created" : "2026-11-18T16:23:19.802-0600"
+},
+"_id" : {
+"$oid" : "846df3779aa2462e920b4ce5"
+},
+"collection" : "TableGroupMetadata",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

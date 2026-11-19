@@ -1,0 +1,134 @@
+{
+"document" : {
+"data" : {
+"ARTDAQArtTable" : "5",
+"ARTDAQBoardReaderTable" : "3",
+"ARTDAQDaqParameterTable" : "3",
+"ARTDAQDaqTable" : "2",
+"ARTDAQDataLoggerTable" : "3",
+"ARTDAQDispatcherTable" : "4",
+"ARTDAQEventBuilderTable" : "3",
+"ARTDAQMetricParameterTable" : "2",
+"ARTDAQMetricTable" : "3",
+"ARTDAQOnlineMonitorTable" : "2",
+"ARTDAQOutputModuleParameterTable" : "2",
+"ARTDAQOutputTable" : "3",
+"ARTDAQPhysicsAnalyzerParameterTable" : "3",
+"ARTDAQPhysicsAnalyzerTable" : "4",
+"ARTDAQPhysicsFilterParameterTable" : "2",
+"ARTDAQPhysicsFilterTable" : "2",
+"ARTDAQPhysicsParameterTable" : "3",
+"ARTDAQPhysicsProducerParameterTable" : "2",
+"ARTDAQPhysicsProducerTable" : "2",
+"ARTDAQPhysicsTable" : "4",
+"ARTDAQServicesTable" : "4",
+"ARTDAQSourceTable" : "5",
+"ARTDAQSubsystemTable" : "2",
+"ARTDAQSupervisorTable" : "3",
+"DQMHistosConsumerTable" : "3",
+"DataBufferTable" : "3",
+"DataManagerSupervisorTable" : "2",
+"DataProcessorTable" : "3",
+"FEInterfaceTable" : "2",
+"FEOtsUDPTemplateInterfaceTable" : "2",
+"FESlowControlsTable" : "3",
+"FESupervisorTable" : "3",
+"FEWOtsUDPHardwareTable" : "2",
+"RawDataSaverConsumerTable" : "2",
+"TCPDataListenerProducerTable" : "0",
+"TableGroupMetadata" : "18",
+"UDPDataListenerProducerTable" : "2",
+"UDPDataStreamerConsumerTable" : "2"
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-18T18:20:23.319-0600",
+"rawdata" : [
+
+]
+},
+"version" : "8",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T18:20:23.319-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-18T18:20:23.319-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:20:23.319-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-18T18:20:23.319-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-18T18:20:23.319-0600",
+"value" : {
+"name" : "8",
+"assigned" : "2026-11-18T18:20:23.319-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-18T18:20:23.319-0600",
+"value" : {
+"name" : "GroupCache_artdaqConfig",
+"assigned" : "2026-11-18T18:20:23.319-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-18T18:20:23.319-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T18:20:23.319-0600"
+}
+}
+],
+"created" : "2026-11-18T18:20:23.319-0600"
+},
+"_id" : {
+"$oid" : "02f33e0ad8ae46cebdb6b670"
+},
+"collection" : "GroupCache_artdaqConfig",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

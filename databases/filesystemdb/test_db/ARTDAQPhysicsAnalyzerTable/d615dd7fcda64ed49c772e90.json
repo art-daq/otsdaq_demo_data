@@ -1,0 +1,210 @@
+{
+"document" : {
+"data" : {
+"NAME" : "ARTDAQ_PHYSICS_ANALYZER_TABLE",
+"COMMENT" : "artdaq tutorial: live DQM of the emulator data (online monitor with UDPEmulatorDQM, Visualizer buffer DB2)",
+"AUTHOR" : "rrivera",
+"CREATION_TIME" : 1795040597,
+"COL_TYPES" : {
+"ANALYZER_GROUP_ID" : "STRING",
+"ANALYZER_UID" : "STRING",
+"STATUS" : "STRING",
+"ANALYZER_KEY" : "STRING",
+"ANALYZER_MODULE_TYPE" : "STRING",
+"ANALYZER_MODULE_PARAMETER_LINK" : "STRING",
+"ANALYZER_MODULE_PARAMETER_LINK_GROUP_ID" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"ANALYZER_GROUP_ID" : "builder0PhysicsAnalyzers | builder0PhysicsAnalyzerPGroup",
+"ANALYZER_UID" : "builderPhysicsAnalyzer0",
+"STATUS" : "Off",
+"ANALYZER_KEY" : "wf",
+"ANALYZER_MODULE_TYPE" : "\"WFViewer\"",
+"ANALYZER_MODULE_PARAMETER_LINK" : "ARTDAQPhysicsAnalyzerParameterTable",
+"ANALYZER_MODULE_PARAMETER_LINK_GROUP_ID" : "builder0PhysicsAnalyzer0PGroup",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1795035910"
+},
+{
+"ANALYZER_GROUP_ID" : "builder0PhysicsAnalyzers | builder0PhysicsAnalyzerPGroup",
+"ANALYZER_UID" : "builderPhysicsAnalyzer1",
+"STATUS" : "Off",
+"ANALYZER_KEY" : "checkintegrity",
+"ANALYZER_MODULE_TYPE" : "\"CheckIntegrity\"",
+"ANALYZER_MODULE_PARAMETER_LINK" : "NO_LINK",
+"ANALYZER_MODULE_PARAMETER_LINK_GROUP_ID" : "DEFAULT",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "DEFAULT",
+"RECORD_INSERTION_TIME" : "0"
+},
+{
+"ANALYZER_GROUP_ID" : "aggregator0PhysicsAnalyzers",
+"ANALYZER_UID" : "aggregatorPhysicsAnalyzer0",
+"STATUS" : "Off",
+"ANALYZER_KEY" : "wf",
+"ANALYZER_MODULE_TYPE" : "\"WFViewer\"",
+"ANALYZER_MODULE_PARAMETER_LINK" : "ARTDAQPhysicsAnalyzerParameterTable",
+"ANALYZER_MODULE_PARAMETER_LINK_GROUP_ID" : "aggregator0PhysicsAnalyzer0PGroup",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1795035910"
+},
+{
+"ANALYZER_GROUP_ID" : "udpEmulatorMonitorAnalyzers",
+"ANALYZER_UID" : "udpEmulatorDQMAnalyzer",
+"STATUS" : "On",
+"ANALYZER_KEY" : "udpEmulatorDQM",
+"ANALYZER_MODULE_TYPE" : "UDPEmulatorDQM",
+"ANALYZER_MODULE_PARAMETER_LINK" : "ARTDAQPhysicsAnalyzerParameterTable",
+"ANALYZER_MODULE_PARAMETER_LINK_GROUP_ID" : "udpEmulatorDQMParameters",
+"COMMENT_DESCRIPTION" : "No comment.",
+"AUTHOR" : "rrivera",
+"RECORD_INSERTION_TIME" : "1795040594"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-18T16:23:17.228-0600",
+"rawdata" : [
+
+]
+},
+"version" : "4",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:23:17.228-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:23:17.228-0600"
+},
+{
+"name" : "artdaqConfig_v6",
+"assigned" : "2026-11-18T16:23:18.053-0600"
+},
+{
+"name" : "artdaqConfig_v7",
+"assigned" : "2026-11-18T16:51:25.183-0600"
+},
+{
+"name" : "artdaqConfig_v8",
+"assigned" : "2026-11-18T18:20:22.463-0600"
+},
+{
+"name" : "artdaqConfig_v9",
+"assigned" : "2026-11-18T18:24:53.211-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:23:17.228-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-18T16:23:17.228-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-18T16:23:17.228-0600",
+"value" : {
+"name" : "4",
+"assigned" : "2026-11-18T16:23:17.228-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-18T16:23:17.228-0600",
+"value" : {
+"name" : "ARTDAQPhysicsAnalyzerTable",
+"assigned" : "2026-11-18T16:23:17.228-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-18T16:23:17.228-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-18T16:23:17.228-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:23:18.053-0600",
+"value" : {
+"name" : "artdaqConfig_v6",
+"assigned" : "2026-11-18T16:23:18.053-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T16:51:25.183-0600",
+"value" : {
+"name" : "artdaqConfig_v7",
+"assigned" : "2026-11-18T16:51:25.183-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:20:22.463-0600",
+"value" : {
+"name" : "artdaqConfig_v8",
+"assigned" : "2026-11-18T18:20:22.463-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-18T18:24:53.211-0600",
+"value" : {
+"name" : "artdaqConfig_v9",
+"assigned" : "2026-11-18T18:24:53.211-0600"
+}
+}
+],
+"created" : "2026-11-18T16:23:17.228-0600"
+},
+"_id" : {
+"$oid" : "d615dd7fcda64ed49c772e90"
+},
+"collection" : "ARTDAQPhysicsAnalyzerTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}
