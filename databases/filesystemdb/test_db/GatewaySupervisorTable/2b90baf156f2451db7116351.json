@@ -1,0 +1,142 @@
+{
+"document" : {
+"data" : {
+"NAME" : "GATEWAY_SUPERVISOR_TABLE",
+"COMMENT" : "Subsystem 2: Gateway UDP 2214, no Visualizer, no data manager",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1795121779,
+"COL_TYPES" : {
+"SUPERVISOR_UID" : "STRING",
+"NUMBER_OF_STATE_MACHINE_BROADCAST_THREADS" : "NUMBER",
+"LINK_TO_STATE_MACHINE_TABLE" : "STRING",
+"STATE_MACHINE_GROUP_ID" : "STRING",
+"ENABLE_APPLICATION_STATUS_MONITORING" : "STRING",
+"ENABLE_STATE_CHANGES_OVER_UDP" : "STRING",
+"IP_ADDRESS_FOR_STATE_CHANGES_OVER_UDP" : "STRING",
+"PORT_FOR_STATE_CHANGES_OVER_UDP" : "NUMBER",
+"ENABLE_ACK_FOR_STATE_CHANGES_OVER_UDP" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"SUPERVISOR_UID" : "Supervisor0",
+"NUMBER_OF_STATE_MACHINE_BROADCAST_THREADS" : "0",
+"LINK_TO_STATE_MACHINE_TABLE" : "StateMachineTable",
+"STATE_MACHINE_GROUP_ID" : "Supervisor0_FSMs",
+"ENABLE_APPLICATION_STATUS_MONITORING" : "Yes",
+"ENABLE_STATE_CHANGES_OVER_UDP" : "Yes",
+"IP_ADDRESS_FOR_STATE_CHANGES_OVER_UDP" : "127.0.0.1",
+"PORT_FOR_STATE_CHANGES_OVER_UDP" : "2214",
+"ENABLE_ACK_FOR_STATE_CHANGES_OVER_UDP" : "Yes",
+"COMMENT_DESCRIPTION" : "Link to a group of state machines.",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1795121778"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-19T14:56:19.041-0600",
+"rawdata" : [
+
+]
+},
+"version" : "7",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-19T14:56:19.042-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-19T14:56:19.041-0600"
+},
+{
+"name" : "sub2Context_v0",
+"assigned" : "2026-11-19T14:56:19.325-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:56:19.042-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-19T14:56:19.041-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-19T14:56:19.042-0600",
+"value" : {
+"name" : "7",
+"assigned" : "2026-11-19T14:56:19.042-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-19T14:56:19.042-0600",
+"value" : {
+"name" : "GatewaySupervisorTable",
+"assigned" : "2026-11-19T14:56:19.042-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-19T14:56:19.042-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-19T14:56:19.042-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:56:19.325-0600",
+"value" : {
+"name" : "sub2Context_v0",
+"assigned" : "2026-11-19T14:56:19.325-0600"
+}
+}
+],
+"created" : "2026-11-19T14:56:19.041-0600"
+},
+"_id" : {
+"$oid" : "2b90baf156f2451db7116351"
+},
+"collection" : "GatewaySupervisorTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

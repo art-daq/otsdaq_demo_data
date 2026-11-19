@@ -1,0 +1,99 @@
+{
+"document" : {
+"data" : {
+"GroupAliasesTable" : "7",
+"TableGroupMetadata" : "12",
+"VersionAliasesTable" : "4"
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-19T14:56:45.361-0600",
+"rawdata" : [
+
+]
+},
+"version" : "6",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-19T14:56:45.361-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-19T14:56:45.361-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:56:45.361-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-19T14:56:45.361-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-19T14:56:45.361-0600",
+"value" : {
+"name" : "6",
+"assigned" : "2026-11-19T14:56:45.361-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-19T14:56:45.361-0600",
+"value" : {
+"name" : "GroupCache_TableEditWizBackbone",
+"assigned" : "2026-11-19T14:56:45.361-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-19T14:56:45.361-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-19T14:56:45.361-0600"
+}
+}
+],
+"created" : "2026-11-19T14:56:45.361-0600"
+},
+"_id" : {
+"$oid" : "609a7557485c4674bc1e3c9b"
+},
+"collection" : "GroupCache_TableEditWizBackbone",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

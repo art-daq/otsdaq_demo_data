@@ -1,0 +1,190 @@
+{
+"document" : {
+"data" : {
+"NAME" : "GATEWAY_SUPERVISOR_TABLE",
+"COMMENT" : "Top level: Gateway UDP 2114, no front-end, no data manager",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1795121894,
+"COL_TYPES" : {
+"SUPERVISOR_UID" : "STRING",
+"NUMBER_OF_STATE_MACHINE_BROADCAST_THREADS" : "NUMBER",
+"LINK_TO_STATE_MACHINE_TABLE" : "STRING",
+"STATE_MACHINE_GROUP_ID" : "STRING",
+"ENABLE_APPLICATION_STATUS_MONITORING" : "STRING",
+"ENABLE_STATE_CHANGES_OVER_UDP" : "STRING",
+"IP_ADDRESS_FOR_STATE_CHANGES_OVER_UDP" : "STRING",
+"PORT_FOR_STATE_CHANGES_OVER_UDP" : "NUMBER",
+"ENABLE_ACK_FOR_STATE_CHANGES_OVER_UDP" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"SUPERVISOR_UID" : "Supervisor0",
+"NUMBER_OF_STATE_MACHINE_BROADCAST_THREADS" : "0",
+"LINK_TO_STATE_MACHINE_TABLE" : "StateMachineTable",
+"STATE_MACHINE_GROUP_ID" : "Supervisor0_FSMs",
+"ENABLE_APPLICATION_STATUS_MONITORING" : "Yes",
+"ENABLE_STATE_CHANGES_OVER_UDP" : "Yes",
+"IP_ADDRESS_FOR_STATE_CHANGES_OVER_UDP" : "127.0.0.1",
+"PORT_FOR_STATE_CHANGES_OVER_UDP" : "2114",
+"ENABLE_ACK_FOR_STATE_CHANGES_OVER_UDP" : "Yes",
+"COMMENT_DESCRIPTION" : "Link to a group of state machines.",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1795121894"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-19T14:58:14.919-0600",
+"rawdata" : [
+
+]
+},
+"version" : "8",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-19T14:58:14.920-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-19T14:58:14.919-0600"
+},
+{
+"name" : "topContext_v0",
+"assigned" : "2026-11-19T14:58:15.218-0600"
+},
+{
+"name" : "topContext_v1",
+"assigned" : "2026-11-19T14:59:32.254-0600"
+},
+{
+"name" : "topContext_v2",
+"assigned" : "2026-11-19T14:59:44.908-0600"
+},
+{
+"name" : "topContext_v3",
+"assigned" : "2026-11-19T14:59:57.116-0600"
+},
+{
+"name" : "topContext_v4",
+"assigned" : "2026-11-19T15:00:09.354-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:58:14.919-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-19T14:58:14.919-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-19T14:58:14.919-0600",
+"value" : {
+"name" : "8",
+"assigned" : "2026-11-19T14:58:14.919-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-19T14:58:14.919-0600",
+"value" : {
+"name" : "GatewaySupervisorTable",
+"assigned" : "2026-11-19T14:58:14.919-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-19T14:58:14.920-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-19T14:58:14.920-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:58:15.218-0600",
+"value" : {
+"name" : "topContext_v0",
+"assigned" : "2026-11-19T14:58:15.218-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:59:32.254-0600",
+"value" : {
+"name" : "topContext_v1",
+"assigned" : "2026-11-19T14:59:32.254-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:59:44.908-0600",
+"value" : {
+"name" : "topContext_v2",
+"assigned" : "2026-11-19T14:59:44.908-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:59:57.116-0600",
+"value" : {
+"name" : "topContext_v3",
+"assigned" : "2026-11-19T14:59:57.116-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T15:00:09.354-0600",
+"value" : {
+"name" : "topContext_v4",
+"assigned" : "2026-11-19T15:00:09.354-0600"
+}
+}
+],
+"created" : "2026-11-19T14:58:14.919-0600"
+},
+"_id" : {
+"$oid" : "78beda1093664301ac86f2fd"
+},
+"collection" : "GatewaySupervisorTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

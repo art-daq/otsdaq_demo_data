@@ -52,6 +52,22 @@
 {
 "name" : "TableEditWizBackbone_v4",
 "assigned" : "2020-08-11T21:44:50.323-0500"
+},
+{
+"name" : "TableEditWizBackbone_v5",
+"assigned" : "2026-11-19T14:54:49.774-0600"
+},
+{
+"name" : "sub1Backbone_v0",
+"assigned" : "2026-11-19T14:55:01.577-0600"
+},
+{
+"name" : "TableEditWizBackbone_v6",
+"assigned" : "2026-11-19T14:56:45.331-0600"
+},
+{
+"name" : "sub2Backbone_v0",
+"assigned" : "2026-11-19T14:56:57.083-0600"
 }
 ],
 "changelog" : "notprovided",
@@ -97,6 +113,38 @@
 "value" : {
 "name" : "TableEditWizBackbone_v4",
 "assigned" : "2020-08-11T21:44:50.323-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:54:49.774-0600",
+"value" : {
+"name" : "TableEditWizBackbone_v5",
+"assigned" : "2026-11-19T14:54:49.774-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:55:01.577-0600",
+"value" : {
+"name" : "sub1Backbone_v0",
+"assigned" : "2026-11-19T14:55:01.577-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:56:45.331-0600",
+"value" : {
+"name" : "TableEditWizBackbone_v6",
+"assigned" : "2026-11-19T14:56:45.331-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:56:57.083-0600",
+"value" : {
+"name" : "sub2Backbone_v0",
+"assigned" : "2026-11-19T14:56:57.083-0600"
 }
 }
 ],

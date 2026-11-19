@@ -13,6 +13,9 @@
 ],
 "defaultConfig_v2" : [
 "66d257aacf8541b5b75f9fd4"
+],
+"sub2Config_v0" : [
+"66d257aacf8541b5b75f9fd4"
 ]
 },
 "entities.name" : {
@@ -32,6 +35,9 @@
 ],
 "defaultConfig_v2" : [
 "2020-08-11T21:44:47.973-0500"
+],
+"sub2Config_v0" : [
+"2026-11-19T14:56:33.232-0600"
 ]
 }
 }

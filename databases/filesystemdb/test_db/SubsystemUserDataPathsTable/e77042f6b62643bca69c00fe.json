@@ -1,0 +1,162 @@
+{
+"document" : {
+"data" : {
+"NAME" : "SUBSYSTEM_USER_DATA_PATHS_TABLE",
+"COMMENT" : "Subsystem sub2 at TUTORIAL_PLACEHOLDER_USER@TUTORIAL_PLACEHOLDER_HOST:/TUTORIAL_PLACEHOLDER_OTS_DIR/Data_sub2",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1795121984,
+"COL_TYPES" : {
+"SUBSYSTEM_UID" : "STRING",
+"SUBSYSTEM_FULL_NAME" : "STRING",
+"SUBSYSTEM_USER_DATA_PATH" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"SUBSYSTEM_UID" : "sub1",
+"SUBSYSTEM_FULL_NAME" : "Subsystem 1",
+"SUBSYSTEM_USER_DATA_PATH" : "TUTORIAL_PLACEHOLDER_USER@TUTORIAL_PLACEHOLDER_HOST:/TUTORIAL_PLACEHOLDER_OTS_DIR/Data_sub1",
+"COMMENT_DESCRIPTION" : "Subsystem sub1 at TUTORIAL_PLACEHOLDER_USER@TUTORIAL_PLACEHOLDER_HOST:/TUTORIAL_PLACEHOLDER_OTS_DIR/Data_sub1",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1795121971"
+},
+{
+"SUBSYSTEM_UID" : "sub2",
+"SUBSYSTEM_FULL_NAME" : "Subsystem 2",
+"SUBSYSTEM_USER_DATA_PATH" : "TUTORIAL_PLACEHOLDER_USER@TUTORIAL_PLACEHOLDER_HOST:/TUTORIAL_PLACEHOLDER_OTS_DIR/Data_sub2",
+"COMMENT_DESCRIPTION" : "DEFAULT",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1795121984"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-19T14:59:44.706-0600",
+"rawdata" : [
+
+]
+},
+"version" : "1",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-19T14:59:44.706-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-19T14:59:44.706-0600"
+},
+{
+"name" : "topContext_v2",
+"assigned" : "2026-11-19T14:59:45.033-0600"
+},
+{
+"name" : "topContext_v3",
+"assigned" : "2026-11-19T14:59:57.240-0600"
+},
+{
+"name" : "topContext_v4",
+"assigned" : "2026-11-19T15:00:09.484-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:59:44.706-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-19T14:59:44.706-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-19T14:59:44.706-0600",
+"value" : {
+"name" : "1",
+"assigned" : "2026-11-19T14:59:44.706-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-19T14:59:44.706-0600",
+"value" : {
+"name" : "SubsystemUserDataPathsTable",
+"assigned" : "2026-11-19T14:59:44.706-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-19T14:59:44.706-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-19T14:59:44.706-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:59:45.033-0600",
+"value" : {
+"name" : "topContext_v2",
+"assigned" : "2026-11-19T14:59:45.033-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:59:57.240-0600",
+"value" : {
+"name" : "topContext_v3",
+"assigned" : "2026-11-19T14:59:57.240-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T15:00:09.484-0600",
+"value" : {
+"name" : "topContext_v4",
+"assigned" : "2026-11-19T15:00:09.484-0600"
+}
+}
+],
+"created" : "2026-11-19T14:59:44.706-0600"
+},
+"_id" : {
+"$oid" : "e77042f6b62643bca69c00fe"
+},
+"collection" : "SubsystemUserDataPathsTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

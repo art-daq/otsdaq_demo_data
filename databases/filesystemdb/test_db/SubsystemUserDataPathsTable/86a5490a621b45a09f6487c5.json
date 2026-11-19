@@ -1,0 +1,130 @@
+{
+"document" : {
+"data" : {
+"NAME" : "SUBSYSTEM_USER_DATA_PATHS_TABLE",
+"COMMENT" : "Subsystem sub1 at TUTORIAL_PLACEHOLDER_USER@TUTORIAL_PLACEHOLDER_HOST:/TUTORIAL_PLACEHOLDER_OTS_DIR/Data_sub1",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1795121971,
+"COL_TYPES" : {
+"SUBSYSTEM_UID" : "STRING",
+"SUBSYSTEM_FULL_NAME" : "STRING",
+"SUBSYSTEM_USER_DATA_PATH" : "STRING",
+"COMMENT_DESCRIPTION" : "STRING",
+"AUTHOR" : "STRING",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"SUBSYSTEM_UID" : "sub1",
+"SUBSYSTEM_FULL_NAME" : "Subsystem 1",
+"SUBSYSTEM_USER_DATA_PATH" : "TUTORIAL_PLACEHOLDER_USER@TUTORIAL_PLACEHOLDER_HOST:/TUTORIAL_PLACEHOLDER_OTS_DIR/Data_sub1",
+"COMMENT_DESCRIPTION" : "Subsystem sub1 at TUTORIAL_PLACEHOLDER_USER@TUTORIAL_PLACEHOLDER_HOST:/TUTORIAL_PLACEHOLDER_OTS_DIR/Data_sub1",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1795121971"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-19T14:59:31.697-0600",
+"rawdata" : [
+
+]
+},
+"version" : "0",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-19T14:59:31.697-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-19T14:59:31.697-0600"
+},
+{
+"name" : "topContext_v1",
+"assigned" : "2026-11-19T14:59:32.378-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:59:31.697-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-19T14:59:31.697-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-19T14:59:31.697-0600",
+"value" : {
+"name" : "0",
+"assigned" : "2026-11-19T14:59:31.697-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-19T14:59:31.697-0600",
+"value" : {
+"name" : "SubsystemUserDataPathsTable",
+"assigned" : "2026-11-19T14:59:31.697-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-19T14:59:31.697-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-19T14:59:31.697-0600"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:59:32.378-0600",
+"value" : {
+"name" : "topContext_v1",
+"assigned" : "2026-11-19T14:59:32.378-0600"
+}
+}
+],
+"created" : "2026-11-19T14:59:31.697-0600"
+},
+"_id" : {
+"$oid" : "86a5490a621b45a09f6487c5"
+},
+"collection" : "SubsystemUserDataPathsTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

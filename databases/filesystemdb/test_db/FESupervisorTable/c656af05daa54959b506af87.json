@@ -58,6 +58,10 @@
 {
 "name" : "defaultConfig_v2",
 "assigned" : "2020-08-11T21:44:48.315-0500"
+},
+{
+"name" : "sub2Config_v0",
+"assigned" : "2026-11-19T14:56:33.413-0600"
 }
 ],
 "changelog" : "notprovided",
@@ -103,6 +107,14 @@
 "value" : {
 "name" : "defaultConfig_v2",
 "assigned" : "2020-08-11T21:44:48.315-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:56:33.413-0600",
+"value" : {
+"name" : "sub2Config_v0",
+"assigned" : "2026-11-19T14:56:33.413-0600"
 }
 }
 ],

@@ -1,0 +1,99 @@
+{
+"document" : {
+"data" : {
+"GroupAliasesTable" : "8",
+"TableGroupMetadata" : "13",
+"VersionAliasesTable" : "4"
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2026-11-19T14:56:57.113-0600",
+"rawdata" : [
+
+]
+},
+"version" : "0",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2026-11-19T14:56:57.113-0600"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2026-11-19T14:56:57.113-0600"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2026-11-19T14:56:57.113-0600",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2026-11-19T14:56:57.113-0600"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2026-11-19T14:56:57.113-0600",
+"value" : {
+"name" : "0",
+"assigned" : "2026-11-19T14:56:57.113-0600"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2026-11-19T14:56:57.113-0600",
+"value" : {
+"name" : "GroupCache_sub2Backbone",
+"assigned" : "2026-11-19T14:56:57.113-0600"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2026-11-19T14:56:57.113-0600",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2026-11-19T14:56:57.113-0600"
+}
+}
+],
+"created" : "2026-11-19T14:56:57.113-0600"
+},
+"_id" : {
+"$oid" : "58d6a4eca76245b4a179e1bc"
+},
+"collection" : "GroupCache_sub2Backbone",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}
